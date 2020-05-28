@@ -1,0 +1,5 @@
+Sitemap: https://www.stemlaur.com/sitemap.xml
+
+User-agent: *
+Disallow: /p/
+Disallow: /404.html
