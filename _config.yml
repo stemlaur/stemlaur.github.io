@@ -1,26 +1,30 @@
-title:               Stemlaur.com
+name:                stemlaur.com
+title:               stemlaur.com
 url:                 https://www.stemlaur.com
 baseurl:             ""
-
+author:
+  name:              Laurent Stemmer
+  email:             admin@stemlaur.com
+timezone:            Europe/Paris
+highlighter: pygments
 markdown:            kramdown
-highlighter:         rouge
-
-exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
-
 permalink:           pretty
-paginate:            5
+paginate:            10
 paginate_path:       /blog/:num
+excerpt_separator: <!--more-->
+exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
 
 sass:
   sass_dir:          _sass
   style:             :compressed
 
-author:
-  name:              Laurent Stemmer
-  url:               https://www.stemlaur.com
-  email:             admin@stemlaur.com
-
 plugins:
+  - jekyll-feed
   - jekyll-coffeescript
   - jekyll-paginate
   - jekyll-gist
+
+feed:
+  title: stemlaur.com
+  subtitle: Nouvelles et contes
+  path: rss.xml
