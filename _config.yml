@@ -6,7 +6,7 @@ author:
   name:              Laurent Stemmer
   email:             admin@stemlaur.com
 timezone:            Europe/Paris
-highlighter: pygments
+highlighter:         rouge
 markdown:            kramdown
 permalink:           pretty
 paginate:            10
