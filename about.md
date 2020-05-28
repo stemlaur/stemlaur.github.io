@@ -1,18 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: À propos
+image: /images/about/beer.png
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src="/assets/images/me.png" width="40%">
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+stemlaur.com est maintenu avec <i class="fa fa-heart"></i> par [Laurent Stemmer](https://github.com/stemlaur/).
 
 
-[jekyll-organization]: https://github.com/jekyll
+
+
