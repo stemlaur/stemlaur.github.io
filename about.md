@@ -30,7 +30,7 @@ Location: Paris, France
 [Education]
 -----------
 
-- Master Professionnel Ingénierie Logiciel pour l'Internet, University Jean Perrin, Lens, France (2007)
+- Master Professionnel Ingénierie Logiciel pour l'Internet, Université Jean Perrin, Lens, France (2007)
 
 [Work History]
 --------------
