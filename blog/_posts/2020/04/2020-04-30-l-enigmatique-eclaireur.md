@@ -1,6 +1,7 @@
 ---
 layout: post
 title: L'énigmatique éclaireur
+tags: nouvelle
 ---
 
 _Toutes les nuits, il avance dans le noir. L’énigmatique éclaireur._
