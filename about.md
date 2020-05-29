@@ -1,7 +1,6 @@
 ---
 layout: page
 title: À propos
-image: /images/about/beer.png
 ---
 
 ### LAURENT STEMMER : software developer
