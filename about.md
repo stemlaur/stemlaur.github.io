@@ -4,10 +4,10 @@ title: À propos
 image: /images/about/beer.png
 ---
 
-<img src="/assets/images/me.png" width="30%">
+### LAURENT STEMMER : software developer
 
-LAURENT STEMMER : software developer
-======
+<img src="/assets/images/me.png" width="30%" class="center">
+
 ```
 Location: Paris, France
 ```
