@@ -6,7 +6,7 @@ image: /images/about/beer.png
 
 ### LAURENT STEMMER : software developer
 
-<img src="/assets/images/me.png" width="30%" class="center">
+<img src="/assets/images/me_card.png" width="30%" class="center">
 
 ```
 Location: Paris, France
