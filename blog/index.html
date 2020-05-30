@@ -11,7 +11,7 @@ title: Blog
         {{ post.title }}
       </a>
     </h1>
-    <p class="post-date">Catégorie: {{ post.tags | array_to_sentence_string: ',' }}</p>
+    <p class="post-date">Tags: {{ post.tags | array_to_sentence_string: ',' }}</p>
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
     {{ post.content }}
