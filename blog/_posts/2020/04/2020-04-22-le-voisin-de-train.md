@@ -9,6 +9,8 @@ image: /assets/images/posts/le-voisin-de-train.jpg
 
 Tous les matins, Édouard et moi attendions le  ter. Pas une fois il nous était arrivé de rater notre rendez-vous quotidien, pas une fois l’un de nous s’était retrouvé seul sur le quai. Ce matin-là, le 07 octobre 19**, le train fut supprimé. Cela faisait un quart d’heure qu’Édouard et moi étions postés à notre place, à un mètre des rails, ne lâchant pas un mot, ne prenant même pas la peine d’échanger sur la pluie et le beau temps.
 
+<!--more-->
+
 Quand la nouvelle circula que le train n’arriverait pas en gare, Édouard et moi échangeâmes un regard dépité. Pour la première fois de la matinée, Edouard émit des sons, qui formèrent des mots, qui formèrent des phrases, qui formèrent une évidence :
 
 « Le train ne passera pas. ». Il continua ainsi : « Le prochain est dans une heure et demie. Allons chez moi boire un verre. »

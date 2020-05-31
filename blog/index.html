@@ -14,7 +14,11 @@ title: Blog
     <p class="post-date">Tags: {{ post.tags | array_to_sentence_string: ',' }}</p>
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      Plus →
+    </a>
   </article>
   {% endfor %}
 </div>

@@ -9,6 +9,8 @@ image: /assets/images/posts/l-enigmatique-eclaireur.jpg
 
 _Toutes les nuits, il avance dans le noir. L’énigmatique éclaireur._
 
+<!--more-->
+
 Quand je l’ai vu pour la première fois, mon cœur s’est arrêté. La lune bleutée éclaircissait l’avenue des Cerisiers. Je ne pouvais détacher mon regard de son visage laiteux. 
 
 Il est bientôt dix-neuf heures, j’ai déjà allumé des centaines de bougies en attendant que le soleil se couche complètement. Que fait-elle dehors à cette heure-ci ? Je me sens touché par la grâce.

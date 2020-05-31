@@ -9,6 +9,8 @@ image: /assets/images/posts/la-montagne-bleue.jpg
 
 Depuis ma plus tendre enfance, je la voyais, l’enviais, la priais : la voulais. Cette Montagne Bleue. 	Combien de temps pouvais-je rester assis par terre à la contempler. Déjà au berceau, mes yeux s’illuminaient quand je la voyais. Je me l’étais promis : un jour j’irai là où aucun homme n’a jamais été. J’escaladerai la Montagne Bleue pour découvrir ce qu’elle cache en son sommet.
 
+<!--more-->
+
 Le Paradis : la cime des arbres n’effleure pas autant la voûte que ma Montagne Bleue.
 
 Le jour de mes 17 ans, j’entrepris de l’escalader, accompagné de cinq compagnons. Nous arrivâmes au sommet un mois plus tard et deux personnes en moins. Ce que nous vîmes là-haut nous coupa le souffle : jamais dans toute ma vie je n’avais vu pareille beauté ! Mes amis et moi-même restèrent longtemps bouche bée devant tant de splendeur.

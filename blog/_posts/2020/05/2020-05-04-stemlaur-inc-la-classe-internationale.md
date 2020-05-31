@@ -6,6 +6,8 @@ tags: Inc
 
 Chez SSII (**Stemlaur Society International Inc. ©**), nos consultants ne parlent que français. Même les plus chinois d’entre eux !
 
+<!--more-->
+
 C’est la base même de la relation clients/gagnants que nous avons avec nos partenaires de vie.
 
 Si un chef de projet leur pose une question en anglais, en russe ou tout autre langage corporel, ils ont pour consigne de répondre par cette phrase : « Je veux une augmentation ».

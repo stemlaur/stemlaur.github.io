@@ -9,6 +9,8 @@ image: /assets/images/posts/le-corbeau.jpg
 
 Au-dessus du cadavre à peine refroidi de la victime, vole un corbeau, seul témoin de ce crime. S’il pouvait parler, il raconterait comment un homme et une femme se sont haïs, jusqu’à la mort tragique du mari, dans un tourbillon de haine et de folie.
 
+<!--more-->
+
 Le corbeau noir annonce, tel un vautour, les morts prochaines et violentes qui se produisent chaque jour.  Je l’ai vu pour la première fois, lorsque j’avais dix ans. La pluie s’était mise à tomber sur cette route de campagne. Je suivais d’ailleurs la plus belle des compagnes, la petite Amandine, fille d’un artisan.
 
 Un corbeau noir est un oiseau de mauvais augure. Voilà qu’arrive une véloce voiture. Amandine, renversée, n’aura pas pu admirer longtemps sa parure. 

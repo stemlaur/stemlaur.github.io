@@ -7,9 +7,9 @@ image: /assets/images/posts/extermination.jpg
 
 ![placeholder](/assets/images/posts/extermination.jpg "Extermination")
 
-
-
 Depuis 2036, les gouvernements du monde entier cherchèrent un moyen pour pallier le problème de surpopulation. En effet, la Terre comptait cette année-là plus de 12 milliards d’individus. Et ce chiffre croissait de façon exponentielle.
+
+<!--more-->
 
 Vingt ans plus tard et  5 milliards d’êtres humains en plus, ces gouvernements déclarèrent enfin ce problème de surpopulation comme un problème à résoudre au plus vite. Mais comment ?
 

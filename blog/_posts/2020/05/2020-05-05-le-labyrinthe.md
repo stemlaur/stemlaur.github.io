@@ -9,6 +9,8 @@ image: /assets/images/posts/le-labyrinthe.jpg
 
 Je suis perdu. Je slalome un peu. Et me retrouve dans une intersection. À gauche ? À droite ? Je ne sais pas.
 
+<!--more-->
+
 Pile je tourne à droite, face je tourne à gauche. Mais je n’ai pas de pièce. 
 
 Je suis gaucher, l’instinct me dit d’aller à gauche. Mais en quoi l’instinct a pu m'être utile jusqu’ici ? Je m’assis un instant, près de la haie Est. Je réfléchis.
