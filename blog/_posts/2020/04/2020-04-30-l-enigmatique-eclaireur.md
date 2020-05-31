@@ -2,7 +2,10 @@
 layout: post
 title: NOUVELLE | L'énigmatique éclaireur
 tags: nouvelle
+image: /assets/images/posts/l-enigmatique-eclaireur.jpg
 ---
+
+![placeholder](/assets/images/posts/l-enigmatique-eclaireur.jpg "L'énigmatique éclaireur")
 
 _Toutes les nuits, il avance dans le noir. L’énigmatique éclaireur._
 

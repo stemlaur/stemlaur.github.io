@@ -2,7 +2,10 @@
 layout: post
 title: NOUVELLE | La montagne bleue
 tags: nouvelle
+image: /assets/images/posts/la-montagne-bleue.jpg
 ---
+
+![placeholder](/assets/images/posts/la-montagne-bleue.jpg "La montagne bleue")
 
 Depuis ma plus tendre enfance, je la voyais, l’enviais, la priais : la voulais. Cette Montagne Bleue. 	Combien de temps pouvais-je rester assis par terre à la contempler. Déjà au berceau, mes yeux s’illuminaient quand je la voyais. Je me l’étais promis : un jour j’irai là où aucun homme n’a jamais été. J’escaladerai la Montagne Bleue pour découvrir ce qu’elle cache en son sommet.
 

@@ -2,7 +2,10 @@
 layout: post
 title: NOUVELLE | Le labyrinthe
 tags: nouvelle
+image: /assets/images/posts/le-labyrinthe.jpg
 ---
+
+![placeholder](/assets/images/posts/le-labyrinthe.jpg "Le labyrinthe")
 
 Je suis perdu. Je slalome un peu. Et me retrouve dans une intersection. À gauche ? À droite ? Je ne sais pas.
 

@@ -2,7 +2,10 @@
 layout: post
 title: NOUVELLE | Télé Réalité
 tags: nouvelle
+image: /assets/images/posts/tele-realite.jpg
 ---
+
+![placeholder](/assets/images/posts/tele-realite.jpg "Télé Réalité")
 
 Mesdames et messieurs, bonsoir et bienvenus dans notre nouveau jeu télévisé : « la confiance ou l’insouciance ». Ce soir nous accueillons Pascal qui nous vient de Fleury-mérogis, et qui va tenter de remporter le million d’euros !
 
