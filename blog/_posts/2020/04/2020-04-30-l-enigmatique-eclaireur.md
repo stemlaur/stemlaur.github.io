@@ -1,6 +1,6 @@
 ---
 layout: post
-title: L'énigmatique éclaireur
+title: NOUVELLE | L'énigmatique éclaireur
 tags: nouvelle
 ---
 

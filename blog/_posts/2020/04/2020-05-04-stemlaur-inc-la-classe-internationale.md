@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stemlaur Inc. © | La classe internationale
+title: STEMLAUR INC. © | La classe internationale
 tags: Inc
 ---
 

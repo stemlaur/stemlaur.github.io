@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Le corbeau
+title: NOUVELLE | Le corbeau
 tags: nouvelle
 ---
 

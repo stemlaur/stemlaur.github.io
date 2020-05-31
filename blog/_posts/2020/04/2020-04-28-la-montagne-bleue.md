@@ -1,6 +1,6 @@
 ---
 layout: post
-title: La montagne bleue
+title: NOUVELLE | La montagne bleue
 tags: nouvelle
 ---
 

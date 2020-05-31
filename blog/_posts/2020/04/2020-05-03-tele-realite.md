@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Télé Réalité
+title: NOUVELLE | Télé Réalité
 tags: nouvelle
 ---
 

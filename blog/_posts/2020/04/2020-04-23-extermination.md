@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Extermination
+title: NOUVELLE | Extermination
 tags: nouvelle
 ---
 

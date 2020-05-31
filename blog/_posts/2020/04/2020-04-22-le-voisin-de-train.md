@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Le voisin de train
+title: NOUVELLE | Le voisin de train
 tags: nouvelle
 ---
 
