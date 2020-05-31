@@ -39,6 +39,6 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/me_card.png
+      image: /assets/images/stemlaur_main.png
     tagline: stemlaur.com
     description: stemlaur.com

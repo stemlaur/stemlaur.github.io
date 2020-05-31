@@ -1,6 +1,7 @@
 ---
 layout: page
 title: À propos
+image: /assets/images/me_card.png
 ---
 
 ### LAURENT STEMMER : software developer
