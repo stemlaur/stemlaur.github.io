@@ -4,6 +4,10 @@ title: STEMLAUR INC. © | La classe internationale
 tags: Inc
 ---
 
+<img src="/assets/images/programmation-par-l-absurde.png" width="30%" class="center">
+
+---
+
 Chez SSII (**Stemlaur Society International Inc. ©**), nos consultants ne parlent que français. Même les plus chinois d’entre eux !
 
 <!--more-->

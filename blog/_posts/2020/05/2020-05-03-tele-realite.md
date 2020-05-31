@@ -5,7 +5,9 @@ tags: nouvelle
 image: /assets/images/posts/tele-realite.jpg
 ---
 
-![placeholder](/assets/images/posts/tele-realite.jpg "Télé Réalité")
+<img src="/assets/images/posts/tele-realite.jpg" width="70%" class="center">
+
+---
 
 Mesdames et messieurs, bonsoir et bienvenus dans notre nouveau jeu télévisé : « la confiance ou l’insouciance ». Ce soir nous accueillons Pascal qui nous vient de Fleury-mérogis, et qui va tenter de remporter le million d’euros !
 

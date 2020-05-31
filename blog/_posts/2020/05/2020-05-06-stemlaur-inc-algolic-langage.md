@@ -2,7 +2,11 @@
 layout: post
 title:  STEMLAUR INC. © | Algolic (langage)
 tags: Inc
-image: /assets/images/posts/algolic-langage.jpg
+image: /assets/images/programmation-par-l-absurde.png
+---
+
+<img src="/assets/images/programmation-par-l-absurde.png" width="30%" class="center">
+
 ---
 
 Algolic est un langage de programmation. Il a été créé à la fin des années 1980 par Stemlaur alors qu’il n’avait encore que 9 ans. Dérivé du langage de programmation Algol, ce langage multi-paradigmes manquant de sobriété permet de s’astreindre de toute intelligence pour coder des jeux, des boucles infinies ou des textes de loi.
