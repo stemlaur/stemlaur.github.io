@@ -19,7 +19,7 @@ Alors qu’il portait encore des couches, Stemlaur a imaginé ce langage en s’
 
 Comme tout bon généraliste qui se respecte, le langage Algolic a pour désavantage d’être mauvais dans toutes les disciplines. Il nécessite un transpilataire, un compilataire et pour finir un defibrillataire pour être traduit en code natif. 
 
-Après seulement 3 heures de traitements, un tour aux urgences, il pourra être intégré au système d’exploitation. (L’exécutable généré fait partie de la catégorie des langages “indiens d’Amériques”: le natif est exploité et exécuté par le système, Ndlr).
+Après seulement 3 heures de traitements, un tour aux urgences, il pourra être intégré au système d’exploitation.[^fn-sample_footnote]
 
 ### Portabilité
 
@@ -64,3 +64,5 @@ Notez que dans cet exemple:
 * “Prophète rachète Algolic pour 100 €, les développeurs sont contents”, debugguez.com, 2002
 * “Algolic, le langage de nos futures voitures autonomes”, Futurolog - 2016
 
+
+[^fn-sample_footnote]: (L’exécutable généré fait partie de la catégorie des langages “indiens d’Amériques”: le natif est exploité et exécuté par le système, Ndlr).
