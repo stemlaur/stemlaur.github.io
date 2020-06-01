@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title:
+title: Nouvelles
 tag: nouvelle
 permalink: /tags/nouvelle/
 ---

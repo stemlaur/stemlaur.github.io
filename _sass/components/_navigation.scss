@@ -42,3 +42,38 @@
     padding: 0;
   }
 }
+
+.nav-tags {
+  font-size: $font-size; // override mobile media query
+  text-align: center;
+  margin-bottom: 4rem;
+
+  @media (max-width: 38em) {
+    margin-bottom: 2rem;
+    font-size: $font-size-mobile;
+  }
+
+  ul {
+    padding: 0;
+    border-bottom-color: $nav-bottom-border-color;
+    border-bottom-width: $nav-bottom-border-width;
+    border-bottom-style: solid;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc !important;
+  }
+
+  li {
+    display: inline-block;
+
+    a {
+      color: $nav-link-color;
+      display: block;
+      text-decoration: underline;
+      padding: $nav-link-padding-y $nav-link-padding-x;
+
+      @media (max-width: 38em) {
+        padding: 10px;
+      }
+    }
+  }
+}

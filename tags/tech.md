@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title:
+title: Tech
 tag: tech
 permalink: /tags/tech/
 ---

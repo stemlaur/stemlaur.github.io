@@ -1,7 +1,21 @@
 ---
 layout: default
-title: Blog
+title: Articles
 ---
+
+<header>
+  <h1 class="landing-title">Les articles</h1>
+</header>
+
+<nav class="nav-tags">
+  <ul>
+    <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/tags/tech">Tech</a></li>
+    <li>|</li>
+    <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/tags/inc">Stemlaur Inc. ©</a></li>
+    <li>|</li>
+    <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/tags/nouvelle">Nouvelles</a></li>
+  </ul>
+</nav>
 
 <div class="posts">
   {% for post in paginator.posts %}

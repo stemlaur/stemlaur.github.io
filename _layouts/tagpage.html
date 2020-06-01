@@ -1,6 +1,20 @@
 ---
-layout: page # This template inherits from my basic page template
+layout: default # This template inherits from my basic page template
 ---
+
+<header>
+    <h1 class="landing-title">Stemlaur, blog !</h1>
+</header>
+
+<nav class="nav-tags">
+    <ul>
+        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/tags/tech">Tech</a></li>
+        <li>|</li>
+        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/tags/inc">Stemlaur Inc. ©</a></li>
+        <li>|</li>
+        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/tags/nouvelle">Nouvelles</a></li>
+    </ul>
+</nav>
 
 <div class="posts">
     {% for post in site.tags[page.tag] %}

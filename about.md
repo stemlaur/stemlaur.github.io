@@ -1,10 +1,12 @@
 ---
-layout: page
+layout: default
 title: À propos
 image: /assets/images/me_card.png
 ---
 
-### LAURENT STEMMER : software developer
+<header>
+  <h1 class="landing-title">Laurent Stemmer : software developer</h1>
+</header>
 
 <img src="/assets/images/me_card.png" width="30%" class="center">
 
