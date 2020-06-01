@@ -14,6 +14,8 @@ image: /assets/images/posts/nikonov.jpg
 Ivan Volodia Nikonov était pauvre. Pas de cette pauvreté clinquante qui fait fondre les coeurs des vieilles dames, 
 mais vraiment pauvre. Une pauvreté crasseuse, repoussante et injuste qui retourne l’estomac. 
 
+<!--more-->
+
 Ces gens ont pour plus importante possession leurs deux mains qu'ils chérissent et protègent de toute leur force. 
 Quand on devient aussi démuni que Nikonov l'était à ce moment-là, on comprend la vraie valeur des doigts, de 
 la paume ou des ongles. On se moque de sa longue barbe noire, de ses cheveux sales et gras, de ses vêtements souillés, 
