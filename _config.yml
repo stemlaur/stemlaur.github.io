@@ -1,7 +1,8 @@
-name:                stemlaur.com
-title:               stemlaur.com
+name:                Blog de Laurent Stemmer
+title:               Blog de Laurent Stemmer
 lang:                fr
 url:                 https://www.stemlaur.com
+description:         Blog de Laurent Stemmer
 baseurl:             ""
 author:
   name:              Laurent Stemmer
@@ -52,5 +53,5 @@ defaults:
       path: ""
     values:
       image: /assets/images/stemlaur_main.png
-    tagline: stemlaur.com
-    description: stemlaur.com
+    tagline: Blog de Laurent Stemmer
+    description: Blog de Laurent Stemmer
