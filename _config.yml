@@ -18,6 +18,16 @@ twitter:
   username: stemlaur
   card: summary
 
+logo: /assets/images/stemlaur_main.png
+
+social:
+  name: Laurent Stemmer
+  links:
+    - https://twitter.com/stemlaur
+    - https://www.linkedin.com/in/stemlaur
+    - https://github.com/stemlaur
+    - https://keybase.io/stemlaur
+
 sass:
   sass_dir:          _sass
   style:             :compressed
