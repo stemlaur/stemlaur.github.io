@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  STEMLAUR INC. © | Organisation horizontale
-tags: Inc
+tags: inc
 image: /assets/images/posts/organisation-horizontale.png
 ---
 

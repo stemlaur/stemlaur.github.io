@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  STEMLAUR INC. © | Algolic (langage)
-tags: Inc
+tags: inc
 image: /assets/images/programmation-par-l-absurde.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: STEMLAUR INC. © | La classe internationale
-tags: Inc
+tags: inc
 ---
 
 <img src="/assets/images/programmation-par-l-absurde.png" width="30%" class="center">

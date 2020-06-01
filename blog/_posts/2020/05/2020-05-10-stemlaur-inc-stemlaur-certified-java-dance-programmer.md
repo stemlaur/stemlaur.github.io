@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  STEMLAUR INC. © | Stemlaur Certified Java Dance Programmer
-tags: Inc
+tags: inc
 image: /assets/images/posts/stemlaur-certified-java-dance-programmer.png
 ---
 

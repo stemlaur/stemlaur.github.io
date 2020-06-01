@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  STEMLAUR INC. © | Le quatre cinquième
-tags: Inc
+tags: inc
 image: /assets/images/posts/le-quatre-cinquieme.jpeg
 ---
 

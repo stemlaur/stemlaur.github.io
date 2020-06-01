@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  STEMLAUR INC. © | L’encoding pour les pauvres
-tags: Inc
+tags: inc
 image: /assets/images/posts/l-encoding-pour-les-pauvres.png
 ---
 

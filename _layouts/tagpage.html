@@ -1,0 +1,23 @@
+---
+layout: page # This template inherits from my basic page template
+---
+
+<div class="posts">
+    {% for post in site.tags[page.tag] %}
+    <article class="post">
+        <h1 class="post-title">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </h1>
+        <p class="post-date">Tags: {{ post.tags | array_to_sentence_string: ',' }}</p>
+        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+        {{ post.excerpt }}
+
+        <a href="{{ site.baseurl }}{{ post.url }}">
+            Plus →
+        </a>
+    </article>
+    {% endfor %}
+</div>
