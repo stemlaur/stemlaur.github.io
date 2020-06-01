@@ -24,7 +24,6 @@ layout: default # This template inherits from my basic page template
                 {{ post.title }}
             </a>
         </h1>
-        <p class="post-date">Tags: {{ post.tags | array_to_sentence_string: ',' }}</p>
         <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
         {{ post.excerpt }}
