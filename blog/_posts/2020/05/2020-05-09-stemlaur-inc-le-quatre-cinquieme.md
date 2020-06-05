@@ -27,5 +27,5 @@ Comme ces problèmes à propos de la vitesse du train entre Paris et Londres que
 
 La solution vint d’elle-même le jeudi soir quand 74 tenta de rentrer chez lui et que son responsable lui annonça : _N’oubliez pas que vous travaillez vendredi et samedi matin ! Vous êtes au quatre-cinquième de sept jours maintenant ! Soit 5.6 jours !_
 
-Ainsi, 74 se promit de ne plus compter que sur lui-fmême.
+Ainsi, 74 se promit de ne plus compter que sur lui-même.
 
