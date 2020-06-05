@@ -14,9 +14,7 @@ image: /assets/images/posts/nikonov.jpg
 <ul>
     <li><a href="#nikonov-1-chapitre-1">Chapitre 1 - Pauvreté</a></li>
     <li><a href="#nikonov-1-chapitre-2">Chapitre 2 - La lettre</a></li>
-{% comment %}
     <li><a href="#nikonov-1-chapitre-3">Chapitre 3 - La rencontre</a></li>
-{% endcomment %}
 </ul>
 
 ---
@@ -110,6 +108,51 @@ _Ta sœur, Natacha._
 
 ---
 
-{% comment %}
-<h2 id="nikonov-1-chapitre-2"><a href="#nikonov-1-chapitre-2">Chapitre 3 - La rencontre</a></h2>
-{% endcomment %}
+<h2 id="nikonov-1-chapitre-3"><a href="#nikonov-1-chapitre-3">Chapitre 3 - La rencontre</a></h2>
+
+Ivan Volodia Nikonov marcha encore longtemps le long du fleuve, quémandant du pain ou quelques sous aux passants les mieux vêtus. 
+Il faisait horreur à tant de gens qu’il en avait prit son partie. Ignorant l’ignorance, souriant aux sourires, tolérant l’intolérance.
+
+Un homme aux cheveux sombres et à la moustache finement taillée s’arrêta près de lui. 
+Il devait avoir 35 ans comme lui et était simplement vêtu d’une redingote en soie et d’un falzar kaki.
+
+« Nikonov ! Sacré chenapan ! Cela doit faire des années que nous ne nous sommes pas revus ! Tu te rappelles de moi ? 
+Lavrentiy Nikolai Davidovitch ! Nous avons servi ensemble pendant la guerre de T*** ! Nous étions dans le même bataillon d’infanterie. 
+Tu ne peux pas ne pas te souvenir de ton vieil ami ! J’ai eu tant de mal à te reconnaître avec ton costume défait et tes joues sales ! 
+
+— Davidovitch ! Oui, je me rappelle bien de toi. Mais aussi de ta petite sœur Sonetchka ! 
+Tu avais parfois la permission de la voir pendant le service, comment va-t-elle ? Je dois dire que de te revoir éclaire ma journée.
+
+— Xa-xa ! Sonia se porte à merveille ! Mais toujours aussi difficile à vivre. Elle a maintenant vingt-deux ans et elle n’est pas près de se marier. 
+Elle passe son temps à maudire les hommes, scander à qui veut l’entendre quelle est une femme libre. Nos parents sont désespérés ! Xa-xa ! 
+Ma mère lui a présenté des dizaines de prétendants, tous de bonnes familles, elle les a tous envoyés balader. Que deviens-tu ? 
+Tu as le teint pâle et les joues creuses, tu ne sembles pas en grande forme. Que dirais-tu de rattraper le temps perdu autour d’un bon steak ! 
+C’est ton vieil ami qui t’invite ! J’insiste ! Je te dois bien cela. Ce sera pour toi l’occasion de mentionner ta sœur à ton tour, 
+Nataliia si je me rappelle bien son prénom. Allons ! Ne perdons pas de temps ! »
+
+Ils arrivèrent dans une impasse lumineuse et propre, bordée de pétunias et de jonquilles. 
+De l’eau tombait de l’enseigne en bois où était écrit le nom du restaurant que Davidovitch connaissait bien. 
+
+« Le patron, un homme fort aimable, nous accueillera les bras ouverts. Je suis un de ses meilleurs clients ! »
+
+À une table dans le renfoncement du salon principal, à l’abris des oreilles indiscrètes, Nikonov et Davidovitch s’assirent 
+sur les beaux sièges haut de gamme de chez Sormani à la garniture en crin piqué. Les couverts en argent chatoyaient sous le lustre électrique central. 
+
+Davidovitch commanda une bouteille de Porto. Nikonov accepta volontier, bien qu’il craignit se rendre malade de boire de l’alcool à jeun. 
+Le serveur accompagna la bouteille de petits hors-d'œuvre au saumon. Nikonov ne se laissa pas prier et en engloutit deux d’une seule bouchée.
+
+« Nikonov, commença Davidovitch, je vois bien que tu es en difficulté. 
+Je ne peux pas deviner ce qui a pu se passer dans ta vie pour que tu en arrives à mendier dans la rue. 
+Oui, je t’ai vu mendier le long du fleuve. Ne rougis pas. J’aimerais pouvoir t’aider, au souvenir du bon vieux temps. 
+Je suis à la recherche… hum...  d’un objet. Un objet rare qui nécessite une personne de confiance, et je souhaiterais que tu m’aides pour l’obtenir. 
+Pourquoi te ferais-je confiance ? Pourquoi ne pourrais-je pas aller le chercher moi-même ? 
+Ces questions doivent rester sans réponses pour le moment. 
+Vois-tu, le périple sur lequel je souhaite que tu t’engages dépasse l’imagination ou le bon sens. Je te paierai évidemment. 
+Je te paierai une belle somme d’argent. Tu ne manqueras de rien. 
+
+« Tout ce que je peux te dire pour le moment c’est que tu ne commettras pas de crimes, en tout cas, 
+pas de crimes qui puissent être punis par la loi sur Terre. 
+Je te demande d’y réfléchir. Ivan Volodia Nikonov, continua Davidovitch, car je suis le diable. »
+
+
+---
