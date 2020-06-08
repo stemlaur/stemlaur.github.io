@@ -15,6 +15,7 @@ image: /assets/images/posts/nikonov.jpg
     <li><a href="#nikonov-1-chapitre-1">Chapitre 1 - Pauvreté</a></li>
     <li><a href="#nikonov-1-chapitre-2">Chapitre 2 - La lettre</a></li>
     <li><a href="#nikonov-1-chapitre-3">Chapitre 3 - La rencontre</a></li>
+    <li><a href="#nikonov-1-chapitre-4">Chapitre 4 - Le train</a></li>
 </ul>
 
 ---
@@ -154,5 +155,33 @@ Je te paierai une belle somme d’argent. Tu ne manqueras de rien.
 pas de crimes qui puissent être punis par la loi sur Terre. 
 Je te demande d’y réfléchir. Ivan Volodia Nikonov, continua Davidovitch, car je suis le diable. »
 
-
 ---
+
+<h2 id="nikonov-1-chapitre-4"><a href="#nikonov-1-chapitre-4">Chapitre 4 - Le train</a></h2>
+
+Nikonov entra dans le dernier wagon du train en direction de Kounanivo. Se privant de repas plusieurs jours durant pour lui permettre d’acheter l’aller retour. Le trajet devait durer quelques heures seulement, il pourrait ensuite retrouver sa sœur Natacha. Cela faisait maintenant deux années qu’il ne l’avait pas vu.
+
+En dernière classe, Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés. Un gros chien grognait à la vue d’un rat, le rat chicotait à la vue du pain sur le sol, le pain moisissait en silence.
+
+Le temps, seule ressource encore gratuite des gens dans la voiture, passait lentement. Nikonov le consommait calmement et patiemment, profitant de chaque seconde du brouhaha de la foule, des clapotis de la neige fondue sur les vitres, du chuintement de vapeur, des bruits des pistons.
+
+Quand le train arriva dans la gare de Kounanivo, Nikonov sortit de ses songes, les passagers s’étaient tous levés impatiemment pour se diriger vers la sortie. Certains d’entre eux portaient des blouses bleues de travail et se dépêchaient pour arriver à l’heure à l’usine. Par la fenêtre, Nikonov entrevit sa sœur, seule, il lui fit signe mais elle ne l'aperçut pas. Elle regardait intensément la porte du wagon attendant que son frère fasse son apparition, le regard triste et le visage cireux.
+
+« Ivan mon cher frère, que cela me remplit de joie de te revoir ! Mère est souffrante, elle n’a pas pu venir. J’ai peur Ivan, j’ai peur qu’elle ne soit à son tour malade. »
+
+Ils prirent la voiture qui les attendait à l’intersection du boulevard P* et de la rue D*, le conducteur brutal et irascible ne leur adressa pas la parole. Il prit le bagage de Nikonov en râlant et les convia du doigt à entrer dans le véhicule.
+
+« Natasha, cela fait trop longtemps que nous ne nous sommes pas revus. Mon cœur est rempli de mélancolie. »
+
+Arrivés dans la cour de la demeure de feu leur tante Lioudmila, après avoir longé le fleuve de la Moskova, passé des peupliers enneigés et centenaires ; Natasha et son frère remontèrent le chemin de cailloux sur lequel un Terrier noir courait et aboyait à la vue de sa maîtresse.
+
+Nikonov entra dans la grande demeure qui lui rappela tant son enfance innocente et apaisée. Peu de choses avaient changé depuis tant d’années.
+
+Un vestiaire antique avec son compartiment à chaussure longeait le mur menant sur un escalier en bois de frêne où ils avaient l’habitude de grimper.
+
+Un canapé en corbeille, à la forme cintrée, poussiéreux sur lequel ils s’asseyaient pour lire des contes et poèmes.
+
+Une urne funéraire en albâtre, dans lequel reposait leur grand-oncle et où ils se réunissaient pour prier.
+
+Ils entrèrent dans le grand salon, leur mère Malinina était allongée sur le canapé la main sur le front, elle gémissait de douleur, les yeux remplis de larmes de tristesse. Le docteur allait bientôt passer. Il leur annoncerait qu’elle allait rejoindre sa sœur Lioudmila… ce qu’elle pressentait.
+
