@@ -31,4 +31,4 @@ _Il ne faut pas tourner autour du pot, moins vingt pourcent sur les consultants 
 
 _Bon fin de jour._
 
-[^fn-sample_footnote]: le Papa, le Dieu, le Gourou
+
