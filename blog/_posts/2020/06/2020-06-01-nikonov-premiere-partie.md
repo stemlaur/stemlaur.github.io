@@ -16,6 +16,7 @@ image: /assets/images/posts/nikonov.jpg
     <li><a href="#nikonov-1-chapitre-2">Chapitre 2 - La lettre</a></li>
     <li><a href="#nikonov-1-chapitre-3">Chapitre 3 - La rencontre</a></li>
     <li><a href="#nikonov-1-chapitre-4">Chapitre 4 - Le train</a></li>
+    <li><a href="#nikonov-1-chapitre-5">Chapitre 5 - Le diable</a></li>
 </ul>
 
 ---
@@ -184,4 +185,32 @@ Un canapé en corbeille, à la forme cintrée, poussiéreux sur lequel ils s’a
 Une urne funéraire en albâtre, dans lequel reposait leur grand-oncle et où ils se réunissaient pour prier.
 
 Ils entrèrent dans le grand salon, leur mère Malinina était allongée sur le canapé la main sur le front, elle gémissait de douleur, les yeux remplis de larmes de tristesse. Le docteur allait bientôt passer. Il leur annoncerait qu’elle allait rejoindre sa sœur Lioudmila… ce qu’elle pressentait.
+
+---
+
+<h2 id="nikonov-1-chapitre-5"><a href="#nikonov-1-chapitre-5">Chapitre 5 - Le diable</a></h2>
+
+« Je suis le diable, Satan, Lucifer, appelle-moi comme tu le souhaites. Ne sois pas effrayé, je ne te ferai aucun mal. Seulement je ne suis de passage que pour un certain... temps.
+
+« Vois-tu, l’ami que tu avais, Lavrentiy Nikolai Davidovitch, n’est plus dans notre monde. Il y a quelques mois, je suis monté ici haut dans un objectif bien précis. Trouver… hum… c’est encore trop tôt pour en parler… Mais j’ai pris possession du corps de Davidovitch, ainsi que de ses souvenirs et j'erre depuis ce temps dans les rues de Saint-Pétersbourg à la recherche d’une personne pouvant m’aider. Une personne de confiance. Une connaissance, un ami.
+
+« Tu ne me crois pas, je le sais, mais je saurai te prouver mon authenticité. Voici une importante somme d'argent, considère cet argent comme un gage d'honnêteté. Ce soir, tu retourneras dans tes anciens appartements de la rue B***, tu demanderas à la propriétaire de bien vouloir te reprendre pour un mois ou deux, la somme d'argent que je te donne devrait suffire.
+
+« Tu te laveras, tu te raseras, tu t'achèteras des vêtements convenables et chics. Demain soir, tu attendras dans ton chez-toi, et tu auras la preuve que je suis le diable. »
+
+Nikonov regardait Davidovitch avec incompréhension. Son ami était-il devenu fou ? Nikonov était-il ivre des verres de Porto qu'il avait bus ? Il resta un moment pensif le regard posé sur la liasse de billets sur la table. La faim qui le torturait depuis trop longtemps avait fait place à la nausée.
+
+Nikonov acquiesça en silence, s'empara de la liasse de billets, salua Davidovitch et sortit. Il prit la direction de son ancien appartement. La neige fondue des rues l'aveuglait et son esprit troublé le tourmentait. Davidovitch l’envoûtait. Il était possédé par ce démon. Et pourtant, il n’arrivait pas à se faire à l’idée que Davidovitch disait la vérité.
+
+Il arriva devant l’immeuble de son ancien appartement, convainquit son ancienne propriétaire de l’héberger un mois dans son ancien studio de la rue B***. L’argent aidant à donner le sourire à cette affreuse mégère.
+
+Nikonov prit une douche chaude qui dura une heure. Ses esprits retrouvés, il sortit de nouveau pour s’acheter des vêtements chez un couturier de la même rue. Il jeta ses anciens vêtements abîmés et sals. Nikonov se sentait revivre.
+
+De retour dans son appartement, Nikonov s’endormit des heures durant. Il rêva de sa sœur Natacha, de sa défunte mère, des nonnes aux soutanes noires, de confiseries aux multiples couleurs. Il se réveilla le lendemain en fin d’après-midi, fiévreux d’avoir trop dormi. Le battant entrouvert de la fenêtre laissait passer le froid glacial de Saint-Pétersbourg dans la pièce, il se leva, étourdi, pour la refermer, ne sachant encore quelle heure il était, ni où il se trouvait.
+
+Reprenant peu à peu ses esprits, il enleva ses vêtements neufs mais couverts de sueurs et, nu, il s’allongea de nouveau dans le lit.
+
+« Davidovitch ! »
+
+Le souvenir de cet homme étrange, qui avait jadis été son ami, lui traversa de nouveau l’esprit. Il ne pouvait oublier le regard sombre mais rempli de bienveillance de cet homme. Qu’il soit réellement celui qu’il prétend être ou qu’il soit fou, Nikonov devait se rendre à l’évidence : l’ami qu’il connaissait avait disparu. Il attendit dans son appartement quelques heures que le diable lui fît un signe.
 
