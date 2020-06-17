@@ -17,6 +17,7 @@ image: /assets/images/posts/nikonov.jpg
     <li><a href="#nikonov-1-chapitre-3">Chapitre 3 - La rencontre</a></li>
     <li><a href="#nikonov-1-chapitre-4">Chapitre 4 - Le train</a></li>
     <li><a href="#nikonov-1-chapitre-5">Chapitre 5 - Le diable</a></li>
+    <li><a href="#nikonov-1-chapitre-6">Chapitre 6 - Le docteur</a></li>
 </ul>
 
 ---
@@ -214,3 +215,28 @@ Reprenant peu à peu ses esprits, il enleva ses vêtements neufs mais couverts d
 
 Le souvenir de cet homme étrange, qui avait jadis été son ami, lui traversa de nouveau l’esprit. Il ne pouvait oublier le regard sombre mais rempli de bienveillance de cet homme. Qu’il soit réellement celui qu’il prétend être ou qu’il soit fou, Nikonov devait se rendre à l’évidence : l’ami qu’il connaissait avait disparu. Il attendit dans son appartement quelques heures que le diable lui fît un signe.
 
+---
+
+<h2 id="nikonov-1-chapitre-6"><a href="#nikonov-1-chapitre-6">Chapitre 6 - Le docteur</a></h2>
+
+Le docteur Fukin Damir Anatolievich, médecin de la famille depuis plus de quarante ans, arriva en voiture le lendemain matin pour examiner Malinina qui avait passée la nuit entière à se tordre de douleurs dans sa chambre de l’aile Est de la maison. Elle délirait encore quand il entra dans la pièce. Il demanda à Nikonov et à sa soeur de patienter dans le salon pendant qu’il l’examinait.
+
+Nikonov buvait du thé nerveusement, serrant un cube de sucre entre ses dents, suivant la coutume de l’époque tandis que Natacha regardait le sol, impuissante face à la situation déchirante qu’ils vivaient. Le liquide qui coulait le long de la gorge de Nikonov lui faisait passer toute envie de boire quelque chose de plus fort.
+
+Ces derniers restèrent silencieux pendant l’heure qu’il fallut au docteur Anatolievich pour examiner leur mère. Quand celui-ci ressortit, le regard triste et grave, il leur annonça:
+
+« J’ai l’immense tristesse et le devoir de vous annoncer que votre mère a été rappelée par notre Dieu tout puissant. Son état d’immense faiblesse a eu raison de sa fragilité.
+
+« La mort de votre mère a été douloureuse. Ayant compris que le prêtre Igorevich n’est pas venu la visiter, j’ai pris la liberté de lui appliquer l’extrême-onction. Sans ce sacrement, les portes du Paradis ne se seraient pas ouverts à votre mère. Pardonnez-moi d’avoir pris les devants, mais il m’a semblé important qu’elle finisse sa vie par la rédemption du Christ ressuscité.
+
+« Comment se fait-il qu’un docteur puisse appliquer l’extrême-onction, me demanderez-vous ? À vrai dire, je n’ai pas plus ce pouvoir que n’importe qui, je ne suis moi-même pas vraiment croyant, mais les croix accrochés sur les murs, les bibles sur la commode m’ont attristées. »
+
+Natasha tomba en sanglots, comment sa mère qu’elle croyait invincible avait pu mourir aussi vite ? Elle se jeta dans les bras de son frère aphone. Le sort s’acharnait donc sur leur famille. Sans un mot, ils restèrent plusieurs minutes durant enlacés, attendant un miracle ou un signe du Tout-Puissant. Le docteur, gêné de ne pas savoir comment réagir, rompit finalement le silence.
+
+« Je vais devoir prévenir un croque-mort pour qu’il s’occupe de votre mère. Souhaitez-vous qu’elle soit inhumée ou incinérée ? »
+
+Nikonov se rappela l’urne funéraire en albâtre qu’ils croisaient avec sa sœur à chaque fois qu’ils rentraient de se baigner dans la Moskova.
+
+« Notre mère sera incinérée, docteur. Merci. »
+
+Le docteur acquiesça silencieusement. Un sourire gêné lui fissurait le visage quand il accrocha son chapeau sur sa tête. Il leur souhaita une dernière fois ses sincères condoléances et prit séjour de la grande demeure de Lioudmila, où deux morts tragiques avaient eu lieu, en l’espace de quelques semaines. Laissant planer l’ombre démoniaque de la fatalité au dessus de la demeure. Nikonov se promit de ne plus jamais y revenir.
