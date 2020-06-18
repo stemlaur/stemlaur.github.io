@@ -18,6 +18,7 @@ image: /assets/images/posts/nikonov.jpg
     <li><a href="#nikonov-1-chapitre-4">Chapitre 4 - Le train</a></li>
     <li><a href="#nikonov-1-chapitre-5">Chapitre 5 - Le diable</a></li>
     <li><a href="#nikonov-1-chapitre-6">Chapitre 6 - Le docteur</a></li>
+    <li><a href="#nikonov-1-chapitre-7">Chapitre 7 - La tentation</a></li>
 </ul>
 
 ---
@@ -240,3 +241,51 @@ Nikonov se rappela l’urne funéraire en albâtre qu’ils croisaient avec sa s
 « Notre mère sera incinérée, docteur. Merci. »
 
 Le docteur acquiesça silencieusement. Un sourire gêné lui fissurait le visage quand il accrocha son chapeau sur sa tête. Il leur souhaita une dernière fois ses sincères condoléances et prit séjour de la grande demeure de Lioudmila, où deux morts tragiques avaient eu lieu, en l’espace de quelques semaines. Laissant planer l’ombre démoniaque de la fatalité au dessus de la demeure. Nikonov se promit de ne plus jamais y revenir.
+
+---
+
+<h2 id="nikonov-1-chapitre-7"><a href="#nikonov-1-chapitre-7">Chapitre 7 - La tentation</a></h2>
+
+L’horloge de la chambre indiquait vingt heures. Guettant l’arrivée du diable, allongé sur son lit, Nikonov ressassait les événements tragiques de sa vie qui l’avaient amené ici, de retour dans son appartement de la rue B***.
+
+La lune pleine et le silence de la nuit tombant saisissaient Nikonov par les tripes et une odeur macabre embaumait les rues de Saint-Pétersbourg. _Il approche_, pensa Nikonov. _Le diable arrive._
+
+On tapa à la porte d’entrée de son appartement, le cœur de Nikonov battait la chamade. Il enfila un peignoir et s’avança lentement vers la porte. Il jeta un oeil à travers le judas et mais ne vit rien. Il enleva la chaîne de sécurité entrouvrit la porte, inspectant le couloir sombre donnant sur son étage.
+
+L’homme qu’il vit lui était familier, comme revenu d’un souvenir lointain, il portait un costume noir élégant au col gris foncé, les manches lisses, la cravate assortie ainsi que des boutons de manche en cuivre. L’homme avait soixante-quinze ans et il le connaissait depuis de nombreuses années. Nikonov, reprenant ses esprits, sourit à son visiteur, le docteur Fukin Damir Anatolievich.
+
+Sans émettre un son, le docteur Anatolievich entra dans la pièce, et posa une valise en cuir, qu’il portait aisément, sur le lit de Nikonov. Ce dernier s'enquit de nouvelles auprès de cette vieille connaissance :
+
+« Docteur ! Que faites-vous ici par une heure pareille ? Natasha est-elle à son tour malade ? Oh que j’ai longtemps craint que la grande grippe ne l’attrape à son tour. Mon Dieu, faites qu’elle se porte bien. Elle est tout ce qui me reste au monde. »
+
+Le docteur s’assit à côté de sa valise, ôta les gants noirs qu’il portait et s'alluma une cigarette qu’il avait préalablement roulée en silence. Dehors, le silence avait laissé place à des gémissements de chats de gouttière et au bruit du vent dans les arbres.
+
+« Nikonov, merci de m’accueillir par une heure pareil chez toi. J’ai besoin que tu t’assoies à ton tour. Ce que je vais te dire va changer à jamais ta vision du monde et te bouleverser.
+
+« Tu sais qui je suis Nikonov, nous nous sommes déjà rencontrés il y a quelques mois de cela chez ta tante, lors du décès de ta mère. Je me suis également présenté à toi sous les traits de ton ancien camarade Lavrentiy Nikolai Davidovitch. Pas la peine pour moi de me nommer de mon vrai nom, car je sais qu’au fond de toi tu le connais.
+
+« Je te l’ai annoncé, ce soir je vais te prouver mon authenticité. La meilleure façon pour moi de te prouver que je suis bien celui que je prétends être est que tu me tues. Ici, dans cet appartement. Alors commencera ton voyage. »
+
+Nikonov, le visage plein de sueur. _Ce n’est pas possible, vous êtes fou. Jamais je ne me résignerai à vous tuer docteur. C’est insensé._ Il n’avait pas prononcé ces mots mais juste pensé. Anatolievich continua :
+
+« Tu dois me tuer, Nikonov. Sache que rien ne l’empêchera. Tu dois te débarrasser de moi. Je suis celui qui a tué ta mère ce jour-là. 
+
+— Non c’est impossible.
+
+— J’ai étranglé ta mère jusqu’à ce qu’elle perde tout son souffle, je l’ai tuée par jeu, parce que je la vie pour moi n’est qu’un jeu. »
+
+Nikonov, se lèva, une fureur aveuglante l’amenait vers la folie. Il tremblait de tout son souffle, une rage incontrôlée le tétanisait. 
+
+« J’ai vu ta mère dans ce lit, innocente et faible, je n’ai éprouvé que du mépris pour elle. Elle m’implorait de lui appliquer l’extrême-onction. Que crois-tu que j’ai fait Nikonov ? Je l’ai damnée. Je l’ai damnée et je l’ai étranglée. Comme on tue un animal sans défense par plaisir. Elle ne s’est pas débattue, parce qu’elle était trop faible pour me résister. Une pauvre créature sans défense sous le poids de l’être le plus puissant. Tu dois me tuer Nikonov, il le faut. »
+
+Nikonov cria de rage, il s’était levé et tournait en rond dans l’appartement le regard fou. _Non, non je ne dois pas me laisser tenter, tout ceci est faux, ma mère était mourante. Ce n’est pas possible._
+
+« C’est malheureusement la vérité Nikonov, j’ai tué Davidovitch, j’ai tué ta tante, j’ai tué ta mère et à présent je vais tuer ta sœur à son tour. Toi seul, à le pouvoir de m’empêcher de nuire maintenant, si tu ne me tues pas je m’attaquerai à la seule chose qui te reste au monde.
+
+« Je te… »
+
+Nikonov, sauta sur le vieil homme et le roua de coups au visage jusqu’à ce qu’il ne soit plus reconnaissable. Le docteur Anatolievich garda son sourire diabolique jusqu’à son dernier souffle.
+
+-----
+
+<h4 class="center">FIN DE LA PREMIÈRE PARTIE</h4>
