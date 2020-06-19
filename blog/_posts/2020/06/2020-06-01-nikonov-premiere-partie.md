@@ -162,7 +162,7 @@ Je te demande d’y réfléchir. Ivan Volodia Nikonov, continua Davidovitch, car
 
 <h2 id="nikonov-1-chapitre-4"><a href="#nikonov-1-chapitre-4">Chapitre 4 - Le train</a></h2>
 
-Nikonov entra dans le dernier wagon du train en direction de Kounanivo. Se privant de repas plusieurs jours durant pour lui permettre d’acheter l’aller retour. Le trajet devait durer quelques heures seulement, il pourrait ensuite retrouver sa sœur Natacha. Cela faisait maintenant deux années qu’il ne l’avait pas vu.
+Nikonov entra dans le dernier wagon du train en direction de Kounanivo. Se privant de repas plusieurs jours durant pour lui permettre d’acheter l’aller retour. Le trajet devait durer une journée, il pourrait ensuite retrouver sa sœur Natacha. Cela faisait maintenant deux années qu’il ne l’avait pas vu.
 
 En dernière classe, Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés. Un gros chien grognait à la vue d’un rat, le rat chicotait à la vue du pain sur le sol, le pain moisissait en silence.
 
