@@ -2,7 +2,7 @@
 layout: post
 title: NOUVELLE | Nikonov - Deuxième partie
 tags: nouvelle
-image: /assets/images/posts/nikonov.jpg
+image: /assets/images/posts/nikonov-2.jpg
 ---
 
 <img src="/assets/images/posts/nikonov-2.jpg" width="70%" class="center">
