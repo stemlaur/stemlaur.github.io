@@ -14,6 +14,7 @@ image: /assets/images/posts/nikonov-2.jpg
 <ul>
     <li><a href="/blog/2020/06/01/nikonov-premiere-partie/">Nikonov - Première partie</a></li>
     <li><a href="#nikonov-2-chapitre-1">Chapitre 1 - Le prêtre</a></li>
+    <li><a href="#nikonov-2-chapitre-2">Chapitre 2 - Le chat</a></li>
 </ul>
 
 ---
@@ -54,3 +55,34 @@ Le prêtre Igorevich attendait que le docteur s’en aille afin de reprendre là
 
 — Xa-xa ! Non mon père, tout est dit, je vous laisse déguster ces douces prières qui vous tiennent tellement à coeur. »
 
+---
+
+<h2 id="nikonov-2-chapitre-2"><a href="#nikonov-2-chapitre-2">Chapitre 2 - Le chat</a></h2>
+
+Du sang coulait de la bouche entrouverte du docteur Fukin Damir Anatolievich. Tel un pantin désarticulé, son corps restait immobile sur le plancher en bois de l’appartement. Il était passé de vie à trépas.
+
+Ivan Volodia Nikonov ne bougeait plus. Sa colère avait disparu, laissant place à une émotion morbide. Il avait éprouvé un plaisir indicible à cogner le visage de cet homme qui prétendait être le meurtrier des membres de sa famille. Il n’éprouvait aucune culpabilité, cette violence enfouit en lui depuis toujours avait réussi à s’exprimer.
+
+Il ferma la porte de son appartement à double tour et tira les rideaux épais pour rester dans la pénombre de la pièce. Le vent s’était arrêté de souffler dehors. Le calme régnait de nouveau dans les rues. Il resta un bon moment silencieux à regarder le sang qui tachait son peignoir, son drap de lit, le sol… Il aperçut sur son lit la valise qu’avait posé Anatolievich avant qu’il ne lui révèle ses terribles secrets.
+
+Il s’assit à côté d’elle et caressa le cuir de ses mains ensanglantées. La valise était brodée de trois chiffres rouges à l’envers. Le nombre de la Bête. Il hésita avant de l’ouvrir, ses doigts posés sur les passants, sur l’objet ayant appartenu à Satan. Puis, Nikonov reprit ses esprits. Il recula ses mains.
+
+« Nikonov, pourquoi ne l’ouvrirais-tu pas ?
+
+— Je n’en ai pas la force, Davidovitch, je suis un meurtrier, j’ai tué par vengeance. Je ne mérite pas de vivre plus longtemps. »
+
+Lavrentiy Nikolai Davidovitch se trouvait dans la pièce. Un froid glacial parcourait la nuque de Nikonov. Il était résigné, soumis à la puissance du diable en personne, à la merci du mal incarné en son ancien ami. Il n’attendait plus que sa sentence ultime. À côté de Davidovitch, un chat noir lapait le sang encore chaud du docteur.
+
+« Celui que tu as frappé ce soir était déjà mort depuis bien longtemps. Ton acte a permis à ce docteur de trouver la rédemption. Regarde… Il n’est plus ici. »
+
+Nikonov tourna la tête, sur le sol gisait une mare de sang sans corps que le chat léchait goulûment. Les yeux de Nikonov s’éclairèrent devant ce miracle. Davidovitch, lui, s’accroupit près de lui.
+
+« Maintenant que tu sais qui je suis, il est temps pour toi de rejoindre les ténèbres et de me venir en aide. Je suis ici pour te proposer un pacte, Nikonov. Un pacte incessible. J’ai le pouvoir de faire revenir à la vie les morts, comme de condamner les vivants.
+
+« Aide moi, Nikonov, à trouver ce que je cherche et tu recevras ce que tu désires le plus au monde. Ta famille reviendra, elle ne manquera plus jamais de rien. Tu ne peux pas lutter, tu sais de quoi je suis capable.
+
+« Refuse et j’anéantirai tous ceux qui te sont chers. Accepte et tu seras exaucé. »
+
+Nikonov leva le menton, scruta longuement les yeux démoniaques de Davidovitch puis, plein de tristesse et de résignation lui tendit la main que le diable serra. Le pacte était maintenant scellé, son voyage pouvait commencer.
+
+---
