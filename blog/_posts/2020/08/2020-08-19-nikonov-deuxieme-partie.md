@@ -15,6 +15,7 @@ image: /assets/images/posts/nikonov-2.jpg
     <li><a href="/blog/2020/06/01/nikonov-premiere-partie/">Nikonov - Première partie</a></li>
     <li><a href="#nikonov-2-chapitre-1">Chapitre 1 - Le prêtre</a></li>
     <li><a href="#nikonov-2-chapitre-2">Chapitre 2 - Le chat</a></li>
+    <li><a href="#nikonov-2-chapitre-3">Chapitre 3 - Le baptême</a></li>
 </ul>
 
 ---
@@ -84,5 +85,33 @@ Nikonov tourna la tête, sur le sol gisait une mare de sang sans corps que le ch
 « Refuse et j’anéantirai tous ceux qui te sont chers. Accepte et tu seras exaucé. »
 
 Nikonov leva le menton, scruta longuement les yeux démoniaques de Davidovitch puis, plein de tristesse et de résignation lui tendit la main que le diable serra. Le pacte était maintenant scellé, son voyage pouvait commencer.
+
+---
+
+<h2 id="nikonov-2-chapitre-3"><a href="#nikonov-2-chapitre-3">Chapitre 3 - Le baptême</a></h2>
+
+Marchant nerveusement dans l’église vide, le prêtre Igorevich attendait les premiers arrivants. Cela faisait deux mois qu’il avait organisé les obsèques de la mère de Natasha et Nikonov. Ces derniers n’ayant pas beaucoup d’argent à donner, Igorevich avait bâclé ses discours. Il prenait l’habitude de faire varier la qualité des obsèques en fonction de la richesse des familles et du nombre de participants présents dans l’église. 
+
+Pour les gens fortunés, le prêtre bénissait le corps avant et après la mise en bière, il serrait la main des paroissiens à la fin de la messe, il encensait le cher défunt de nombreuses prières personnalisées. Il faisait même parfois deux fois la quête.
+
+Pour les gens pauvres, généralement l’église était bien moins remplie. Il ne prenait pas la peine d'allumer des cierges en début de cérémonie, lisait la liturgie de la parole rapidement, et ne cachait pas son ennui lorsque les chants duraient trop longtemps.
+
+Igorevich était de bonne humeur car aujourd’hui la cérémonie qui allait avoir lieu n’était pas un enterrement mais un baptême. Plusieurs familles très riches allaient venir faire entrer leurs enfants dans la communauté de Dieu. Il devait donc tout faire pour que tout se passe bien.
+
+Ses pas résonnaient dans le choeur alors qu’il allumait les bougies de neuvaines. D’autres pas, plus légers et gracieux, se mirent à retentir dans la nef centrale. Natasha avançait vers la croisée du transept. Elle portait un manteau ajusté assorti à sa robe de couleur sombre. Un chapeau en forme de capote évasée et garnie de fleur était accroché à sa jolie tête et laissé entrevoir ses cheveux noirs bouclés. Son regard déterminé était posé sur le prêtre qui ne l’avait pas vu.
+
+Elle simula une quinte de toux pour annoncer sa présence, Igorevich leva la tête et s’arrêta net.
+
+« Oh ! bonjour, mademoiselle… Natasha... c’est bien cela ? Allez-vous participer aux baptêmes ? Vous êtes bien en avance, la cérémonie n’aura lieu que dans une heure...
+
+— Mon père, j’ai besoin de me confesser, je comprends que vous soyez bien occupé, seulement cela ne peut plus attendre, des jours et des jours passent depuis la mort de ma mère, et je n’ai pas eu le courage de venir vous rencontrer. Il le faut cependant, je dois confesser mes fautes auprès de notre père tout-puissant ou je n’obtiendrai jamais la rédemption. »
+
+Le prêtre Igorevich fronça les sourcils, que pouvait bien avoir cette charmante jeune femme à confesser pour qu’elle ait besoin d’interrompre la préparation de sa cérémonie. Décidément, le monde était rempli de personnes curieuses. Il se rappelait d’ailleurs la dernière conversation qu’il avait eue avec le docteur Anatolievich avant qu’il ne se volatilise. La mère de Natasha était une alcoolique, peut-être que sa fille l’était également. Si c’était le cas, la confession ne devrait pas durer trop longtemps, quelques Je vous salue Marie et Notre Père et il pourrait se remettre au travail. Il sourit de la manière la plus bienveillante qu’il soit et acquiesça. Il la conduisit vers le confessionnal situé derrière deux piliers du bas-côté de l’église. Le prêtre s’assit dans le compartiment central muni d’un rideau et Natasha dans la loge latérale fermée. 
+
+« Eh bien ma chère fille, de quels péchés souhaites-tu te repentir ? »
+
+Natasha hésita longuement avant se lancer.
+
+« Mon Père, il y a quelques mois de cela, j’ai rencontré le diable… »
 
 ---
