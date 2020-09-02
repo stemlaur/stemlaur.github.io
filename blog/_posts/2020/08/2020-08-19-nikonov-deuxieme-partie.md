@@ -16,6 +16,7 @@ image: /assets/images/posts/nikonov-2.jpg
     <li><a href="#nikonov-2-chapitre-1">Chapitre 1 - Le prêtre</a></li>
     <li><a href="#nikonov-2-chapitre-2">Chapitre 2 - Le chat</a></li>
     <li><a href="#nikonov-2-chapitre-3">Chapitre 3 - Le baptême</a></li>
+    <li><a href="#nikonov-2-chapitre-4">Chapitre 4 - La lettre (2)</a></li>
 </ul>
 
 ---
@@ -115,3 +116,33 @@ Natasha hésita longuement avant se lancer.
 « Mon Père, il y a quelques mois de cela, j’ai rencontré le diable… »
 
 ---
+
+<h2 id="nikonov-2-chapitre-4"><a href="#nikonov-2-chapitre-4">Chapitre 4 - La lettre (2)</a></h2>
+
+---
+
+Davidovitch s’en était allé, laissant derrière lui le chat noir qui ronronnait au fond de la pièce principale de l’appartement de Nikonov. Ce dernier prit son courage à deux mains et ouvrit la valise brodée que le docteur avait laissée.
+
+À l’intérieur, une importante somme d’argent, suffisamment pour qu’il puisse en vivre pour le reste de sa vie, un revolver, ainsi qu’une lettre manuscrite. Il reconnut le style de l’écriture et fut pris d’une nausée atroce. Il s’agissait de la lettre que lui avait envoyée Natasha quelques mois plus tôt, et qui annonçait le décès de sa tante. Il la jeta sans la lire. Sous la liasse de billets était posée une enveloppe non ouverte qui lui était adressée. Il l’ouvrit en l’arrachant, et lut la lettre les mains tremblantes.
+
+_Nikonov,_
+
+_L’endroit dans lequel tu vis est singulier. Tout est encore à faire, tout est encore à inventer. Des enfants meurent de la peste, des docteurs percent des trous dans les crânes des malades, et des hommes continuent à parcourir les rues pour allumer des réverbères._
+
+_Là d’où je viens : la famine a fait place à la surconsommation, les guerres sur terre aux guerres de communication, le gaz à l’électricité et les trous dans les crânes ont été remplacés par des institutions. J’ai hâte que tu viennes ici-bas me rejoindre, mais avant cela tu dois m’aider à retrouver ce que j’ai perdu._
+
+_Si je suis remonté ici haut, mon ami, c’est parce que je suis à la recherche d’un objet qu’un de mes disciples à maladroitement égaré il y a quelques mois. Il s’agit d’un objet que je ne peux pas nommer, parce que tu n’arriverais pas à le prononcer. Je l'appellerai simplement l’artefact. L’artefact n’appartient pas à ton monde, et il ne faudrait cependant pas qu’il tombe entre de mauvaises mains._
+
+_Voilà pourquoi j’ai besoin de ton aide pour le retrouver, il y a certaines choses sur lesquelles je n’ai pas de pouvoir dans ce monde. Tu seras donc mon regard, tu seras mes mains qui te sont si précieuses, tu seras mon âme._
+
+_Le pacte que nous avons scellé est indicible, je pense que tu le sais maintenant, quand tu auras retrouvé l’artefact, je serai en capacité de te faire retrouver ta famille._
+
+_Tu trouveras dans la valise une importante somme d’argent, qui te sera suffisante pour le reste de ta vie. Considère-toi un homme riche à partir de maintenant, garde cette valise tout le temps avec toi._
+
+_Je t’ai demandé il y a deux jours de t’acheter des vêtements — tu l’as fait, je le sais —, parce que ton voyage commence au plus vite. Demain à l’aube, tu prendras le train, et tu retourneras à Kounanivo. Un prêtre du nom de Igorevich est en possession de l’artefact. Cet infâme serviteur de Dieu garde cet objet dans l’église de Saint-Pierre-et-Saint-Paul._
+
+_C’est quand tu l’auras retrouvé que j’exaucerai ton voeu le plus cher. Je saurai redonner la vie à ta mère aussi facilement que je lui ai prise._
+
+_À très vite, ton camarade, Davidovitch._
+
+Le chat noir au fond de la pièce continuait de ronronner, le regardant de ses yeux plissés qui brillaient dans la pénombre. La nuit, Nikonov rêva de trous dans son crâne.
