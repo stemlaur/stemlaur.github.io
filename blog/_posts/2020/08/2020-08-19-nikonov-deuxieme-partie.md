@@ -17,6 +17,7 @@ image: /assets/images/posts/nikonov-2.jpg
     <li><a href="#nikonov-2-chapitre-2">Chapitre 2 - Le chat</a></li>
     <li><a href="#nikonov-2-chapitre-3">Chapitre 3 - Le baptême</a></li>
     <li><a href="#nikonov-2-chapitre-4">Chapitre 4 - La lettre (2)</a></li>
+    <li><a href="#nikonov-2-chapitre-5">Chapitre 5 - Les fiançailles</a></li>
 </ul>
 
 ---
@@ -119,8 +120,6 @@ Natasha hésita longuement avant se lancer.
 
 <h2 id="nikonov-2-chapitre-4"><a href="#nikonov-2-chapitre-4">Chapitre 4 - La lettre (2)</a></h2>
 
----
-
 Davidovitch s’en était allé, laissant derrière lui le chat noir qui ronronnait au fond de la pièce principale de l’appartement de Nikonov. Ce dernier prit son courage à deux mains et ouvrit la valise brodée que le docteur avait laissée.
 
 À l’intérieur, une importante somme d’argent, suffisamment pour qu’il puisse en vivre pour le reste de sa vie, un revolver, ainsi qu’une lettre manuscrite. Il reconnut le style de l’écriture et fut pris d’une nausée atroce. Il s’agissait de la lettre que lui avait envoyée Natasha quelques mois plus tôt, et qui annonçait le décès de sa tante. Il la jeta sans la lire. Sous la liasse de billets était posée une enveloppe non ouverte qui lui était adressée. Il l’ouvrit en l’arrachant, et lut la lettre les mains tremblantes.
@@ -146,3 +145,27 @@ _C’est quand tu l’auras retrouvé que j’exaucerai ton voeu le plus cher. J
 _À très vite, ton camarade, Davidovitch._
 
 Le chat noir au fond de la pièce continuait de ronronner, le regardant de ses yeux plissés qui brillaient dans la pénombre. La nuit, Nikonov rêva de trous dans son crâne.
+
+---
+
+<h2 id="nikonov-2-chapitre-5"><a href="#nikonov-2-chapitre-5">Chapitre 5 - Les fiançailles</a></h2>
+
+« Père, j'ai péché. Il y a quelque mois de cela, j’ai rencontré le diable et j’ai scellé un pacte avec lui qui a causé la mort de ma mère et de ma tante. 
+
+« Il y a de cela un an, Mama et moi étions perdus dans l’un des grands marchés couverts de Kounanivo, Il devait être dix heures trente du matin, nous avions l’habitude de sortir le dimanche après les matines pour y acheter des fruits frais. Le temps était maussade, la pluie de la veille mouillait ma robe et je me rappelle que je ne souhaitais qu’une chose, c’était de rentrer à la maison. L’odeur âcre et lourde de la graisse chaude et des parfums que vendaient les marchands me donnait la nausée. Ma mère ne semblait pas être gênée et insistait pour que nous y restions. 
+
+« Je suis désolé si je m’égare, mon père, j’essaie de vous reconstituer du mieux que je peux tous les éléments de ma première rencontre. Ce que je me souviens et qui est important, c’est qu’un homme d’une dizaine d’années de plus que moi semblait m’observer de l’autre côté d’un des étals à poisson. Un homme aux cheveux et au regard sombres qui portait une redingote en soie et un pantalon vert. Cet homme m’intriguait fortement, il ne semblait aucunement gêné de me regarder dans les yeux et quand je le regardais à mon tour, il refusait de détourner le regard.
+
+« Ma mère était occupée à négocier avec l’un des marchands, cet homme s’est alors approché de moi. Il avait une démarche lente et assurée, je ne pouvais pas bouger, j’étais dans l’attente qu’il me rejoigne. Je ne pouvais pas réchapper. Il arriva vers moi et se présenta courtoisement. Bonjour mademoiselle, m’a-t-il dit, je me présente, je m’appelle Lavrentiy Nikolai Davidovitch, et je tiens à vous complimenter pour votre grâce et votre beauté.
+
+« Quelque chose en cet homme me gênait au plus haut point, cependant son charme insoupçonné me tétanisait. Essayant tant bien que mal de rester poli en attendant Mama, je le remerciai poliment. Il continuait à me parler de lui, de ses voyages, de sa passion pour les arts, je ne pouvais que l’écouter sans broncher. Tout de fois, l'appréhension que j’avais au début disparaissait peu à peu. Mama revenant bientôt, il me proposa de me revoir. Il souhaitait aller dîner avec moi le lendemain.
+
+« Mon père, sachez qu’il m’arrive souvent de me faire courtiser par des hommes, j’ai pris pour habitude de toujours refuser poliment. Mama n’étant pas particulièrement de cet avis, souhaitant que je rencontre une personne digne de ce nom, mais n’ayant que vingt-et-un an je considère avoir le temps devant moi avant de me lier à quelqu’un d’autre. Néanmoins, j’acceptai son invitation presque contre ma volonté.
+
+« Nous nous sommes vus plusieurs fois, Davidovitch était un homme fortuné et cultivé, je tombais peu à peu amoureuse de lui et de sa bienveillance. Il donnait de l’argent à Mama, qui en envoyait une partie tous les deux mois à mon frère à Saint-Pétersbourg, il aidait ma tante en investissant dans les réparations de sa maison. Mon cœur lui appartenait de plus en plus.
+
+« C’est un jour de novembre, alors que nous faisions de la barque dans la Moskova qu’il m’a demandée en mariage. Et pour la première fois de ma vie, j’ai senti qu’il était temps pour moi de devenir la moitié d’un autre, de fonder une famille et de me ranger. Nous nous sommes ainsi fiancés sur l’eau troublée du beau fleuve où j’avais vécu toute mon enfance. Mama et ma tante étaient ravies.
+
+« Davidovitch refusait toujours que nous en parlions à mon frère Ivan, il me disait qu’avant cela, il devait me demander quelque chose. Il convainquit ainsi ma famille de garder la surprise, et c’est aux alentours du mois de janvier, un soir froid et neigeux que Davidovitch m’a avoué toute la vérité. »
+
+
