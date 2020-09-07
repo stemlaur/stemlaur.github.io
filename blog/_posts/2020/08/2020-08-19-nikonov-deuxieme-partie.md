@@ -18,6 +18,7 @@ image: /assets/images/posts/nikonov-2.jpg
     <li><a href="#nikonov-2-chapitre-3">Chapitre 3 - Le baptême</a></li>
     <li><a href="#nikonov-2-chapitre-4">Chapitre 4 - La lettre (2)</a></li>
     <li><a href="#nikonov-2-chapitre-5">Chapitre 5 - Les fiançailles</a></li>
+    <li><a href="#nikonov-2-chapitre-6">Chapitre 6 - Le cauchemar</a></li>
 </ul>
 
 ---
@@ -169,3 +170,32 @@ Le chat noir au fond de la pièce continuait de ronronner, le regardant de ses y
 « Davidovitch refusait toujours que nous en parlions à mon frère Ivan, il me disait qu’avant cela, il devait me demander quelque chose. Il convainquit ainsi ma famille de garder la surprise, et c’est aux alentours du mois de janvier, un soir froid et neigeux que Davidovitch m’a avoué toute la vérité. »
 
 
+---
+
+<h2 id="nikonov-2-chapitre-6"><a href="#nikonov-2-chapitre-6">Chapitre 6 - Le cauchemar</a></h2>
+
+Nikonov entra dans le premier wagon du train en direction de Kounanivo. Il s’était régalé d’un bon petit déjeuner dans la gare : haricots rouges, des oeufs brouillés, du bacon et de la purée de pommes de terre. Il ne se rappelait pas avoir aussi bien mangé depuis des lustres.
+
+En première classe, Nikonov se mélangeait à une population de bourgeois, d’entrepreneurs, de familles nombreuses aux enfants colériques et bruyants, aux patrons maîtres de leurs ouvriers, aux favorisés et aux bienheureux. Une grosse chatte ronronnait en écoutant sa maîtresse, la maîtresse ricanait dans les bras de son mari, le mari acquiesçait en silence.
+
+L’impatience régnait dans le luxueux wagon-restaurant de la compagnie des chemins de fer russe, les nombreuses heures de trajet étaient un calvaire pour la plupart des occupants de la voiture. Le contrôleur passa pour faire valider les tickets. Il s’arrêta sur Nikonov le regard suspicieux, cet homme était-il en règle ? Nikonov lui présenta ses billets. Le contrôleur les composta en grognant.
+
+Nikonov passa la nuit sur une couchette aménagée dans une loge semi-privée. Ne voulant pas être dérangé, il avait pris le soin d’acheter toutes les places autour de lui pour être tranquille pendant le voyage. Il avait caché la valise remplie de billets sous ses draps, de peur de se la faire dérober pendant son sommeil.
+
+Il resta longtemps allongé sur le lit aux draps de soie, le regard scrutant le plafond de la loge, l’esprit tourmenté de questions sans réponses. Le temps, qui n’était plus sa seule ressource gratuite lui paraissait être infini. Il songeait à sa sœur qu’il n’avait pas eu le temps de prévenir de son arrivée. 
+
+Il éteignit le lustre du compartiment et tenta de dormir. Il arriverait à Moscou le lendemain matin et devrait prendre une voiture jusqu’à l’église Saint-Pierre-et-Saint-Paul.
+
+Dans un cauchemar éveillé, Nikonov se voyait perdu dans un monde où il se retrouvait seul. Dans les cieux obscurs brillait une lune pleine et étincelante. Des habitations de fer et d’acier, à moitié détruites par le temps, sortaient du sol pour effleurer la voûte céleste endeuillée. Il marchait doucement les yeux rivés vers l’horizon, ses pieds nus se blessaient au choc de morceaux de verre. Un vent humide s’était levé, soufflant sous sa nuque découverte, la chaleur de l’air le faisait suer et trembler. Il n’avait jamais ressenti une chaleur aussi pressante. Son souffle était court et irrégulier, la profusion des odeurs qu'exhalait cette ville endormie le répugnait, lui tournait la tête. 
+
+Un sifflement de détresse qui déchirait l'air le réveilla en sursaut. Dehors, le soleil pointait ses rayons de feu à travers le rideau. Le train ralentissait en s’approchant de sa destination.
+
+Nikonov retourna les draps blancs pour s’assurer que la valise était toujours en place, sortit du lit et s’habilla. Son front ruisselait, la chaleur humide de son rêve lui avait semblé bien réelle.
+
+Le train s’arrêta enfin et les passagers sortir tranquillement des wagons. Certains d’entre eux portaient des costumes trois-pièces et se dépêchaient pour arriver à l’heure dans leurs usines. Par la fenêtre, Nikonov chercha sa sœur du regard avant de se rappeler qu’il était maintenant seul.
+
+Il prit la voiture qui l’attendait à l’intersection du boulevard P* et de la rue D*, le conducteur aimable et respectueux l'accueillit d’un bonjour courtois. Il prit le bagage de Nikonov et le convia à entrer dans le véhicule.
+
+La voiture prit le chemin de l’église Saint-Pierre-et-Saint-Paul. Il allait rejoindre sa sœur Natasha… ce dont il ne se doutait pas.
+
+---
