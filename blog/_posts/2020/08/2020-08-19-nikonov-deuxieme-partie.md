@@ -19,6 +19,7 @@ image: /assets/images/posts/nikonov-2.jpg
     <li><a href="#nikonov-2-chapitre-4">Chapitre 4 - La lettre (2)</a></li>
     <li><a href="#nikonov-2-chapitre-5">Chapitre 5 - Les fiançailles</a></li>
     <li><a href="#nikonov-2-chapitre-6">Chapitre 6 - Le cauchemar</a></li>
+    <li><a href="#nikonov-2-chapitre-7">Chapitre 7 - Le miracle</a></li>
 </ul>
 
 ---
@@ -198,4 +199,41 @@ Il prit la voiture qui l’attendait à l’intersection du boulevard P* et de l
 
 La voiture prit le chemin de l’église Saint-Pierre-et-Saint-Paul. Il allait rejoindre sa sœur Natasha… ce dont il ne se doutait pas.
 
+
 ---
+
+<h2 id="nikonov-2-chapitre-7"><a href="#nikonov-2-chapitre-7">Chapitre 7 - Le miracle</a></h2>
+
+« Davidovitch m’expliqua qu’il était le diable incarné, qu’il était à la recherche de quelque chose ici sur terre. Je ne pouvais pas en croire mes oreilles, je pleurais, je pleurais de honte face à cette folie. Il comprenait que je ne le croyais pas, évidemment, personne ne l’aurait cru. »
+
+Le prêtre Igorevich fronçait les sourcils, mal à l’aise face à cette brebis égarée, folle bien-sûr. Mais Natasha ne pouvait le voir et continuait sans le laisser parler.
+
+« Mon Père, j’étais possédée. Il me proposa de me prouver ses dires le lendemain, je l’ai attendu dans la pénombre de notre maison. Quand finalement, elle est apparue vers minuit, ma tante, elle est apparue devant ma porte.
+
+« Elle avait le visage blême, le front en sueur, elle avait des difficultés à s’exprimer et tremblait de tous ses membres. Elle m’a dit se sentir mal, et elle m’a implorée d’appeler un docteur. J’ai aussitôt appelé le docteur de la famille, que vous connaissez bien, le docteur Anatolievich.
+
+« Le docteur l’a auscultée et nous a annoncé, à ma mère et à moi, qu’elle était tombée malade de la grande grippe, et que ces jours étaient comptés. Ma mère et moi étions dévastés. Le docteur lui a prescrit de la tisane d’aubépine et de la pénicilline, mais en nous alertant de la difficulté pour elle de s’en sortir.
+
+« Je retournai dans ma chambre après de nombreuses heures à veiller à côté de ma tante, quelle ne fut ma surprise de tomber nez-à-nez avec mon fiancé Davidovitch. Je lui demandai comment il avait pu rentrer, il avait un regard sombre. Il m’expliqua que le sort de ma tante était scellé, que le docteur Anatolievich reviendrait au matin pour annoncer son décès. Il me serra dans ses bras alors que je pleurais, incrédule.
+
+« Le lendemain matin ma tante Lioudmila s’en était allée au Paradis. Davidovitch avait dit vrai. Elle avait été terrassée par la grippe en l’espace d’une seule nuit.
+
+« J’envoyai une lettre en urgence à mon frère, le diable me le conseilla, il devait venir au plus vite, j’étais sous l’emprise de l’aura qui émanait de cet être exceptionnel et dangereux.
+
+« Je n’ai pas parlé du diable à mon frère Ivan, Davidovitch me l’avait défendu et, de toute façon, il m’aurait pris pour une folle. Nous avons tous les deux assisté aux derniers instants de ma mère. Et je n’ai plus revu Davidovitch pendant des semaines.
+
+« C’est il y a quelques jours qu’il est réapparu dans ma vie, mon père, il est venu dans ma chambre une nouvelle fois pour que j’aille lui chercher ce qu’il a appelé l'artefact dans cette église de Saint-Pierre-et-Saint-Paul… »
+
+À ces mots, les yeux de prêtre Igorevich s’écarquillèrent. Il balbutia quelques mots sous le choc :
+
+« Ce n’est pas possible, vous mentez ! Comment avez-vous entendu parlé de cet artefact ? »
+
+« Il a menacé de tuer mon frère à son tour si je ne le récupérais pas, je suis désolée, mon frère est tout ce qu’il me reste au monde, pardonnez-moi mon père pardonnez-moi. »
+
+Natasha tendit une arme à feu à travers le rideau entre les deux loges du confessionnal. 
+
+« Voyez-vous, je n’étais pas sûr que vous fussiez le disciple dont parlait Davidovitch, mais vos mots vous ont trahi, et je dois récupérer cet objet et rompre mon pacte avec le diable. »
+
+Le prêtre Igorevich se leva et sortit du confessionnal pour se précipiter dans sa chambre de l’autre côté de l’église. Natasha sortit calmement et brandit son arme vers lui. Un coup de feu retentit, le prêtre tomba, raide mort. Natasha se retourna, son frère était là, de la fumée sortant de son revolver.
+
+Il avait entendu toute la conversation, il regardait sa sœur avec compassion. Il ne se sentait plus seul.
