@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Nikonov - Première partie
+title: NOUVELLE | Nikonov
 tags: nouvelle
 image: /assets/images/posts/nikonov.jpg
 ---
