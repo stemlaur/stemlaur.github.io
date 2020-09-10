@@ -3,6 +3,8 @@ layout: post
 title: NOUVELLE | Nikonov - Première partie
 tags: nouvelle
 image: /assets/images/posts/nikonov.jpg
+redirect_to:
+  - /nikonov
 ---
 
 <img src="/assets/images/posts/nikonov.jpg" width="70%" class="center">

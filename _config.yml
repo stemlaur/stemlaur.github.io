@@ -41,6 +41,7 @@ plugins:
   - jekyll-gist
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 feed:
   title: stemlaur.com
