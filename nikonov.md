@@ -526,7 +526,7 @@ Il avait entendu toute la conversation, il regardait sa sœur avec compassion. I
 
 ---
 
-<h2 id="nikonov-2-chapitre-2"><a href="#nikonov-2-chapitre-2">Chapitre 8 - La bombe</a></h2>
+<h2 id="nikonov-2-chapitre-2"><a href="#nikonov-2-chapitre-8">Chapitre 8 - La bombe</a></h2>
 
 Nikonov étreignit longuement Natasha, la longue route qui l’avait amené jusqu’aux bras de sa soeur l’avait épuisé. Tous les deux étaient maintenant en quête du même objet dont ils ne savaient rien. Ils se dirigèrent vers la chambre du prêtre. Les invités au baptême allaient bientôt rentrer dans l'église et découvrir un corps sans vie.
 
