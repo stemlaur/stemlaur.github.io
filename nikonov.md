@@ -32,6 +32,7 @@ image: /assets/images/posts/nikonov.jpg
     <li><a href="#nikonov-2-chapitre-5">Chapitre 5 - Les fiançailles</a></li>
     <li><a href="#nikonov-2-chapitre-6">Chapitre 6 - Le cauchemar</a></li>
     <li><a href="#nikonov-2-chapitre-7">Chapitre 7 - Le miracle</a></li>
+    <li><a href="#nikonov-2-chapitre-8">Chapitre 8 - La bombe</a></li>
 </ul>
 
 ---
@@ -524,3 +525,29 @@ Le prêtre Igorevich se leva et sortit du confessionnal pour se précipiter dans
 Il avait entendu toute la conversation, il regardait sa sœur avec compassion. Il ne se sentait plus seul.
 
 ---
+
+<h2 id="nikonov-2-chapitre-2"><a href="#nikonov-2-chapitre-2">Chapitre 8 - La bombe</a></h2>
+
+Nikonov étreignit longuement Natasha, la longue route qui l’avait amené jusqu’aux bras de sa soeur l’avait épuisé. Tous les deux étaient maintenant en quête du même objet dont ils ne savaient rien. Ils se dirigèrent vers la chambre du prêtre. Les invités au baptême allaient bientôt rentrer dans l'église et découvrir un corps sans vie.
+
+La chambre du prêtre Igorevich était aussi petite et étroite que l'appartement de Nikonov. De nombreux crucifix de cuivre étaient accrochés aux murs palis par le temps. Le papier peint au motif basique était corné au-dessus des plinthes et une odeur moite et asphyxiante — caractéristique des pièces sans fenêtre — contrastait de l'air sec et froid du chœur.
+
+Ivan et Natasha fouillèrent la chambre. Ouvrant le tiroir carré du secrétaire rempli de textes religieux manuscrits, décrochant une croix immense du mur, soulevant le matelas gris et sale du lit du fond, quand en dessous du petit lit simple, Natasha trouva un coffre rouge curieusement sculpté.
+
+« Mon frère, je pense avoir trouvé… »
+
+Nikonov jeta la Bible qu'il tenait entre ses mains et s'agenouilla à côté de sa sœur. Il caressa le haut du coffre comme il l'avait fait deux jours plus tôt avec sa valise remplie d'argent. Cette fois-ci, il n'hésita pas et l'ouvrit.
+
+À l'intérieur, Natasha et son frère posèrent leurs yeux sur un objet atypique comme ils n'en avaient jamais vu. Une brique fine aux rebords plus lisses que le verre. La face qu'ils voyaient reflétait leurs visages mais était pourtant parfaitement noire. Ils en étaient sûrs, il s'agissait de l'artefact.
+
+Nikonov prit l'objet délicatement du bout de ses doigts, il était plus léger qu'un revolver mais plus lourd qu'un canif et de la taille d'une main. Le dos de la brique était plus rugueux que sa face et ne réfléchissait pas leurs visages. Un diamant noir était incrusté sur cette nouvelle face. Nikonov le caressait de son index. 
+
+Sur le côté, Nikonov remarqua une irrégularité, une minuscule protubérance, semblable à une gâchette métallique. Cela ne peut qu'être une arme à feu. 
+
+Nikonov regarda sa sœur qui avait le souffle saccadé, il retourna la brique vers lui et son doigt appuya sur la gâchette.
+
+La brique trembla dans la main de Nikonov ce qui le fit sursauter. C’est une bombe ! 
+
+Natasha et Ivan regardaient incrédules l'artefact alors qu'un tourbillon blanc de lumière était apparu sur sa face. Ce tourbillon fit place à un mélange de couleurs hypnotiques et un son mélodieux semblable à un petit orchestre de trompettes. Ils n'avaient jamais rien vu d'aussi beau. Le son s'estompa et la brique vibra de nouveau. Laissant place à un tableau, plus réel et plus beau que tous les tableaux accrochés dans la demeure de leur tante. Une prairie verte d'un pays inconnu sous un ciel nuageux et clair.
+
+Nikonov et sa sœur restèrent une bonne minute à contempler la brique quand celle-ci redevint noire. C'est à ce moment que des bruits et des paroles se firent entendre. Les invités du baptême faisaient leur entrée dans l'église Saint-Pierre-et-Saint-Paul.
