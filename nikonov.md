@@ -561,7 +561,12 @@ Natasha et Ivan regardaient incrédules l'_artefact_ alors qu'un tourbillon blan
 
 Nikonov et sa sœur restèrent une bonne minute à contempler la brique quand celle-ci redevint noire. C'est à ce moment que des bruits et des paroles se firent entendre. Les invités du baptême faisaient leur entrée dans l'église Saint-Pierre-et-Saint-Paul.
 
+-----
+
+<h1>Troisième partie</h1>
+
 ---
+
 
 <h2 id="nikonov-3-chapitre-1"><a href="#nikonov-3-chapitre-1">Chapitre 1 - Le sang</a></h2>
 
