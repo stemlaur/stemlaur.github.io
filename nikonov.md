@@ -720,11 +720,13 @@ Ivan ne sursauta pas quand l’_artefact_ trembla dans sa main. Le tourbillon bl
 
 Quelque chose troublait ce paysage et recouvrait une partie de l’herbe verte : une forme étrange de couleur grise qu'il n'avait pas remarquée la première fois. Déçu que le paysage soit ainsi souillé, il essaya d’essuyer la brique d’un de ses doigts non ensanglantés. La brique, devint grise à son tour et un homme apparut. Un homme aux cheveux rabattus vers l’arrière, et aux vêtements impeccables, assis devant une table luisante avec derrière lui des images qui se mouvaient. L’homme prit la parole, dans une langue que Nikonov n’arrivait pas à comprendre.
 
-_Mesdames, messieurs, bonsoir. Il s’agit de la septième semaine consécutive de canicule que subit actuellement une majorité des pays du monde. L'Organisation des Nations Unies s’est une nouvelle fois réunie la nuit dernière pour essayer de trouver des solutions face à cette crise économique et sanitaire qui touche plus de huit cents millions de personnes. La Terre fait face à une crise sans précédent qui dépasse tout ce que nous avons pu vivre._
+_Добрый вечер уважаемые зрители!_
 
-_Les écoles sont toujours fermées et la journée d’hier a une nouvelle fois battu des records de morts et d’hospitalisés. Plus de vingt millions de personnes ont perdu la vie suite à des problèmes de déshydratation ou de malnutrition._
+_Это седьмая неделя подряд аномальной жары, которую в настоящее время испытывает большинство стран мира. Вчера вечером Организация Объединенных Наций собралась еще раз, чтобы попытаться найти решения этого экономического кризиса и кризиса здравоохранения, от которого страдают более 800 миллионов человек. Земля столкнулась с беспрецедентным кризисом, который превосходит все, что мы могли испытать._
 
-_Des émeutes. des actes de vandalisme mais parfois aussi des marches pacifiques se multiplient un peu partout dans le monde. Voici par exemple le témoignage d’une habitante de Pékin, en Chine, hier, lors d’un de ces rassemblements._
+_Школы по-прежнему закрыты, а вчера в очередной раз были побиты рекорды по смертности и госпитализации. Более двадцати миллионов человек погибли в результате обезвоживания или недоедания._
+
+_Беспорядки, акты вандализма, а иногда и мирные марши учащаются во всем мире. Например, вот, что рассказывает житель столицы Китая, вчера во время одного из таких собраний._
 
 L’homme aux vêtements impeccables laissa place à une femme très peu habillée et couverte de transpiration qui commença à s’exprimer dans une autre langue inconnue :
 
@@ -734,11 +736,11 @@ Des images de flammes apparurent sous les yeux de Nikonov qui poussa un cri d’
 
 Le présentateur apparut de nouveau sur la brique, secouant nerveusement la tête.
 
-_Dans quelques instants, nous découvrirons le témoignage poignant de personnes à la rue qui essaient par tous les moyens de survivre. Mais avant cela, une petite page de pub et nous reviendrons très vite._
+_Через несколько мгновений мы узнаем о горьких свидетельствах людей на улице, которые всеми средствами пытаются выжить. Но перед этим небольшая рекламная пауза и мы очень скоро вернемся._
 
 L’écran s’assombrit, et des enfants souriants aux vêtements colorés couraient dans une maison aux murs blancs. Une femme qui devait être leur mère buvait de l’eau qui semblait bien fraiche et pure en arborant un sourire de satisfaction.
 
-_Riche en minéraux, l’eau de source Baya aide à la croissance…_
+_Вода из источника Бая, богатая минералами, способствует росту…_
 
 La porte de la chambre s’ouvrit dans un bruit sourd, un policier venait de la défoncer de son épaule et brandissait une arme vers Nikonov.
 
