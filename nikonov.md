@@ -34,6 +34,17 @@ image: /assets/images/posts/nikonov.jpg
     <li><a href="#nikonov-2-chapitre-7">Chapitre 7 - Le miracle</a></li>
     <li><a href="#nikonov-2-chapitre-8">Chapitre 8 - La bombe</a></li>
 </ul>
+    
+<h4>Troisième partie</h4>
+    
+<ul>
+    <li><a href="#nikonov-3-chapitre-1">Chapitre 1 - Le sang</a></li>
+    <li><a href="#nikonov-3-chapitre-2">Chapitre 2 - La bière</a></li>
+    <li><a href="#nikonov-3-chapitre-3">Chapitre 3 - Le retour</a></li>
+    <li><a href="#nikonov-3-chapitre-4">Chapitre 4 - La fin…</a></li>
+    <li><a href="#nikonov-3-chapitre-5">Chapitre 5 - … des temps</a></li>
+    <li><a href="#nikonov-3-chapitre-6">Chapitre 6 - L’épilogue</a></li>
+</ul>
 
 ---
 
@@ -166,7 +177,7 @@ Le serveur accompagna la bouteille de petits hors-d'œuvre au saumon. Nikonov ne
 « Nikonov, commença Davidovitch, je vois bien que tu es en difficulté. 
 Je ne peux pas deviner ce qui a pu se passer dans ta vie pour que tu en arrives à mendier dans la rue. 
 Oui, je t’ai vu mendier le long du fleuve. Ne rougis pas. J’aimerais pouvoir t’aider, au souvenir du bon vieux temps. 
-Je suis à la recherche… hum...  d’un objet. Un objet rare qui nécessite une personne de confiance, et je souhaiterais que tu m’aides pour l’obtenir. 
+Je suis à la recherche… hum…  d’un objet. Un objet rare qui nécessite une personne de confiance, et je souhaiterais que tu m’aides pour l’obtenir. 
 Pourquoi te ferais-je confiance ? Pourquoi ne pourrais-je pas aller le chercher moi-même ? 
 Ces questions doivent rester sans réponses pour le moment. 
 Vois-tu, le périple sur lequel je souhaite que tu t’engages dépasse l’imagination ou le bon sens. Je te paierai évidemment. 
@@ -210,7 +221,7 @@ Ils entrèrent dans le grand salon, leur mère Malinina était allongée sur le 
 
 <h2 id="nikonov-1-chapitre-5"><a href="#nikonov-1-chapitre-5">Chapitre 5 - Le diable</a></h2>
 
-« Je suis le diable, Satan, Lucifer, appelle-moi comme tu le souhaites. Ne sois pas effrayé, je ne te ferai aucun mal. Seulement je ne suis de passage que pour un certain... temps.
+« Je suis le diable, Satan, Lucifer, appelle-moi comme tu le souhaites. Ne sois pas effrayé, je ne te ferai aucun mal. Seulement je ne suis de passage que pour un certain… temps.
 
 « Vois-tu, l’ami que tu avais, Lavrentiy Nikolai Davidovitch, n’est plus dans notre monde. Il y a quelques mois, je suis monté ici haut dans un objectif bien précis. Trouver… hum… c’est encore trop tôt pour en parler… Mais j’ai pris possession du corps de Davidovitch, ainsi que de ses souvenirs et j'erre depuis ce temps dans les rues de Saint-Pétersbourg à la recherche d’une personne pouvant m’aider. Une personne de confiance. Une connaissance, un ami.
 
@@ -314,8 +325,6 @@ Nikonov, sauta sur le vieil homme et le roua de coups au visage jusqu’à ce qu
 
 Le prêtre Igorevich parcourait les livres de sa bibliothèque, cherchant un exemplaire d’un ouvrage historique portant sur la traite des esclaves au sein de l’Empire russe ayant eu lieu quelques siècles plus tôt. Sujet qu’il fantasmait et à propos duquel il adorait porter des analogies douteuses lors de ses homélies du dimanche.
 
-<!--more-->
-
 Il tomba sur un ouvrage le satisfaisant et l’amena avec lui vers son bureau pour préparer le texte qu’il allait réciter devant son auditoire ce dimanche, dans l’église Saint-Pierre-et-Saint-Paul. Il prit une plume d’oie, la trempa dans de l’encre noire et commença, inspiré par les atrocités portées à son peuple dans une époque qui semblait pourtant si lointaine.
 
 « Chers frères et sœurs, chers enfants, le diable est remonté sur terre. Ce diable qui a, pendant des siècles, enfermé nos camarades dans des camps, maltraité nos femmes et nos enfants, tué nos soldats et nos proches. Ce diable est parmi nous, il nous ressemble et nous ment tous les jours.
@@ -330,7 +339,7 @@ Igorevich posa sa plume en manque d’inspiration. Il avait très faim, et il é
 
 Le prêtre fronça les sourcils. Quelle impolitesse ! Interrompre un homme de Dieu sur le point de manger, c’était un honteux sacrilège pour lui. Il se tourna et vit le visage familier qui l’observait.
 
-« Ah… Docteur Anatolievich… que me vaut ce détour chez moi… N’étiez-vous pas supposé être chez la pauvre Malinina souffrante ? Comment va-t-elle... grommela Igorevich, bien mécontent d’utiliser sa bouche à autre chose qu’à mastiquer des myrtilles.
+« Ah… Docteur Anatolievich… que me vaut ce détour chez moi… N’étiez-vous pas supposé être chez la pauvre Malinina souffrante ? Comment va-t-elle… grommela Igorevich, bien mécontent d’utiliser sa bouche à autre chose qu’à mastiquer des myrtilles.
 
 — Je viens vous annoncer une triste nouvelle, il semblerait que la fille de cette pauvre femme m’ait appelé bien trop tard. La patiente est décédée quelque temps après mon arrivée, voyez-vous je n’ai même pas eu le temps de vous appeler pour vous demander d’appliquer l’extrême-onction.
 
@@ -392,7 +401,7 @@ Ses pas résonnaient dans le choeur alors qu’il allumait les bougies de neuvai
 
 Elle simula une quinte de toux pour annoncer sa présence, Igorevich leva la tête et s’arrêta net.
 
-« Oh ! bonjour, mademoiselle… Natasha... c’est bien cela ? Allez-vous participer aux baptêmes ? Vous êtes bien en avance, la cérémonie n’aura lieu que dans une heure...
+« Oh ! bonjour, mademoiselle… Natasha… c’est bien cela ? Allez-vous participer aux baptêmes ? Vous êtes bien en avance, la cérémonie n’aura lieu que dans une heure…
 
 — Mon père, j’ai besoin de me confesser, je comprends que vous soyez bien occupé, seulement cela ne peut plus attendre, des jours et des jours passent depuis la mort de ma mère, et je n’ai pas eu le courage de venir vous rencontrer. Il le faut cependant, je dois confesser mes fautes auprès de notre père tout-puissant ou je n’obtiendrai jamais la rédemption. »
 
@@ -508,11 +517,11 @@ Le prêtre Igorevich fronçait les sourcils, mal à l’aise face à cette brebi
 
 « Je n’ai pas parlé du diable à mon frère Ivan, Davidovitch me l’avait défendu et, de toute façon, il m’aurait pris pour une folle. Nous avons tous les deux assisté aux derniers instants de ma mère. Et je n’ai plus revu Davidovitch pendant des semaines.
 
-« C’est il y a quelques jours qu’il est réapparu dans ma vie, mon père, il est venu dans ma chambre une nouvelle fois pour que j’aille lui chercher ce qu’il a appelé l'artefact dans cette église de Saint-Pierre-et-Saint-Paul… »
+« C’est il y a quelques jours qu’il est réapparu dans ma vie, mon père, il est venu dans ma chambre une nouvelle fois pour que j’aille lui chercher ce qu’il a appelé l'_artefact_ dans cette église de Saint-Pierre-et-Saint-Paul… »
 
 À ces mots, les yeux de prêtre Igorevich s’écarquillèrent. Il balbutia quelques mots sous le choc :
 
-« Ce n’est pas possible, vous mentez ! Comment avez-vous entendu parlé de cet artefact ? »
+« Ce n’est pas possible, vous mentez ! Comment avez-vous entendu parlé de cet _artefact_ ? »
 
 « Il a menacé de tuer mon frère à son tour si je ne le récupérais pas, je suis désolée, mon frère est tout ce qu’il me reste au monde, pardonnez-moi mon père pardonnez-moi. »
 
@@ -538,7 +547,7 @@ Ivan et Natasha fouillèrent la chambre. Ouvrant le tiroir carré du secrétaire
 
 Nikonov jeta la Bible qu'il tenait entre ses mains et s'agenouilla à côté de sa sœur. Il caressa le haut du coffre comme il l'avait fait deux jours plus tôt avec sa valise remplie d'argent. Cette fois-ci, il n'hésita pas et l'ouvrit.
 
-À l'intérieur, Natasha et son frère posèrent leurs yeux sur un objet atypique comme ils n'en avaient jamais vu. Une brique fine aux rebords plus lisses que le verre. La face qu'ils voyaient reflétait leurs visages mais était pourtant parfaitement noire. Ils en étaient sûrs, il s'agissait de l'artefact.
+À l'intérieur, Natasha et son frère posèrent leurs yeux sur un objet atypique comme ils n'en avaient jamais vu. Une brique fine aux rebords plus lisses que le verre. La face qu'ils voyaient reflétait leurs visages mais était pourtant parfaitement noire. Ils en étaient sûrs, il s'agissait de l'_artefact_.
 
 Nikonov prit l'objet délicatement du bout de ses doigts, il était plus léger qu'un revolver mais plus lourd qu'un canif et de la taille d'une main. Le dos de la brique était plus rugueux que sa face et ne réfléchissait pas leurs visages. Un diamant noir était incrusté sur cette nouvelle face. Nikonov le caressait de son index. 
 
@@ -548,6 +557,230 @@ Nikonov regarda sa sœur qui avait le souffle saccadé, il retourna la brique ve
 
 La brique trembla dans la main de Nikonov ce qui le fit sursauter. C’est une bombe ! 
 
-Natasha et Ivan regardaient incrédules l'artefact alors qu'un tourbillon blanc de lumière était apparu sur sa face. Ce tourbillon fit place à un mélange de couleurs hypnotiques et un son mélodieux semblable à un petit orchestre de trompettes. Ils n'avaient jamais rien vu d'aussi beau. Le son s'estompa et la brique vibra de nouveau. Laissant place à un tableau, plus réel et plus beau que tous les tableaux accrochés dans la demeure de leur tante. Une prairie verte d'un pays inconnu sous un ciel nuageux et clair.
+Natasha et Ivan regardaient incrédules l'_artefact_ alors qu'un tourbillon blanc de lumière était apparu sur sa face. Ce tourbillon fit place à un mélange de couleurs hypnotiques et un son mélodieux semblable à un petit orchestre de trompettes. Ils n'avaient jamais rien vu d'aussi beau. Le son s'estompa et la brique vibra de nouveau. Laissant place à un tableau, plus réel et plus beau que tous les tableaux accrochés dans la demeure de leur tante. Une prairie verte d'un pays inconnu sous un ciel nuageux et clair.
 
 Nikonov et sa sœur restèrent une bonne minute à contempler la brique quand celle-ci redevint noire. C'est à ce moment que des bruits et des paroles se firent entendre. Les invités du baptême faisaient leur entrée dans l'église Saint-Pierre-et-Saint-Paul.
+
+---
+
+<h2 id="nikonov-3-chapitre-1"><a href="#nikonov-3-chapitre-1">Chapitre 1 - Le sang</a></h2>
+
+Les premiers paroissiens avançaient dans la nef centrale, tous vêtus de leurs plus beaux vêtements. Deux mères poussaient des landaus, leurs capotes fermées empêchaient les rayons du soleil d’aveugler les bambins qui dormaient paisiblement malgré le brouhaha des adultes et le chahut des enfants. Ils avançaient doucement sans remarquer le sang qui coulait sur le sol en marbre du bras de transept.
+
+Nikonov passa sa tête à travers la porte de la chapelle sud, guettant l’arrivée de la troupe de croyants vers le corps. Un bambin d’une dizaine d’années accourut et poussa un cri.
+
+« Papa ! Mama ! Regardez ! »
+
+Il pointait du doigt un chat noir qui lapait le sang où, quelques minutes auparavant gisait le corps du prêtre. Nikonov en était sûr, il ne s’agissait pas du même chat noir qu’il avait croisé dans son appartement quelques jours plus tôt. Celui-ci était plus rond, avec des taches blanches au bout des oreilles. Igorevich avait disparu à son tour. 
+
+Nikonov et sa sœur sortirent de la chambre discrètement, passèrent à côté du bras sud et longèrent le bas-côté de l’église.
+
+« Oh ! Regarde Mama, comme il est mignon ce petit chat ! »
+
+Des gloussements d’amusement couvrir les pas des deux frère et sœur alors qu’ils arrivaient à l’entrée où de majestueux bénitiers en marbre — que le prêtre n’avait pas eu le temps de remplir et dans lesquels les paroissiens posaient leurs doigts, et, pris de dépits de le savoir vide, faisaient mécaniquement le signe de croix — indiquaient l'entrée de la maison de Dieu.
+
+Des grains de riz s'étalaient sur le sol aux motifs de rosaces aux couleurs prune et cendrées. Le mariage de la veille laissait ses traces blanches, des traces d’un bonheur éphémère que Nikonov n’avait plus vécu depuis trop longtemps.
+
+Près d’une table, de petites taches rouges suivaient un chemin tortueux vers l’entrée principale. À la vue du sang, Nikonov déglutit et fut pris d’un haut-le-cœur. Igorevich était encore en vie et trainait dans les parages. Natasha tira sur la lourde porte d’entrée qui s’ouvrit, laissant passer les reflets dorés du soleil de midi. Dehors, une ombre, une silhouette un visage. Le prêtre Igorevitch attendait.
+
+Nikonov brandit son arme en direction de l’homme aux mains ensanglantées.
+
+« Êtes-vous le disciple de Davidovitch ? »
+
+Igorevitch secoua sa tête. Il s’avança lentement vers l’entrée de l’église. 
+
+« N’avancez plus, ou je vous tire dessus !
+
+— Miséricorde ! Vous tireriez sur un homme de Dieu sans lui laisser sa chance de s’expliquer... »
+
+Un pressentiment étrange poussa Nikonov à baisser son arme alors que sa sœur lui implorait de tirer.
+
+« Je m’appelle Razin Yuriy Igorevitch, je suis prêtre dans cette église Saint-Pierre-et-Saint-Paul depuis bien avant votre naissance. J’imagine que vous êtes Ivan, le frère de Natasha. Je vous demande de m’écouter attentivement avant de me tirer dessus car je pense que vous avez été dupés. Voyez-vous, je suis de votre côté, je suis un serviteur de Dieu, le tout-puissant. Je suis le gardien de l’ordre. Je sais que vous êtes en possession d’un objet qui m’appartient, et qui ne doit pas quitter ce lieu saint.
+
+« Vous avez tous les deux été possédés, influencés et tentés par ce diable... Davidovitch... comme l’a mentionnée votre soeur. Un être perfide, prêt à tout pour arriver à ses fins. Mais je vous le conjure, je vous l’implore...  Écoutez-moi, quoique vous ait promis cet abominable monstre, soyez sûrs que ce ne sont que mensonges et manipulations.
+
+« L’objet que vous m’avez volé n’appartient pas à ce monde, et ne doit pas en ressortir. Le diable ne peut pas s’en emparer tant qu’il se trouve dans l’église, voilà pourquoi je vous implore de me le rendre. S’il venait à avoir la main dessus… »
+
+Une détonation retentit, Nikonov vit le prêtre tomber raide mort, la tête défigurée d’une balle de revolver entre les yeux. Il était tétanisé, il le savait sa sœur venait de tirer. Il baissa la tête, résigné.
+
+« Natasha... »
+
+Il prononçait le nom de sa sœur qui n’était plus de ce monde. À côté de lui, Satan ne bougeait pas, un sourire méprisant tailladait son visage en deux.
+
+
+---
+
+<h2 id="nikonov-3-chapitre-2"><a href="#nikonov-3-chapitre-2">Chapitre 2 - La bière</a></h2>
+
+Le vent était rude dans la rue principale face au port. Un oméga et une alpha buvaient un verre sur une terrasse, enveloppés de vêtements chauds. Leurs doigts rougis par le froid tenaient des chopes à moitié vide de bières tièdes que leur avait amené un barman acariâtre. Le silence s’imposait à eux comme une douce musique un jour d’enterrement. Ils communiquaient sans ouvrir leurs bouches, sans gestes, sans regards.
+
+_« Voilà que la vie sur terre touche à sa fin. Bientôt, la race humaine aura complètement disparu. La folie l’a emporté, et il n’y aura plus de retour en arrière. Tu le sais, si nous ne faisons rien, toi et moi n’aurons que des remords pour la fin des temps. »_
+
+L’oméga ne regardait pas son interlocutrice, perdu vers l’horizon à regarder les vagues s’abattre contre le quai. Aucun oiseau n’admirait le spectacle de la nature se déchaînant contre la pierre.
+
+_« Nous devons tout arranger, prévenir les hommes de leur folie, leur envoyer un signe. Nous sommes ennemis, mais nous ne formons qu’un tout. Quand l’humanité s’éteindra, nous disparaitrons à notre tour. S’il n’y a plus personne pour croire en nous, nous n’existons plus. »_
+
+L’oméga leva son verre à sa bouche et se rinça le gosier, et après un long moment brisa son silence.
+
+_« Tu n’es vraiment qu’une merde. Chacun de tes mots, chacun de tes gestes me donne du dégoût. Et pourtant, je ne peux que me résigner à penser que tu as raison. Cela me fait gerber, ton existence me fait gerber, mais ça ne change rien : tu as raison. »_
+
+Il finit sa chope et sans avoir à émettre un son, le serveur vint lui en ramener une autre pleine. L’alchimiste dégusta la première gorgée : un mélange subtil d’orge et de café. Il grimaça un peu, comme trop rapidement comblé d’un plaisir éphémère, dès cet instant, il ne retrouverait plus dans le reste de sa bière ce même plaisir.
+
+L’alpha attendit que le plaisir passât. Et continua :
+
+_« Si les autres de ton côté découvrent la supercherie, ils feront tout pour l’empêcher. Je compte sur toi pour rester discret, il ne faut pas éveiller les soupçons. Tu ne devras pas perdre quelque chose de trop flagrant, trop voyant. Quelque chose de simple et qui n’éveillera pas les soupçons._
+
+_« Sais-tu où tu comptes l’amener ? En fait, ne me dit rien, il vaut mieux pour moi que tu gardes secret tout ça._ Elle trempa ses lèvres dans la bière. _Nous sommes allés trop loin dans notre guerre, je ne pensais pas que nous en arriverions là, toi et moi, à comploter contre nos pairs. »_
+
+L’oméga perdait patience, rester aussi longtemps à parler avec cette alpha lui donnait des spasmes de rage que seule la bière pouvait adoucir. 
+
+_« Tu me prends pour qui ? Je l'amènerai suffisamment loin pour avoir la possibilité de tout changer, mais pas trop quand même pour que cela soit compris. Bah, vous autre avec votre arrogance, vous prenez tout le monde pour des débiles. Tu me ressembles parfois. » Il avait dit la dernière phrase pour la blesser, sans succès._
+
+L’oméga trinqua à lui-même et but cul sec le reste de sa chope et disparut sans dire au revoir. L’alpha resta longtemps à cette table face au port. Se disant que, peut-être, tout finirait par s’arranger.
+
+
+---
+
+<h2 id="nikonov-3-chapitre-3"><a href="#nikonov-3-chapitre-3">Chapitre 3 - Le retour</a></h2>
+
+La veille, Natasha attendait l’heure du souper dans sa chambre quand un vent glacial lui caressa l’échine. Deux battements vifs et secs se firent entendre sur la porte de sa chambre. Elle l’ouvrit et mit ses mains à sa bouche de surprise.
+
+« Davidovitch ! Vous êtes partis tellement longtemps ! Oh, j’ai cru ne plus jamais vous revoir ! J’ai tant espéré vous rencontrer à l’enterrement de ma mère. J’étais tellement triste et j’avais plus que tout besoin de vous. »
+
+Satan entra dans la pièce, s’assit sur le lit en croisant les jambes, les mains posées sur les cuisses en la scrutant. Il attendait qu’elle finisse de s’exprimer.
+
+« Vous êtes parti pendant des semaines, après m’avoir raconté des histoires à dormir debout. J’ai longtemps voulu tout raconter à Ivan, et maintenant, lui aussi a disparu. Dieu tout-puissant, dites quelque chose ! »
+
+Il sourit, amusé que l’on puisse imaginer que Dieu fut tout-puissant. Il ne cachait plus son arrogance, le temps était arrivé pour lui d’accéder à ses fins. 
+
+« Natasha Anouska Nikonova — elle sursauta en entendant son fiancé l’appeler ainsi pour la première fois — vous n’êtes qu’un pion parmi tant d’autres dans ce jeu. Et pourtant, vous allez avoir la chance de m’aider. Cette opportunité, je vous l’offre par sympathie, je n’ai plus réellement besoin de vous. Voyez-vous, j’ai trouvé en votre frère une aide inestimable, mais afin de m’assurer que tout se déroule comme il le faut, votre aide ne serait pas de refus. »
+
+Natasha fronça les sourcils, s’en était trop, son fiancé était fou. Elle serra les poings.
+
+« Voilà ce que vous allez faire. Demain matin, vous allez vous rendre dans l’église Saint-Pierre-et-Saint-Paul pour rencontrer le prêtre Igorevich. Je soupçonne ce serviteur de Dieu d’avoir en sa possession un objet qui m'est d’une grande valeur et que je dois récupérer et que je nommerai l'_artefact_. 
+
+« Bref, c’est très simple, vous allez voir. Je vous demande de le tuer et de récupérer cet objet. Ne vous mettez pas dans cet état, votre frère devrait arriver peu après, et il vous aidera à chercher l’_artefact_. Ou il pourrait même vous aider à le tuer si vous avez des difficultés pour y arriver. 
+
+« Voyez-vous, je suis capable de beaucoup de choses, mais tuer un serviteur de Dieu dans une église, je n’en suis pas capable ; pas que je n’en ai aucunement envie (j’en serai ravi), mais cela m’est impossible, je ne vaux pas mieux qu'un homme dans une église. Et de toute façon, si vous ne tuez pas ce prêtre, soyez certaine que votre frère s’en chargera. Il est envoyé spécifiquement pour récupérer l’objet que je convoite et, connaissant Igorevich, il ne se laissera pas faire.
+
+« Vous êtes particulièrement agitée, ce qui est normal. Vous êtes agitée parce que vous savez que je dis la vérité. Je vous le promets, si tout se passe comme prévu, vous retrouverez votre mère et votre tante. Je les ferai revenir à la vie aussi simplement que je leur ai ôté...»
+
+S’en était trop, rouge de colère Natasha s’arrêta net et après de longues inspirations et avec ses yeux injectés de sang, elle annonça :
+
+« Davidovitch, je ne vous crois pas. Mes feues mère et tante sont mortes et rien ne les ramènera. Jamais je ne tuerai pour vous, et je ferai tout ce qui est en mon pouvoir pour vous empêcher de nuire. Jamais, vous entendez ? JAMAIS je ne tuerai ou ne laisserai mon frère commettre un crime. Si vous êtes Satan comme vous le dites, vous  allez devoir me tuer à mon tour. Parce-que…
+
+Elle s’arrêta, mit ses mains à sa gorge, étouffant. Elle tomba sur le sol, son corps gesticulant sous le manque d’air dans ses poumons. Elle regardait Davidovitch, le suppliant d’une main tendue vers lui de lui rendre son souffle.
+
+« Ah… Natasha… Tu auras été plus forte et obstinée que ton frère. Tant pis. »
+
+Il la regarda s’étouffer. Toujours les jambes croisées et les mains sur les cuisses. 
+
+« Il ne me reste plus qu’à faire le travail tout seul, vois-tu, tu es en train de mourir pour rien. Xa-xa ! Et moi qui, pour une fois, avait décidé d’être clément ! Cela ne se reproduira plus ! »
+
+Alors que la vie l’avait juste quittée, Davidovitch prit possession de son corps, se releva du sol et prépara son plan pour le lendemain.
+
+
+---
+
+<h2 id="nikonov-3-chapitre-4"><a href="#nikonov-3-chapitre-4">Chapitre 4 - La fin…</a></h2>
+
+« Ivan Volodia Nikonov ! Je crois me souvenir que tu as gardé l’_artefact_ avec toi, quel plaisir ai-je pris à te voir en découvrir ses rouages tout à l’heure. C’est un bel objet, n’est-ce pas ? Tu n’as jamais rien vu de pareil. D’ailleurs, tu es le seul être encore vivant sur terre à l’avoir vu fonctionner. Seulement, il est temps pour toi de me le remettre et ton voyage pourra s’arrêter. »
+
+Nikonov recula de quelques pas, l’_artefact_ à la main. Un pressentiment le persuadait qu’il serait en sécurité dans la maison de Dieu.
+
+« Ton pacte incessible arrive à sa fin, bientôt je rendrai la vie à ceux que tu aimes. Oh ! Ta sœur aussi, bien évidemment, tout ce que tu as besoin de faire c’est de me donner cet _artefact_ et je le ramènerai là d’où il vient. »
+
+Nikonov continuait de reculer. Des gouttes perlaient sur son front, et la vue de sa sœur qui bougeait comme un pantin le déstabilisait. Ses pieds marchèrent sur des grains de riz. Il soupira.
+
+« Davidovitch, c’en est fini. Je ne souhaite plus t’écouter. C’en est trop. Je ne te donnerai pas ce que tu souhaites. J’ai compris maintenant que jamais je ne reverrai ma famille, et que rien ne saurait les faire revenir. Tue-moi, je sais que tu en as le pouvoir. Mais je ne te donnerai plus raison. »
+
+Un peu déçu, Davidovitch grimaça. _Ainsi soit-il_. Il regarda Nikonov dans le fond de ses yeux.
+
+Il resta quelques instants le regard intense, mais rien n’arriva. Il fronça les sourcils. Nikonov comprit son désarroi et recula un peu plus dans l’église Saint-Pierre-et-Saint-Paul où les paroissiens s'impatientaient de l’arrivée du prêtre.
+
+Davidovitch secoua la tête, exaspéré de n’avoir aucun pouvoir sur lui. Il roula des yeux et courut les bras tendus vers le cou de Nikonov. Ce dernier l'esquiva et courut plus profondément dans l’église. Il fit tomber un des enfants qui jouait à l’équilibriste sur une des chaises en bois de la nef centrale. Conscient de son impuissance, Davidovitch brandit son arme à feu vers Nikonov et tira. La balle atterrit contre un pilier du bas-côté derrière lequel Nikonov s’était abrité. La foule de paroissiens s'éparpilla sous des cris de terreur dans les quatre coins de l’église.
+
+Satan avançait d’un pas lent, l’arme tendue. Nikonov chercha compulsivement son arme à feu qu’il ne trouvait plus. Davidovitch avança dangereusement en contournant l’allée sud de l’église et arriva dans sa direction. Il tira sur Nikonov qui poussa un cri d’effroi.
+
+Un ange apparut qui tira à son sur Davidovitch. 
+
+Avant de mourir une seconde fois, elle balbutia ces derniers mots :
+
+« Ivan, tu ne dois pas empêcher la fin... »
+
+---
+
+<h2 id="nikonov-3-chapitre-5"><a href="#nikonov-3-chapitre-5">Chapitre 5 - … des temps</a></h2>
+
+Les paroissiens avançaient vers le corps de Davidovitch. La mère du jeune meurtrier enlaçait son fils qui pleurait de toutes les larmes de son corps. Profitant de l’incrédulité de cette foule de croyants, Nikonov s’éloigna vers la chambre d’Igorevich où il attendrait l’arrivée de la police. Il entendait des passants qui découvraient le corps sans vie du prêtre à l’entrée de l’église. Pour Nikonov, tout cela n’avait plus d’importance, il venait de se faire tirer dessus et trois des doigts de sa main droite avaient été arrachés par la balle.
+
+Dans la chambre, il ferma la porte à clé derrière lui, s’allongea sur le lit et décida de revoir une dernière fois la prairie verte sous son ciel nuageux et clair. Il sortit l’_artefact_ de sa main gauche, et, avec son index restant, enclencha la gâchette de ce qu’il croyait être une bombe, espérant mourir à son tour après avoir assisté à la destruction de tout ce qui lui était cher.
+
+Ivan ne sursauta pas quand l’_artefact_ trembla dans sa main. Le tourbillon blanc de lumière dansait comme les rayons de soleil sur de l’eau claire. La tornade immaculée fit ensuite place à un arc-en-ciel de couleurs enivrantes lui rappelant les feux d’artifice de la fête du printemps. La musique de petit orchestre festif clôtura le spectacle d’entrée. Il ne restait plus qu’à attendre et d’admirer la prairie verdoyante. La brique vibra de nouveau, Nikonov fronça les sourcils.
+
+Quelque chose troublait ce paysage et recouvrait une partie de l’herbe verte : une forme étrange de couleur grise qu'il n'avait pas remarquée la première fois. Déçu que le paysage soit ainsi souillé, il essaya d’essuyer la brique d’un de ses doigts non ensanglantés. La brique, devint grise à son tour et un homme apparut. Un homme aux cheveux rabattus vers l’arrière, et aux vêtements impeccables, assis devant une table luisante avec derrière lui des images qui se mouvaient. L’homme prit la parole, dans une langue que Nikonov n’arrivait pas à comprendre.
+
+_Добрый вечер уважаемые зрители!_
+
+_Это седьмая неделя подряд аномальной жары, которую в настоящее время испытывает большинство стран мира. Вчера вечером Организация Объединенных Наций собралась еще раз, чтобы попытаться найти решения этого экономического кризиса и кризиса здравоохранения, от которого страдают более 800 миллионов человек. Земля столкнулась с беспрецедентным кризисом, который превосходит все, что мы могли испытать._
+
+_Школы по-прежнему закрыты, а вчера в очередной раз были побиты рекорды по смертности и госпитализации. Более двадцати миллионов человек погибли в результате обезвоживания или недоедания._
+
+_Беспорядки, акты вандализма, а иногда и мирные марши учащаются во всем мире. Например, вот, что рассказывает житель столицы Китая, вчера во время одного из таких собраний._
+
+L’homme aux vêtements impeccables laissa place à une femme très peu habillée et couverte de transpiration qui commença à s’exprimer dans une autre langue inconnue :
+
+_全球变暖问题敲响警钟已有十余年之久，政客们只关注游说集团和大型公司是否盈利。看看我们现在身处何种境地！我们的孩子和父母每天都在死去，却没有人能为之做些什么！家园的森林被焚烧，作为地球之肺的亚马逊古陆在几天内就骤减10%， 我们会为此付出生命的代价。_
+
+Des images de flammes apparurent sous les yeux de Nikonov qui poussa un cri d’horreur. Des kilomètres et des kilomètres d’arbres se consumaient sous ses yeux. Nikonov voulait sortir de la chambre du prêtre pour regarder le ciel dehors et s’assurer de ne pas y voir de fumée.
+
+Le présentateur apparut de nouveau sur la brique, secouant nerveusement la tête.
+
+_Через несколько мгновений мы узнаем о горьких свидетельствах людей на улице, которые всеми средствами пытаются выжить. Но перед этим небольшая рекламная пауза и мы очень скоро вернемся._
+
+L’écran s’assombrit, et des enfants souriants aux vêtements colorés couraient dans une maison aux murs blancs. Une femme qui devait être leur mère buvait de l’eau qui semblait bien fraiche et pure en arborant un sourire de satisfaction.
+
+_Вода из источника Бая, богатая минералами, способствует росту…_
+
+La porte de la chambre s’ouvrit dans un bruit sourd, un policier venait de la défoncer de son épaule et brandissait une arme vers Nikonov.
+
+« Ne bougeait pas ! C’est la police, vous êtes soupçonné du meurtre de deux personnes, ne faites aucun geste ou nous ouvrirons le feu. »
+
+Nikonov leva les bras au ciel, tenant l’_artefact_ dans la main. 
+
+« Lâchez cet objet tout de suite — l’_artefact_ se mit à trembler ce qui sema la panique dans les rangs — lâcher cette bombe ou je tire ! 
+
+— Attendez, ce n’est pas une bombe ! Je ne comprends pas ce que cela dit mais ça semble important ! Ne tirez pas ! »
+
+Nikonov tourna la brique vers le policier et appuya sur la gâchette pour essayer de faire apparaître l’homme aux cheveux impeccables. Pris de panique, le policier tira. Nikonov s’écroula, l’_artefact_ tomba sur le sol dans un fracas de verre. Une image de la femme buvant de l’eau clignota avant de disparaitre à jamais.
+
+Nikonov était et resterait le seul et unique témoin  des images atroces d'une humanité inconsciente d'être condamnée.
+
+Nikonov repensa une dernière fois aux jardins du bord du fleuve de la Moskova et il se dit qu’il serait bien triste qu'ils ne disparaissent sous les flammes de l'enfer.
+
+
+---
+
+<h2 id="nikonov-3-chapitre-6"><a href="#nikonov-3-chapitre-6">Chapitre 6 - L'épilogue</a></h2>
+
+Ivan Volodia Nikonov était riche. Pas de cette richesse absurde qui enjalouse les braves gens. Mais vraiment riche. Une richesse de l'âme, indescriptible et salvatrice qu’on appelle la conscience. 
+
+Ces gens ont pour meilleure possession leurs souvenirs qu’ils chérissent et protègent de toute leur force. Quand on devient aussi conscient que Nikonov l’était à ce moment-là, on chérit la vraie valeur du désir, des rêves ou de l’espoir. On se moque de sa paume ensanglantée, de ses doigts découpés, ou de ses ongles arrachés, du moment qu'on est conscient de la vérité.
+
+Mourant sur le matelas gris et sale, Nikonov ne pouvait supporter l’affreuse ignorance des gens autour de lui.
+
+Cette femme dans l’église devait se demander quand les secours arriveraient puisqu’elle regardait compulsivement sa montre à boucle papillon. Elle portait avec tristesse son petit nourrisson, pleurant de tout son être.
+
+Cet homme, aux favoris gris, traversait à vive allure la nef centrale, ses gestes rapides et ses paroles sans concessions laissaient penser qu’il venait pour enquêter de manière officielle. Son pantalon fuselé n’était pas assorti avec sa redingote trop grande mais les passants dans l'église l'écoutaient comme s'il était le messie.
+
+Ces nonnes, imbues d’elles-mêmes, se signaient en priant en silence ; tenaient une bible aux reliures en maroquin et aux ornements d’or. Leurs soutanes noires sans effilures traînaient dans la poussière. La croix autour de leur cou était en bois.
+
+Nikonov ferma les yeux et ne dit plus un mot. Il quittait un monde rempli de meurtres gratuits, de terreur permanente, de pêchers vite pardonnés, de vanité puérile, de mensonges infâmes, de jalousies mesquines, de médisance, d'assentiments, de bêtise humaine, de persécution ; pour rejoindre la paix du silence éternelle.
+
+Sa perspective sur le monde l'avait changé à jamais. Son esprit pour toujours resterait tranquille.
+
+On peut le dire sans se tromper, aux derniers instants de sa vie, Ivan Volodia Nikonov _était_ riche.
+
+-----
+
+<h4 class="text-center">FIN</h4>
