@@ -709,6 +709,9 @@ Satan avançait d’un pas lent, l’arme tendue. Nikonov chercha compulsivement
 
 Un ange apparut qui tira à son tour sur Davidovitch. 
 
+Il s’agissait en fait d’un des gamins — celui qui avait aperçu le chat — qui avait ramassé l’arme sur le sol et avait tiré en direction du coup de feu, les yeux fermés de frayeur. Davidovitch, surpris de la douleur qu’il ressentait, lâcha son arme et s’écroula. Nikonov s’avança vers le corps pris de convulsions qui était encore quelques jours auparavant celui de sa sœur. La balle du revolver avait atteint la joue droite du visage doux et tendre du corps de Natasha.
+
+
 Avant de mourir une seconde fois, elle balbutia ces derniers mots :
 
 « Ivan, tu ne dois pas empêcher la fin... »
