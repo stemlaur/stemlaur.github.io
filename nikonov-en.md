@@ -9,8 +9,6 @@ image: /assets/images/posts/nikonov.jpg
 
 ---
 
-### Table des matières
-
 <h2>Poverty</h2>
 
 Volodya Nikonov was poor. Not that glaring poverty that melts the hearts of old ladies, but really poor. A filthy, repulsive and unjust poverty that turns the stomach.
