@@ -551,7 +551,7 @@ Nikonov jeta la Bible qu'il tenait entre ses mains et s'agenouilla à côté de 
 
 Nikonov prit l'objet délicatement du bout de ses doigts, il était plus léger qu'un revolver mais plus lourd qu'un canif et de la taille d'une main. Le dos de la brique était plus rugueux que sa face et ne réfléchissait pas leurs visages. Un diamant noir était incrusté sur cette nouvelle face. Nikonov le caressait de son index. 
 
-Sur le côté, Nikonov remarqua une irrégularité, une minuscule protubérance, semblable à une gâchette métallique. Cela ne peut qu'être une arme à feu. 
+Sur le côté, Nikonov remarqua une irrégularité, une minuscule protubérance, semblable à une gâchette métallique. _Cela ne peut qu'être une arme à feu._ 
 
 Nikonov regarda sa sœur qui avait le souffle saccadé, il retourna la brique vers lui et son doigt appuya sur la gâchette.
 
@@ -707,7 +707,7 @@ Davidovitch secoua la tête, exaspéré de n’avoir aucun pouvoir sur lui. Il r
 
 Satan avançait d’un pas lent, l’arme tendue. Nikonov chercha compulsivement son arme à feu qu’il ne trouvait plus. Davidovitch avança dangereusement en contournant l’allée sud de l’église et arriva dans sa direction. Il tira sur Nikonov qui poussa un cri d’effroi.
 
-Un ange apparut qui tira à son sur Davidovitch. 
+Un ange apparut qui tira à son tour sur Davidovitch. 
 
 Avant de mourir une seconde fois, elle balbutia ces derniers mots :
 
