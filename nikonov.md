@@ -586,7 +586,7 @@ Des gloussements d’amusement couvrir les pas des deux frère et sœur alors qu
 
 Des grains de riz s'étalaient sur le sol aux motifs de rosaces aux couleurs prune et cendrées. Le mariage de la veille laissait ses traces blanches, des traces d’un bonheur éphémère que Nikonov n’avait plus vécu depuis trop longtemps.
 
-Près d’une table, de petites taches rouges suivaient un chemin tortueux vers l’entrée principale. À la vue du sang, Nikonov déglutit et fut pris d’un haut-le-cœur. Igorevich était encore en vie et trainait dans les parages. Natasha tira sur la lourde porte d’entrée qui s’ouvrit, laissant passer les reflets dorés du soleil de midi. Dehors, une ombre, une silhouette un visage. Le prêtre Igorevitch attendait.
+Près d’une table, de petites taches rouges suivaient un chemin tortueux vers l’entrée principale. À la vue du sang, Nikonov déglutit et fut pris d’un haut-le-cœur. Igorevich était encore en vie et trainait dans les parages. Natasha tira sur la lourde porte d’entrée qui s’ouvrit, laissant passer les reflets dorés du soleil de midi. Dehors, une ombre, une silhouette, un visage. Le prêtre Igorevitch attendait.
 
 Nikonov brandit son arme en direction de l’homme aux mains ensanglantées.
 
