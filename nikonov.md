@@ -771,9 +771,9 @@ Nikonov repensa une dernière fois aux jardins du bord du fleuve de la Moskova e
 
 <h2 id="nikonov-3-chapitre-6"><a href="#nikonov-3-chapitre-6">Chapitre 6 - L'épilogue</a></h2>
 
-Ivan Volodia Nikonov était riche. Pas de cette richesse absurde qui enjalouse les braves gens. Mais vraiment riche. Une richesse de l'âme, indescriptible et salvatrice qu’on appelle la conscience. 
+Ivan Volodia Nikonov était pauvre. Pas de cette pauvreté trop ordinaire qui indiffèrent les braves gens. Mais vraiment pauvre. Une pauvreté poignante, tragique et injuste qu’on appelle solitude. 
 
-Ces gens ont pour meilleure possession leurs souvenirs qu’ils chérissent et protègent de toute leur force. Quand on devient aussi conscient que Nikonov l’était à ce moment-là, on chérit la vraie valeur du désir, des rêves ou de l’espoir. On se moque de sa paume ensanglantée, de ses doigts découpés, ou de ses ongles arrachés, du moment qu'on est conscient de la vérité.
+Ces gens ont pour seule possession leurs souvenirs qu’ils chérissent et protègent de toute leur force. Quand on devient aussi seul que Nikonov l’était à ce moment-là, on oublie la vraie valeur du désir, des rêves ou de l’espoir. On se moque de sa paume ensanglantée, de ses doigts découpés, ou de ses ongles arrachés, du moment que ses souvenirs sont en parfait état.
 
 Mourant sur le matelas gris et sale, Nikonov ne pouvait supporter l’affreuse ignorance des gens autour de lui.
 
@@ -787,7 +787,7 @@ Nikonov ferma les yeux et ne dit plus un mot. Il quittait un monde rempli de meu
 
 Sa perspective sur le monde l'avait changé à jamais. Son esprit pour toujours resterait tranquille.
 
-On peut le dire sans se tromper, aux derniers instants de sa vie, Ivan Volodia Nikonov _était_ riche.
+On peut le dire sans se tromper, aux derniers instants de sa vie, Ivan Volodia Nikonov _était_ pauvre.
 
 -----
 
