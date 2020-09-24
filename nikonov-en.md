@@ -11,7 +11,7 @@ image: /assets/images/posts/nikonov.jpg
 
 <h2>Poverty</h2>
 
-Volodya Nikonov was poor. Not that glaring poverty that melts the hearts of old ladies, but really poor. A filthy, repulsive and unjust poverty that turns the stomach.
+Ivan Volodya Nikonov was poor. Not that glaring poverty that melts the hearts of old ladies, but really poor. A filthy, repulsive and unjust poverty that turns the stomach.
 
 The most important possession of these people is their two hands, which they cherish and protect with all their strength. When one becomes as destitute as Nikonov was at that time, one understands the true value of fingers, palm or nails. You don't care about his long black beard, his dirty and greasy hair, his soiled clothes, the holes in his shoes, as long as his hands are in perfect condition.
 
