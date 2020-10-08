@@ -764,7 +764,7 @@ Nikonov tourna la brique vers le policier et appuya sur la gâchette pour essaye
 
 Nikonov était et resterait le seul et unique témoin  des images atroces d'une humanité inconsciente d'être condamnée.
 
-Nikonov repensa une dernière fois aux jardins du bord du fleuve de la Moskova et il se dit qu’il serait bien triste qu'ils ne disparaissent sous les flammes de l'enfer.
+Nikonov repensa une dernière fois aux jardins du bord du fleuve de la Moskova et il se dit qu’il serait bien triste qu'ils disparaissent sous les flammes de l'enfer.
 
 
 ---
