@@ -48,7 +48,7 @@ Location: Paris, France
 
 - Lead developer - Weekendesk.com (January 2015, January 2020)
 	- Big startup specialized in online travel
-	- Lead developer of a six-man team
+	- Lead developer of a six-person team
 	- Building microservices that strangle legacy system
 	- Domain driven mindset
 	- No compromises over quality
