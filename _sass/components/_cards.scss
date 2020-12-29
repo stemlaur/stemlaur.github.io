@@ -1,0 +1,57 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  gap: 1em;
+  margin: 1em;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card:visited {
+  color: var(--txt-color);
+}
+
+.card:hover {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card_quote {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 150px;
+}
+
+.card_quote::before {
+  content: "« ";
+}
+
+.card_quote::after {
+  content: "...  »";
+  overflow: visible;
+}
+
+.card:hover .card_quote {
+  text-decoration: underline;
+}
+
+.card__image {
+  display: block;
+  max-width: 100%;
+  width: 180px;
+  height: 150px;
+  max-height: 150px;
+  object-fit: cover;
+  margin: 1em;
+}
