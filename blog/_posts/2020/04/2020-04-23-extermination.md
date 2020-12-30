@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Extermination
+title: Extermination
 tags: nouvelle
 image: /assets/images/posts/extermination.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Le voisin de train
+title: Le voisin de train
 tags: nouvelle
 image: /assets/images/posts/le-voisin-de-train.jpg
 ---

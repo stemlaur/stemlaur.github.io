@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Le purgatoire
+title: Le purgatoire
 tags: nouvelle
 image: /assets/images/posts/le-purgatoire.jpg
 ---

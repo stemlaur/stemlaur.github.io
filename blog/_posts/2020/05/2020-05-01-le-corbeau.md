@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Le corbeau
+title: Le corbeau
 tags: nouvelle
 image: /assets/images/posts/le-corbeau.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Télé Réalité
+title: Télé Réalité
 tags: nouvelle
 image: /assets/images/posts/tele-realite.jpg
 ---

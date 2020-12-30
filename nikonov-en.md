@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Nikonov (english version)
+title: Nikonov (english version)
 tags: nouvelle
 image: /assets/images/posts/nikonov.jpg
 ---

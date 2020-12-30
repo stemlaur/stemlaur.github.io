@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | La montagne bleue
+title: La montagne bleue
 tags: nouvelle
 image: /assets/images/posts/la-montagne-bleue.jpg
 ---

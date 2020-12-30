@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Cher journal
+title: Cher journal
 tags: nouvelle
 image: /assets/images/posts/cher-journal.jpg
 ---

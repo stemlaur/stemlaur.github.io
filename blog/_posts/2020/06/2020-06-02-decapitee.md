@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Décapitée
+title: Décapitée
 tags: nouvelle
 image: /assets/images/posts/decapitee.jpg
 ---

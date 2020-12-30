@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Le labyrinthe
+title: Le labyrinthe
 tags: nouvelle
 image: /assets/images/posts/le-labyrinthe.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Nikonov - Première partie
+title: Nikonov - Première partie
 tags: nouvelle
 image: /assets/images/posts/nikonov.jpg
 redirect_to:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | La journée
+title: La journée
 tags: nouvelle
 image: /assets/images/posts/la-journee.jpg
 ---

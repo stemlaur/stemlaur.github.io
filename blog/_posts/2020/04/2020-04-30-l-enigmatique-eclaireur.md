@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | L'énigmatique éclaireur
+title: L'énigmatique éclaireur
 tags: nouvelle
 image: /assets/images/posts/l-enigmatique-eclaireur.jpg
 ---

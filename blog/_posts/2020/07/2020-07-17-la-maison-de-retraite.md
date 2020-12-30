@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | La maison de retraite
+title: La maison de retraite
 tags: nouvelle
 image: /assets/images/posts/la-maison-de-retraite.jpg
 ---

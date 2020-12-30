@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOUVELLE | Le syndrome de stockholm
+title: Le syndrome de stockholm
 tags: nouvelle
 image: /assets/images/posts/le-syndrome-de-stockholm.jpg
 ---
