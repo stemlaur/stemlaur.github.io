@@ -5,9 +5,7 @@ tags: inc
 image: /assets/images/posts/organisation-horizontale.png
 ---
 
-<img src="/assets/images/posts/organisation-horizontale.png" width="70%" class="center">
 
----
 
 Chez Stemlaur Inc. Ⓒ nous refusons toute organisation pyramidale, tous les gens sont traités de manière égale, 
 sauf moi: je suis le P.D.G.[^fn-sample_footnote]

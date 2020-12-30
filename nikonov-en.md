@@ -5,9 +5,7 @@ tags: nouvelle
 image: /assets/images/posts/nikonov.jpg
 ---
 
-<img src="/assets/images/posts/nikonov.jpg" width="70%" class="center">
 
----
 
 <h2>Poverty</h2>
 

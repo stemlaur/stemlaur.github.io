@@ -5,9 +5,7 @@ tags: nouvelle
 image: /assets/images/posts/l-enigmatique-eclaireur.jpg
 ---
 
-<img src="/assets/images/posts/l-enigmatique-eclaireur.jpg" width="70%" class="center">
 
----
 
 
 _Toutes les nuits, il avance dans le noir. L’énigmatique éclaireur._

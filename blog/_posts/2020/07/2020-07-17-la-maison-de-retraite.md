@@ -5,9 +5,7 @@ tags: nouvelle
 image: /assets/images/posts/la-maison-de-retraite.jpg
 ---
 
-<img src="/assets/images/posts/la-maison-de-retraite.jpg" width="70%" class="center">
 
----
 
 ### Jeudi 9 avril
 

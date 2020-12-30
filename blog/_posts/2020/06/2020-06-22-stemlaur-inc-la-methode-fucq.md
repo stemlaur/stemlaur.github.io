@@ -5,10 +5,6 @@ tags: inc
 image: /assets/images/programmation-par-l-absurde.png
 ---
 
-<img src="/assets/images/programmation-par-l-absurde.png" width="30%" class="center">
-
----
-
 Oui ! Vous avez bien lu, chers client, la méthode F.U.C.Q. © arrive et elle va révolutionner vos projets.
 
 <!--more-->

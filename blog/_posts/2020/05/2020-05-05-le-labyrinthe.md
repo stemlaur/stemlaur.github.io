@@ -5,9 +5,7 @@ tags: nouvelle
 image: /assets/images/posts/le-labyrinthe.jpg
 ---
 
-<img src="/assets/images/posts/le-labyrinthe.jpg" width="70%" class="center">
 
----
 
 
 Je suis perdu. Je slalome un peu. Et me retrouve dans une intersection. À gauche ? À droite ? Je ne sais pas.

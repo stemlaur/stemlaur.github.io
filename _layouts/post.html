@@ -5,6 +5,11 @@ layout: default
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+
+  {% if page.image %}
+  <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+       src="{{ page.image }}" alt="">
+  {% endif %}
   <p></p>
   {{ content }}
 </article>

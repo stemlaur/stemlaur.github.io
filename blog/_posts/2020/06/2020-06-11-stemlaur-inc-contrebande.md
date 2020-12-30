@@ -5,10 +5,6 @@ tags: inc
 image: /assets/images/posts/contrebande.png
 ---
 
-<img src="/assets/images/posts/contrebande.png" width="30%" class="center">
-
----
-
 En 2009, alors que je cherchais un travail de menuisier dans un trou de la Creuse, 
 je me fis aborder par un homme aux cheveux gras et à la barbe duveteuse. 
 Il prétendait être la P.D.G. d’une grande société de contrebande de code. Il avait du travail à me proposer. 

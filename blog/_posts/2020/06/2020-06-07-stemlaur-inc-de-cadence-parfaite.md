@@ -5,10 +5,6 @@ tags: inc
 image: /assets/images/programmation-par-l-absurde.png
 ---
 
-<img src="/assets/images/programmation-par-l-absurde.png" width="30%" class="center">
-
----
-
 Pour me familiariser à l’algo rythmie, mes parents m’inscrirent dans des cours d’initiation à la  musique et à la danse. J’y synchronisais mes pas sur les pas de mes pairs.
 
 <!--more-->

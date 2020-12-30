@@ -5,10 +5,6 @@ tags: inc
 image: /assets/images/posts/le-quatre-cinquieme.jpeg
 ---
 
-<img src="/assets/images/posts/le-quatre-cinquieme.jpeg" width="30%" class="center">
-
----
-
 Au départ, l’employé numéro 74 était sceptique à l’idée de travailler au quatre-cinquième.
 
 <!--more-->

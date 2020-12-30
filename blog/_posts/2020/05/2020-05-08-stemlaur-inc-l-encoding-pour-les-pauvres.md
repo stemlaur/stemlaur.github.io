@@ -5,9 +5,7 @@ tags: inc
 image: /assets/images/posts/l-encoding-pour-les-pauvres.png
 ---
 
-<img src="/assets/images/posts/l-encoding-pour-les-pauvres.png" width="70%" class="center">
 
----
 
 Nous chez Stemlaur Inc. `&copy;`, nous estimons que nos clients sont plus intelligents que nous. 
 Si nous sommes capables de lire les accents, eux sont capables de vivre sans.

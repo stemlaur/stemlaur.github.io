@@ -5,9 +5,7 @@ tags: nouvelle
 image: /assets/images/posts/le-corbeau.jpg
 ---
 
-<img src="/assets/images/posts/le-corbeau.jpg" width="70%" class="center">
 
----
 
 Au-dessus du cadavre à peine refroidi de la victime, vole un corbeau, seul témoin de ce crime. S’il pouvait parler, il raconterait comment un homme et une femme se sont haïs, jusqu’à la mort tragique du mari, dans un tourbillon de haine et de folie.
 

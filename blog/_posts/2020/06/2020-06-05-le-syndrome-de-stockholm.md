@@ -5,9 +5,7 @@ tags: nouvelle
 image: /assets/images/posts/le-syndrome-de-stockholm.jpg
 ---
 
-<img src="/assets/images/posts/le-syndrome-de-stockholm.jpg" width="70%" class="center">
 
----
 
 _Les flammes montent dans le ciel ébène._
 
