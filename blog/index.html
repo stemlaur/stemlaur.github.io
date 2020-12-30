@@ -33,7 +33,7 @@ title: Articles
 <div class="cards grid sm:grid-cols-2 md:grid-cols-3 gap-3 mx-auto justify-center">
   {% for post in paginator.posts %}
   <a href="{{ site.baseurl }}{{ post.url }}"
-     class="mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+     class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
     <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
       {{ post.title }}
     </h3>
