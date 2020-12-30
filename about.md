@@ -1,7 +1,9 @@
 ---
-layout: default title: À propos image: /assets/images/me_card.png
+layout: default
+title: À propos
+image: /assets/images/me_card.png
 ---
-<main class="main max-w-3xl mx-auto mt-24 px-6">
+<main class="main max-w-3xl mx-auto mt-12 px-6">
 	<h1 class="text-4xl text-blue-900 font-bold flex items-center justify-center border-b-2 py-2 text-center">
 		Laurent Stemmer</h1>
 </main>
