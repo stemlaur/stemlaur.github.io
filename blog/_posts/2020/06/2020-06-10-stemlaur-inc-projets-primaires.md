@@ -5,10 +5,6 @@ tags: inc
 image: /assets/images/programmation-par-l-absurde.png
 ---
 
-<img src="/assets/images/programmation-par-l-absurde.png" width="30%" class="center">
-
----
-
 Quand vint le moment de me placer à la maternelle, mes parents me firent passer de faux entretiens techniques. Ils me demandèrent de répéter pendant plusieurs jours les mots “deadline” et “framework” afin de me crédibiliser au maximum. Ce furent d’ailleurs mes premiers mots. À deux ans et demi, je maîtrisais déjà les foutaises à l’anglaise.
 
 <!--more-->

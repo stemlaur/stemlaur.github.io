@@ -1,13 +1,11 @@
 ---
 layout: post
-title: NOUVELLE | La journée
+title: La journée
 tags: nouvelle
 image: /assets/images/posts/la-journee.jpg
 ---
 
-<img src="/assets/images/posts/la-journee.jpg" width="70%" class="center">
 
----
 
 Avant de s’endormir, elle repensait aux événements qui s'étaient déroulés dans la journée. Chaque geste, chaque mot qu’elle avait pu prononcer pour en ressortir du sens, analyser ses émotions et ainsi mieux comprendre le monde qui l’entourait. 
 

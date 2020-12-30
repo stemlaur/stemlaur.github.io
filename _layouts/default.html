@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <nav class="nav-main">
-      <ul>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/about/">À propos</a></li>
-        <li class="logo"><a class="hvr-ripple-out" href="{{ site.baseurl }}/">S</a></li>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-      </ul>
-    </nav>
+<body class="text-gray-700">
 
-    <div class="container content">
-      <main>
-        {{ content }}
-      </main>
+<nav class="nav border-b-2 fixed top-0 right-0 left-0 bg-white z-50">
+    <ul class="m-auto max-w-lg w-full flex flex-row justify-around text-blue-900">
+        <li class="px-3 py-2 hover:bg-blue-900 hover:text-white"><a href="{{ site.baseurl }}/about/">À propos</a></li>
+        <li class="px-3 py-2">
+            <a href="{{ site.baseurl }}/"
+               class="transition duration-900 ease-in-out bg-blue-900 hover:bg-blue-900 transform hover:scale-125 focus:scale-125 text-white font-bold rounded-full h-7 w-7 flex items-center justify-center">S</a>
+        </li>
+        <li class="px-3 py-2 hover:bg-blue-900 hover:text-white"><a href="{{ site.baseurl }}/blog/">Blog</a></li>
+    </ul>
+</nav>
 
-      <footer class="footer">
-        <small>
-            Stemlaur Inc. <span class="copyright"><i class="fa fa-copyright"></i> &middot;
-            <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span> &middot;
-            <span>Maintenu avec <i class="fa fa-heart"></i> par {{ site.author.name }}.</span>
-            <span>v. 1600329468.</span>
-        </small>
-        <div class="ftr-links">
-          <a href="https://github.com/stemlaur"><i class="fa fa-github-alt"></i></a>
-          <a href="https://twitter.com/stemlaur"><i class="fa fa-twitter"></i></a>
-        </div>
-      </footer>
+<main class="main max-w-3xl mx-auto mt-12 px-6">
+    {{ content }}
+</main>
+
+<footer class="footer text-lg text-blue-900 flex flex-col items-center justify-center border-b-2 py-2">
+    <small> Stemlaur Inc. ©️ · <span>Maintenu avec ❤️ par Laurent Stemmer.</span> </small>
+    <div>
+        <a href="https://github.com/stemlaur"><i class="fa fa-github-alt"></i></a>
+        <a href="https://twitter.com/stemlaur"><i class="fa fa-twitter"></i></a>
     </div>
+</footer>
+</div>
 
-  </body>
+</body>
 </html>

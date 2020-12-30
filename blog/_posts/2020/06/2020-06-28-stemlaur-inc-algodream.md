@@ -5,10 +5,6 @@ tags: inc
 image: /assets/images/programmation-par-l-absurde.png
 ---
 
-<img src="/assets/images/programmation-par-l-absurde.png" width="30%" class="center">
-
----
-
 Je trainais souvent avec deux  camarades de classe super cools, ils s’appelaient Geiger Dijkstra et Alain Turing.
 
 <!--more-->

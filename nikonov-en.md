@@ -1,13 +1,11 @@
 ---
 layout: post
-title: NOUVELLE | Nikonov (english version)
+title: Nikonov (english version)
 tags: nouvelle
 image: /assets/images/posts/nikonov.jpg
 ---
 
-<img src="/assets/images/posts/nikonov.jpg" width="70%" class="center">
 
----
 
 <h2>Poverty</h2>
 

@@ -2,50 +2,71 @@
 layout: default
 title: Blog de Laurent Stemmer
 ---
-<h1 class="landing-title">Stemlaur, blog !</h1>
+<h1 class="text-4xl text-blue-900 font-bold flex items-center justify-center border-b-2 py-2 text-center">
+    Stemlaur, blog !
+</h1>
 <section>
-    <header>
-        <img src="https://www.stemlaur.com/assets/images/stemlaur_main.png" alt="Stemlaur logo"/>
+    <header class="my-6 flex items-center justify-center overflow-hidden">
+        <img class="w-64 h-64 top-3 transition duration-900 ease-in-out transform hover:-rotate-2"
+             src="/assets/images/stemlaur_main.png" alt="Stemlaur logo"/>
     </header>
 
-    <div class="cards">
-        <a class="card" href="/nikonov">
-            <h3 class="card__title">Nikonov</h3>
-            <img class="card__image" src="/assets/images/posts/nikonov.jpg"/>
-            <span class="card_quote">En dernière classe, Ivan Volodia Nikonov se mêlait à une population de besogneux, de clochards, de
-              familles nombreuses aux enfants colériques et bruyants, aux prolétaires esclaves de leur machine, aux
-              aliénés et aux opprimés.</span>
+    <div class="cards grid sm:grid-cols-2 md:grid-cols-3 gap-3 mx-auto justify-center">
+
+        <a href="/nikonov"
+           class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+            <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+                Nikonov
+            </h3>
+            <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+                 src="/assets/images/posts/nikonov.jpg"/>
         </a>
 
-        <a class="card" href="/blog/2020/05/06/fusion/">
-            <h3 class="card__title">Fusion</h3>
-            <img class="card__image" src="/assets/images/posts/fusion.jpg"/>
-            <span class="card_quote">Trois ans plus tard, nous reçûmes l’information que toute forme de vie animale avait disparu.</span>
+        <a href="/blog/2020/05/06/fusion/"
+           class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+            <h3 class="card__title text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+                Fusion
+            </h3>
+            <img class="rounded-full transition duration-900 ease-in-out transform hover:rotate-6 object-cover w-32 h-32 mx-auto"
+                 src="/assets/images/posts/fusion.jpg"/>
         </a>
 
-        <a class="card" href="/blog/2020/06/21/stemlaur-inc-les-tables-de-la-loi-informatique-et-liberte/">
-            <h3 class="card__title">Les tables de la Loi informatique et liberté</h3>
-            <img class="card__image" src="/assets/images/programmation-par-l-absurde.png"/>
-            <span class="card_quote">Attention: ce chapitre contient des blasphèmes et des graphèmes.</span>
+        <a href="/blog/2020/06/21/stemlaur-inc-les-tables-de-la-loi-informatique-et-liberte/"
+           class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+            <h3 class="card__title text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+                Les tables de la Loi informatique
+            </h3>
+            <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+                 src="/assets/images/programmation-par-l-absurde.png"/>
         </a>
 
-        <a class="card" href="/blog/2020/04/27/la-tulipe/">
-            <h3 class="card__title">La tulipe</h3>
-            <img class="card__image" src="/assets/images/posts/la-tulipe.jpg"/>
-            <span class="card_quote">Voilà tant d’heures que j’espérais sa présence.</span>
+        <a href="/blog/2020/04/27/la-tulipe/"
+           class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+            <h3 class="card__title text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+                La tulipe
+            </h3>
+            <img class="rounded-full transition duration-900 ease-in-out transform hover:rotate-6 object-cover w-32 h-32 mx-auto"
+                 src="/assets/images/posts/la-tulipe.jpg"/>
         </a>
 
-        <a class="card" href="/blog/2020/05/29/l-homelie/">
-            <h3 class="card__title">L'homélie</h3>
-            <img class="card__image" src="/assets/images/posts/l-homelie.jpg"/>
-            <span class="card_quote">Chers frères et sœurs, chers enfants, aujourd’hui je vais vous raconter une histoire.
-            </span>
+        <a href="/blog/2020/05/29/l-homelie/"
+           class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+            <h3 class="card__title text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+                L'homélie
+            </h3>
+            <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+                 src="/assets/images/posts/l-homelie.jpg"/>
         </a>
 
-        <a class="card" href="/blog/2020/04/28/la-montagne-bleue/">
-            <h3 class="card__title">La montagne bleue</h3>
-            <img class="card__image" src="/assets/images/posts/la-montagne-bleue.jpg"/>
-            <span class="card_quote">Depuis ma plus tendre enfance, je la voyais, l’enviais, la priais : la voulais. Cette Montagne Bleue.            </span>
+        <a href="/blog/2020/04/28/la-montagne-bleue/"
+           class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+            <h3 class="card__title text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+                La montagne bleue
+            </h3>
+            <img class="rounded-full transition duration-900 ease-in-out transform hover:rotate-6 object-cover w-32 h-32 mx-auto"
+                 src="/assets/images/posts/la-montagne-bleue.jpg"/>
         </a>
+
     </div>
+
 </section>

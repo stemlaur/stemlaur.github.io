@@ -1,13 +1,11 @@
 ---
 layout: post
-title: NOUVELLE | Décapitée
+title: Décapitée
 tags: nouvelle
 image: /assets/images/posts/decapitee.jpg
 ---
 
-<img src="/assets/images/posts/decapitee.jpg" width="70%" class="center">
 
----
 
 L’inspecteur n’en croit pas ses yeux : devant lui un corps sans tête. Le corps d’une femme d’une vingtaine d’années au corps superbe. Il met un mouchoir sur sa bouche pour ne pas vomir. Ses cheveux blonds trempent dans la mare de sang… à quelques pas de son corps.
 

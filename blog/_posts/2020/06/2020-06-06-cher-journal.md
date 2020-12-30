@@ -1,13 +1,11 @@
 ---
 layout: post
-title: NOUVELLE | Cher journal
+title: Cher journal
 tags: nouvelle
 image: /assets/images/posts/cher-journal.jpg
 ---
 
-<img src="/assets/images/posts/cher-journal.jpg" width="70%" class="center">
 
----
 
 _3 mars 202*_
 

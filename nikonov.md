@@ -1,13 +1,13 @@
 ---
 layout: post
-title: NOUVELLE | Nikonov
+title: Nikonov
 tags: nouvelle
 image: /assets/images/posts/nikonov.jpg
+related_image: /assets/images/posts/nikonov.jpg
+summary: Ivan Volodia Nikonov était pauvre. Pas de cette pauvreté clinquante qui fait fondre les coeurs des vieilles dames, mais vraiment pauvre. Une pauvreté crasseuse, repoussante et injuste qui retourne l’estomac.
 ---
 
-<img src="/assets/images/posts/nikonov.jpg" width="70%" class="center">
 
----
 
 ### Table des matières
 

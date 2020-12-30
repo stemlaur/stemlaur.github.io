@@ -5,10 +5,6 @@ tags: inc
 image: /assets/images/programmation-par-l-absurde.png
 ---
 
-<img src="/assets/images/programmation-par-l-absurde.png" width="30%" class="center">
-
----
-
 _Attention: ce chapitre contient des blasphèmes et des graphèmes, vous apprendrez par exemple que Dieu utilisait des tabulations et non des espaces. Si vous faites partie d’une secte de l’espace veuillez ignorer le texte qui suit._
 
 <!--more-->

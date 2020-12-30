@@ -1,13 +1,11 @@
 ---
 layout: post
-title: NOUVELLE | Extermination
+title: Extermination
 tags: nouvelle
 image: /assets/images/posts/extermination.jpg
 ---
 
-<img src="/assets/images/posts/extermination.jpg" width="70%" class="center">
 
----
 
 Depuis 2036, les gouvernements du monde entier cherchèrent un moyen pour pallier le problème de surpopulation. En effet, la Terre comptait cette année-là plus de 12 milliards d’individus. Et ce chiffre croissait de façon exponentielle.
 

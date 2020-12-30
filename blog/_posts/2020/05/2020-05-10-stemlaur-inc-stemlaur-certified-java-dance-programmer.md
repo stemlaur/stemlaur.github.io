@@ -5,10 +5,6 @@ tags: inc
 image: /assets/images/posts/stemlaur-certified-java-dance-programmer.png
 ---
 
-<img src="/assets/images/posts/stemlaur-certified-java-dance-programmer.png" width="30%" class="center">
-
----
-
 Les employés de Stemlaur Inc. © ont tous passé la SCJDP. Il s’agit de la règle numéro un pour devenir un collaborateur à plein temps de notre SSII. Cette certification n’est pas simple. Le taux d’échec avoisine les 33,34 % (pour les gens ayant réussi à finir l’examen de 7 heures).
 
 En quoi consiste cette certification ? Comment peut-on s’y préparer ? Quels sont les déhanchés gagnants ?

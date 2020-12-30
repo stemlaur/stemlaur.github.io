@@ -1,13 +1,11 @@
 ---
 layout: post
-title: NOUVELLE | Le voisin de train
+title: Le voisin de train
 tags: nouvelle
 image: /assets/images/posts/le-voisin-de-train.jpg
 ---
 
-<img src="/assets/images/posts/le-voisin-de-train.jpg" width="70%" class="center">
 
----
 
 Tous les matins, Édouard et moi attendions le  ter. Pas une fois il nous était arrivé de rater notre rendez-vous quotidien, pas une fois l’un de nous s’était retrouvé seul sur le quai. Ce matin-là, le 07 octobre 19**, le train fut supprimé. Cela faisait un quart d’heure qu’Édouard et moi étions postés à notre place, à un mètre des rails, ne lâchant pas un mot, ne prenant même pas la peine d’échanger sur la pluie et le beau temps.
 

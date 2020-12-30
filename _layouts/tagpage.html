@@ -2,35 +2,43 @@
 layout: default # This template inherits from my basic page template
 ---
 
-<header>
-    <h1 class="landing-title">Stemlaur, blog !</h1>
-</header>
+<h1 class="text-4xl text-blue-900 font-bold flex items-center justify-center border-b-2 py-2 text-center">
+    Stemlaur, blog !
+</h1>
 
-<nav class="nav-tags">
-    <ul>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/tags/tech">Tech</a></li>
-        <li>|</li>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/tags/inc">Stemlaur Inc. ©</a></li>
-        <li>|</li>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/tags/nouvelle">Nouvelles</a></li>
+<nav class="m-6">
+    <ul class="m-auto max-w-xs w-full flex flex-row justify-around text-gray-900 bg-white">
+        <li class="px-3 py-3">
+            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
+               href="{{ site.baseurl }}/tags/tech">
+                Tech
+            </a>
+        </li>
+        <li class="px-3 py-3">
+            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
+               href="{{ site.baseurl }}/tags/inc">
+                Stemlaur Inc. ©
+            </a>
+        </li>
+        <li class="px-3 py-3">
+            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
+               href="{{ site.baseurl }}/tags/nouvelle">
+                Nouvelles
+            </a>
+        </li>
     </ul>
 </nav>
 
-<div class="posts">
+<div class="cards grid sm:grid-cols-2 md:grid-cols-3 gap-3 mx-auto justify-center">
     {% for post in site.tags[page.tag] %}
-    <article class="post">
-        <h1 class="post-title">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }}
-            </a>
-        </h1>
-        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-        {{ post.excerpt }}
-
-        <a href="{{ site.baseurl }}{{ post.url }}">
-            Plus →
-        </a>
-    </article>
+    <a href="{{ site.baseurl }}{{ post.url }}"
+       class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+        <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+            {{ post.title }}
+        </h3>
+        <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+             src="{{ post.image }}"/>
+            <span class="h-32 overflow-hidden">{{ post.content | strip_html | truncatewords:75 }}</span>
+    </a>
     {% endfor %}
 </div>

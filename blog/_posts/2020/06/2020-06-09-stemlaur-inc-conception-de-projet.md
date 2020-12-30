@@ -5,10 +5,6 @@ tags: inc
 image: /assets/images/programmation-par-l-absurde.png
 ---
 
-<img src="/assets/images/programmation-par-l-absurde.png" width="30%" class="center">
-
----
-
 Je suis sur Terre à cause de bugs. Pas de bugs informatiques, mais de vrais bugs. Ceux qui créent des arcs électriques dans nos salles de serveurs, ceux qui pullulent sur nos morceaux de pizza laissés à l’abandon.
 
 <!--more-->
