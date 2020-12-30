@@ -1,29 +1,27 @@
 ---
 ---
-@import url(https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css);
-
 // Variables
 @import "utilities/variables";
-
-// Utility styles
+//
+// // Utility styles
 @import "utilities/mixins";
-@import "utilities/utils";
-@import "utilities/syntax-highlighting";
-@import "utilities/animations";
-
-// Core
-@import "base/normalize";
-@import "base/global";
-@import "base/layout";
-@import "base/typography";
-
-// Components
-@import "components/navigation";
-@import "components/pagination";
+// @import "utilities/utils";
+// @import "utilities/syntax-highlighting";
+// @import "utilities/animations";
+//
+// // Core
+// @import "base/normalize";
+// @import "base/global";
+// @import "base/layout";
+// @import "base/typography";
+//
+// // Components
+// @import "components/navigation";
+// @import "components/pagination";
 @import "components/code";
-@import "components/message";
-@import "components/cards";
-
-// Pages
-@import "pages/landing";
+// @import "components/message";
+// @import "components/cards";
+//
+// // Pages
+// @import "pages/landing";
 @import "pages/posts";
