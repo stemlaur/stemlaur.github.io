@@ -31,6 +31,20 @@ title: Articles
 </nav>
 
 <div class="cards grid sm:grid-cols-2 md:grid-cols-3 gap-3 mx-auto justify-center">
+
+  <a href="/nikonov"
+     class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white bg-yellow-100 hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+    <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+      Nikonov
+    </h3>
+    <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+         src="/assets/images/posts/nikonov.jpg"/>
+    <span class="h-32 overflow-hidden">En dernière classe, Ivan Volodia Nikonov se mêlait à
+                        une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et
+                        bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés.</span>
+  </a>
+
+
   {% for post in paginator.posts %}
   <a href="{{ site.baseurl }}{{ post.url }}"
      class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
@@ -39,7 +53,7 @@ title: Articles
     </h3>
     <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
          src="{{ post.image }}"/>
-<!--    <span class="h-32 overflow-hidden">{{ post.excerpt }}</span>-->
+    <span class="h-32 overflow-hidden">{{ post.content | strip_html | truncatewords:75 }}</span>
   </a>
   {% endfor %}
 </div>

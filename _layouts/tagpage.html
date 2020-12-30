@@ -38,7 +38,7 @@ layout: default # This template inherits from my basic page template
         </h3>
         <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
              src="{{ post.image }}"/>
-        <!--    <span class="h-32 overflow-hidden">{{ post.excerpt }}</span>-->
+            <span class="h-32 overflow-hidden">{{ post.content | strip_html | truncatewords:75 }}</span>
     </a>
     {% endfor %}
 </div>
