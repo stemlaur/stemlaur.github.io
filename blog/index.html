@@ -4,84 +4,86 @@ title: Articles
 ---
 
 <h1 class="text-4xl text-blue-900 font-bold flex items-center justify-center border-b-2 py-2 text-center">
-  Les articles
+    Les articles
 </h1>
 
 <nav class="m-6">
-  <ul class="m-auto max-w-xs w-full flex flex-col sm:flex-row items-center justify-around text-gray-900 bg-white">
-    <li class="px-1 py-1">
-      <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
-         href="{{ site.baseurl }}/tags/tech">
-        Tech
-      </a>
-    </li>
-    <li class="px-1 py-1">
-      <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
-         href="{{ site.baseurl }}/tags/inc">
-        Stemlaur Inc. ©
-      </a>
-    </li>
-    <li class="px-1 py-1">
-      <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
-         href="{{ site.baseurl }}/tags/nouvelle">
-        Nouvelles
-      </a>
-    </li>
-  </ul>
+    <ul class="m-auto max-w-xs w-full flex flex-col sm:flex-row items-center justify-around text-gray-900 bg-white">
+        <li class="px-1 py-1">
+            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
+               href="{{ site.baseurl }}/tags/tech">
+                Tech
+            </a>
+        </li>
+        <li class="px-1 py-1">
+            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
+               href="{{ site.baseurl }}/tags/inc">
+                Stemlaur Inc. ©
+            </a>
+        </li>
+        <li class="px-1 py-1">
+            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
+               href="{{ site.baseurl }}/tags/nouvelle">
+                Nouvelles
+            </a>
+        </li>
+    </ul>
 </nav>
 
 <div class="cards grid sm:grid-cols-2 md:grid-cols-3 gap-3 mx-auto justify-center">
 
-  <a href="/nikonov"
-     class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white bg-yellow-100 hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
-    <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
-      Nikonov
-    </h3>
-    <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
-         src="/assets/images/posts/nikonov.jpg"/>
-    <span class="h-32 overflow-hidden">En dernière classe, Ivan Volodia Nikonov se mêlait à
+    {% if paginator.page == 1 %}
+    <a href="/nikonov"
+       class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white bg-yellow-100 hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+        <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+            Nikonov
+        </h3>
+        <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+             src="/assets/images/posts/nikonov.jpg"/>
+        <span class="h-32 overflow-hidden">En dernière classe, Ivan Volodia Nikonov se mêlait à
                         une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et
                         bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés.</span>
-  </a>
+    </a>
 
+    {% endif %}
 
-  {% for post in paginator.posts %}
-  <a href="{{ site.baseurl }}{{ post.url }}"
-     class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
-    <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
-      {{ post.title }}
-    </h3>
-    <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
-         src="{{ post.image }}"/>
-    <span class="h-32 overflow-hidden">{{ post.content | strip_html | truncatewords:75 }}</span>
-  </a>
-  {% endfor %}
+    {% for post in paginator.posts %}
+    <a href="{{ site.baseurl }}{{ post.url }}"
+       class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+        <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+            {{ post.title }}
+        </h3>
+        <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+             src="{{ post.image }}"/>
+        <span class="h-32 overflow-hidden">{{ post.content | strip_html | truncatewords:75 }}</span>
+    </a>
+    {% endfor %}
 </div>
 
 <div class="flex flex-row justify-around my-5">
-  {% if paginator.next_page %}
+    {% if paginator.next_page %}
     <a class="pagination-item" href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-      <i class="fa fa-arrow-circle-o-left"></i>
-      <span class="pagination-text">plus anciens</span>
+        <i class="fa fa-arrow-circle-o-left"></i>
+        <span class="pagination-text">plus anciens</span>
     </a>
-  {% else %}
+    {% else %}
     <span class="pagination-item">
       <i class="fa fa-arrow-circle-o-left"></i>
       <span class="pagination-text">plus anciens</span>
     </span>
-  {% endif %}
+    {% endif %}
 
-  <!-- <a class="pagination-item" href="#">archive</a> -->
+    <!-- <a class="pagination-item" href="#">archive</a> -->
 
-  {% if paginator.previous_page %}
+    {% if paginator.previous_page %}
     <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
-      <span class="pagination-text">plus récents</span>
-      <i class="fa fa-arrow-circle-o-right"></i>
+        <span class="pagination-text">plus récents</span>
+        <i class="fa fa-arrow-circle-o-right"></i>
     </a>
-  {% else %}
+    {% else %}
     <span class="pagination-item">
       <span class="pagination-text">plus récents</span>
       <i class="fa fa-arrow-circle-o-right"></i>
     </span>
-  {% endif %}
+    {% endif %}
 </div>
