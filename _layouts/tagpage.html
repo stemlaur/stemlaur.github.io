@@ -10,19 +10,19 @@ layout: default # This template inherits from my basic page template
 <nav class="m-6">
     <ul class="m-auto max-w-xs w-full flex flex-col sm:flex-row items-center justify-around text-gray-900 bg-white">
         <li class="px-1 py-1">
-            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
+            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200"
                href="{{ site.baseurl }}/tags/tech">
                 Tech
             </a>
         </li>
         <li class="px-1 py-1">
-            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
+            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200"
                href="{{ site.baseurl }}/tags/inc">
                 Stemlaur Inc. ©
             </a>
         </li>
         <li class="px-1 py-1">
-            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200 focus:outline-none"
+            <a class="w-44 inline-block px-6 py-2 text-xs font-medium leading-6 text-center text-blue-900 uppercase transition bg-gray-100 rounded shadow ripple hover:shadow-lg hover:bg-gray-200"
                href="{{ site.baseurl }}/tags/nouvelle">
                 Nouvelles
             </a>
@@ -31,6 +31,21 @@ layout: default # This template inherits from my basic page template
 </nav>
 
 <div class="cards grid sm:grid-cols-2 md:grid-cols-3 gap-3 mx-auto justify-center">
+    {% if page.tag == 'nouvelle' %}
+    <a href="/nikonov"
+       class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white bg-yellow-100 hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
+        <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+            Nikonov
+        </h3>
+        <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+             src="/assets/images/posts/nikonov.jpg"/>
+        <span class="h-32 overflow-hidden">En dernière classe, Ivan Volodia Nikonov se mêlait à
+                        une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et
+                        bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés.</span>
+    </a>
+
+    {% endif %}
+
     {% for post in site.tags[page.tag] %}
     <a href="{{ site.baseurl }}{{ post.url }}"
        class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
