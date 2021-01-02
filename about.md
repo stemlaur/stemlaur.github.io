@@ -10,7 +10,12 @@ image: /assets/images/me_card.png
 
 <section class="max-w-3xl mx-auto my-6 flex items-center justify-center m-auto">
 	<figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 max-w-3xl">
-		<img class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto object-cover" src="https://www.stemlaur.com/assets/images/me_card.png" alt="" width="384" height="512" />
+
+    <picture>
+        <source media="(min-width: 768px)" srcset="/assets/images/me_card.png">
+        <img class="w-32 h-32 md:w-full md:h-auto md:rounded-none rounded-full mx-auto object-cover" src="/assets/images/me_two.webp" alt="" width="384" height="512">
+    </picture>
+
 		<div class="pt-6 md:p-8 text-center md:text-left space-y-4">
 			<blockquote>
 				<p class="text-lg font-semibold">Software developer</p>
