@@ -6,11 +6,11 @@
 // // Utility styles
 @import "utilities/mixins";
 // @import "utilities/utils";
-// @import "utilities/syntax-highlighting";
+@import "utilities/syntax-highlighting";
 // @import "utilities/animations";
 //
 // // Core
-// @import "base/normalize";
+@import "base/normalize";
 // @import "base/global";
 // @import "base/layout";
 // @import "base/typography";
@@ -19,6 +19,7 @@
 // @import "components/navigation";
 // @import "components/pagination";
 @import "components/code";
+@import "components/cards";
 // @import "components/message";
 // @import "components/cards";
 //

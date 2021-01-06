@@ -52,6 +52,7 @@ redirect_from:
 ---
 
 <h1>Première partie</h1>
+{: .text-4xl .text-blue-900 .font-bold .flex .items-center .justify-center .border-b-2 .py-2 .text-center}
 
 ---
 
