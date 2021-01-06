@@ -32,29 +32,29 @@ layout: default # This template inherits from my basic page template
 
 <div class="cards grid sm:grid-cols-2 md:grid-cols-3 gap-3 mx-auto justify-center">
     {% if page.tag == 'nouvelle' %}
-    <a href="/nikonov"
-       class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white bg-yellow-100 hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
-        <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
-            Nikonov
-        </h3>
-        <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
-             src="/assets/images/posts/nikonov.jpg"/>
-        <span class="h-32 overflow-hidden">En dernière classe, Ivan Volodia Nikonov se mêlait à
-                        une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et
-                        bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés.</span>
-    </a>
+
+        {% include  card.html
+                    card_baseurl=site.baseurl
+                    card_url="/nikonov"
+                    card_title="Nikonov"
+                    card_img="/assets/images/posts/nikonov.jpg"
+                    card_img_alt=""
+                    card_text="En dernière classe, Ivan Volodia Nikonov se mêlait à
+                    une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et
+                    bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés."
+                    include_text="true"
+        %}
 
     {% endif %}
 
     {% for post in site.tags[page.tag] %}
-    <a href="{{ site.baseurl }}{{ post.url }}"
-       class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
-        <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
-            {{ post.title }}
-        </h3>
-        <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
-             src="{{ post.image }}"/>
-            <span class="h-32 overflow-hidden">{{ post.content | strip_html | truncatewords:75 }}</span>
-    </a>
+        {% include  card.html card_baseurl=site.baseurl
+                    card_url=post.url
+                    card_title=post.title
+                    card_img=post.image
+                    card_img_alt=""
+                    card_text=post.content
+                    include_text="true"
+        %}
     {% endfor %}
 </div>

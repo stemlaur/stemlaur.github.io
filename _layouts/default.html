@@ -7,11 +7,12 @@
 
 <nav class="nav border-b-2 fixed top-0 right-0 left-0 bg-white z-50">
     <ul class="m-auto max-w-lg w-full flex flex-row justify-around text-blue-900">
-        <li class="hover:bg-blue-900 hover:text-white"><a href="/about/" class="inline-block px-3 py-2">À propos</a></li>
+        <li class="px-3 py-2 hover:bg-blue-900 hover:text-white"><a href="{{ site.baseurl }}/about/">À propos</a></li>
         <li class="px-3 py-2">
-            <a href="/" class="transition duration-900 ease-in-out bg-blue-900 hover:bg-blue-900 transform hover:scale-125 focus:scale-125 text-white font-bold rounded-full h-7 w-7 flex items-center justify-center">S</a>
+            <a href="{{ site.baseurl }}/"
+               class="transition duration-900 ease-in-out bg-blue-900 hover:bg-blue-900 transform hover:scale-125 focus:scale-125 text-white font-bold rounded-full h-7 w-7 flex items-center justify-center">S</a>
         </li>
-        <li class="hover:bg-blue-900 hover:text-white"><a href="/blog/" class="inline-block px-3 py-2">Blog</a></li>
+        <li class="px-3 py-2 hover:bg-blue-900 hover:text-white"><a href="{{ site.baseurl }}/blog/">Blog</a></li>
     </ul>
 </nav>
 
