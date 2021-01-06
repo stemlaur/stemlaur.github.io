@@ -9,7 +9,7 @@ image: /assets/images/me_card.png
 </main>
 
 <section class="max-w-3xl mx-auto my-6 flex items-center justify-center m-auto">
-	<figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 max-w-3xl">
+	<figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 max-w-3xl overflow-hidden">
 
     <picture>
         <source media="(min-width: 768px)" srcset="/assets/images/me_card.png">
