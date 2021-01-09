@@ -3,10 +3,9 @@ layout: default
 title: À propos
 image: /assets/images/me_card.png
 ---
-<main class="main max-w-3xl mx-auto mt-12 px-6">
-	<h1 class="text-4xl text-blue-900 font-bold flex items-center justify-center border-b-2 py-2 text-center">
-		Laurent Stemmer</h1>
-</main>
+
+<h1 class="text-4xl text-blue-900 font-bold flex items-center justify-center border-b-2 py-2 text-center">
+    Laurent Stemmer</h1>
 
 <section class="max-w-3xl mx-auto my-6 flex items-center justify-center m-auto">
 	<figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0 max-w-3xl">
