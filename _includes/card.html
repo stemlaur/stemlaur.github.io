@@ -1,12 +1,12 @@
 <a href="{{ include.site.baseurl }}{{ include.card_url }}"
-    class="min-w-full mx-auto flex flex-col gap-4 max-w-xs border-2 p-3 rounded-lg bg-white hover:bg-gray-50 hover:shadow-lg hover:border-blue-900 focus:ring-2 focus:ring-blue-600">
-    <h3 class="text-blue-900 text-xl font-bold h-14 overflow-hidden flex justify-center no-underline">
+    class="card">
+    <h3 class="card__title">
         {{ include.card_title }}
     </h3>
-    <img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-32 h-32 mx-auto"
+    <img class="card__img"
          src="{{ include.card_img }}" alt="{{ include.card_img_alt }}"/>
 
     {% if include.include_text == "true" %}
-        <span class="h-32 overflow-hidden">{{ include.card_text  | strip_html | truncatewords:75 }}</span>
+        <span class="card__quote">{{ include.card_text  | strip_html | truncatewords:75 }}</span>
     {% endif %}
 </a>
