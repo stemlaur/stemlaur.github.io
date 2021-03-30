@@ -5,6 +5,8 @@ tags: tech
 image: /assets/images/posts/jpa_hibernates/troll.JPG
 ---
 
+---
+
 ## Introduction 🐈
 
 ---
@@ -24,9 +26,14 @@ Although so many projects use these technologies, in this article I will try to 
 
 Before I jump into my take about JPA and Hibern-HATE, let me talk about documentation.
 
+---
+
 ## Documentation and complexity 🐱
 
 ---
+
+<img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-128 h-128 mx-auto"
+src="/assets/images/posts/jpa_hibernates/study_doc.png" alt="A cat reading documentation">
 
 It seems undeniable to me that many who read this article will be able to offer solutions or even counterarguments to some of my reasons for hating JPA / Hibernate.
 
@@ -43,9 +50,14 @@ To compare:
 
 The first and most important argument I could have against JPA / Hibernate is this: I don't want to have to pass a master to perform database queries.
 
+---
+
 ## Mutability 😹
 
 ---
+
+<img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-128 h-128 mx-auto"
+src="/assets/images/posts/jpa_hibernates/mutability.png" alt="A cat with multiple faces">
 
 ### Default empty constructor must be present
 
@@ -166,9 +178,14 @@ I let you read the <a href="https://hibernate.org/orm/documentation" target="_bl
 
 In the meanwhile, let's talk about lazy loading.
 
+---
+
 ## LAZY LOADING and CACHE 😿
 
 ---
+
+<img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-128 h-128 mx-auto"
+src="/assets/images/posts/jpa_hibernates/lazy.png" alt="A sleeping cat">
 
 ### Laziness
 
@@ -187,9 +204,16 @@ This is most frustrating point about this framework, you are doomed to adapt you
 
 Nobody understands the cache mechanism, you end up de-activating it. Worse, those understanding it are not caching query responses, they are caching entities.
 
+---
+
 ## Flush 😾
 
 ---
+
+<img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-128 h-128 mx-auto"
+src="/assets/images/posts/jpa_hibernates/schrodinger_cat.png" alt="Schrodinger's cat">
+
+_Schrodinger's cat dies each time hibernate performs a flush(), is it dead or alive?_
 
 `flush()` synchronizes your database with the current state of object/objects held in the memory, by default, flush is performed automatically
 and can occur between the moment you save an entity to the moment the transaction is committed.
@@ -199,9 +223,14 @@ This leads us to two pitfalls:
 * this makes developers unable to use another persistent tool than Hibernate, because writes are done in memory until they are flushed
 * this leads to horrible and untraceable stack traces when conflicts emerge during a flush, those stack traces are indeed never related to your code
 
+---
+
 ## Accessing a single table field 😻
 
 ---
+
+<img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-128 h-128 mx-auto"
+src="/assets/images/posts/jpa_hibernates/single_cat.png" alt="A single cat">
 
 One good practice regarding API's customer, described in this [article](https://martinfowler.com/bliki/TolerantReader.html) is the notion of Tolerant Reader.
 
@@ -216,13 +245,15 @@ What I would argue here, is that a database IS an API. Because it has its own li
 Imagine that you need the url of an image stored in the database, what is the difference between:
 
 ```sql
-select url from image where id = 'F462E8D9-9DF7-4A58-9112-EDE0434B4ACE';
+select url from image 
+where id = 'F462E8D9-9DF7-4A58-9112-EDE0434B4ACE';
 ```
 
 and
 
 ```sql
-select id, url, content_type, digest from image where id = 'F462E8D9-9DF7-4A58-9112-EDE0434B4ACE';
+select id, url, content_type, digest from image 
+where id = 'F462E8D9-9DF7-4A58-9112-EDE0434B4ACE';
 ```
 
 ?
@@ -239,9 +270,14 @@ If you want to do that you have to use complicated projections.
 
 If instead, you fetch the JPA entity representing Image, it will fetch all the columns the same way as the second query.
 
+---
+
 ## Constraints 😸
 
 ---
+
+<img class="rounded-full transition duration-900 ease-in-out transform hover:-rotate-6 object-cover w-128 h-128 mx-auto"
+src="/assets/images/posts/jpa_hibernates/hacker.png" alt="A hacker cat">
 
 ```java
 public class User {
@@ -264,6 +300,8 @@ This is wrong for multiple reasons:
 * they are checked too late in the process (during the flush)
 * the exceptions which are thrown are generic, though unusable
 * they treat business rules as if they were technical rules
+
+---
 
 ## Strategic level pitfalls 😽
 
@@ -303,6 +341,8 @@ No, this is wrong.
 
 The premature architecture decisions we make are WRONG. Whenever this is possible, a POC should be started without persistence and minimal interfaces.
 
+---
+
 ## What is wrong with SQL? 🙉
 
 ---
@@ -315,6 +355,8 @@ The premature architecture decisions we make are WRONG. Whenever this is possibl
   * He does not require framework update of SQL
 
 Let's stop using JPA/Hibernate in our projects when simple vanilla SQL can do the work.
+
+---
 
 ## But my manager forces me to use Hibernate on my new project 🙈
 
@@ -332,6 +374,8 @@ You can use inversion of control for that, just keep in mind that the task will 
 
 I mean... when your manager will be gone.
 
+---
+
 ## But my project is already well started with JPA/Hibernate in the domain 🙈
 
 ---
@@ -339,8 +383,6 @@ I mean... when your manager will be gone.
 Well... that sucks even more. I will try to give some piece of advice about that.
 
 ### Stop having public default constructor and setters
-
----
 
 Here an example of a JPA entity (using Lombok for simplicity):
 
@@ -604,14 +646,15 @@ What if I needed to split my databases in two? In order to scale the `sales` app
 
 If you do not need more than an `id`, do not create a mapping.
 
+---
+
 ## Conclusion
 
 ---
 
-Don't make the same mistake twice, next time, drop it:
+Don't make the same mistake again, next time, drop it:
 
 * You'll have less documentation to read and more time to worry about business related problems
 * Do not take early architectural decisions, you do not need JPA/Hibernate
 * Have mercy on the next developers, the code you write today is another developer's nightmare tomorrow
-
 
