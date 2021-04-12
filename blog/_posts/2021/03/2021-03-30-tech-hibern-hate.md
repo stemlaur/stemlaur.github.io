@@ -7,6 +7,8 @@ image: /assets/images/posts/jpa_hibernates/troll.JPG
 
 ---
 
+EDIT: I replace most of the pronouns "he" by "they" to make the article more inclusive
+
 ## Introduction 🐈
 
 ---
@@ -348,11 +350,11 @@ The premature architecture decisions we make are WRONG. Whenever this is possibl
 ---
 
 * Known by everyone (hopefully as well by those who use JPA/Hibernate)
-* When a developer writes vanilla SQL:
-  * He knows what is being done
-  * He can check missing indexes by doing an explain on the query
-  * He can cache data by query
-  * He does not require framework update of SQL
+* When developers write vanilla SQL:
+  * They know what is being done
+  * They can check missing indexes by doing an explain on the query
+  * They can cache data by query
+  * They do not require framework update of SQL
 
 Let's stop using JPA/Hibernate in our projects when simple vanilla SQL can do the work.
 
