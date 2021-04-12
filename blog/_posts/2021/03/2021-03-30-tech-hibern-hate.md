@@ -418,7 +418,7 @@ public class BankAccountService {
 
     public void createBankAccount(final Set<Long> ownerIds) {
         final BankAccount bankAccount = new BankAccount();
-        bankAccount.setId(UUID.randomUUID().toString())
+        bankAccount.setId(UUID.randomUUID().toString());
         bankAccount.setOpened(true);
 
         if(ownerIds == null || ownerIds.isEmpty()) {
