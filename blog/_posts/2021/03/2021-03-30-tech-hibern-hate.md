@@ -350,7 +350,6 @@ The premature architecture decisions we make are WRONG. Whenever this is possibl
 ---
 
 * Known by everyone (hopefully as well by those who use JPA/Hibernate)
-
 * When developers write vanilla SQL:
   * They know what is being done
   * They can check missing indexes by doing an explain on the query
