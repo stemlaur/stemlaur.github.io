@@ -42,9 +42,9 @@ By systematizing the writing of Decision Record you force yourself to start from
 
 By systematizing review by at least one peer, you ensure that the choice made is shared and understood by others, that the context is right, that alternatives have been explored. That a future developer will be able to understand this decision.
 
-Notice the glaring similarities with development. It's not for nothing that most ADRs are actually git repositories, where every decision is a commit, a proposed decision or a decision review is a merge request.
+Notice the glaring similarities with development. It's not for nothing that most ADRs are actually git repositories, where every decision is a commit, a proposed decision, or a decision review is a merge request.
 
-Interestingly, most of the ADR examples on github have their first record decision: adopt ADR. The technique is used to validate the technique decision.
+Interestingly, most of the ADR examples on github have their first decision record: adopt ADR. The technique is used to validate the technique decision.
 
 If the process is correctly followed, the very act of validating the adoption of the technique must go through a stage of contextualization, clarification and approval. 
 
@@ -52,11 +52,11 @@ If the process is correctly followed, the very act of validating the adoption of
 
 Like any collaboration technique based on knowledge transfer, it encounters limitations. Let’s take a quick tour of the weaknesses and ways to overcome them.
 
-### Lourdeur d’écrire un décision record
+### Cumbersome to write a decision record
 
 It is not for nothing that Thoughtwork talks about "Lightweight Architecture Decision Records", the goal is to find a decision record format that is easy to write. The form (eg Markdown) can be simplified, but what about the substance?
 
-### Complexity of defining a record decision
+### Complexity of defining a decision record
 
 As with many things, it is about defining the characteristics that define the quality of a decision, allowing its value to be maximized while maintaining a certain pragmatism.
 
