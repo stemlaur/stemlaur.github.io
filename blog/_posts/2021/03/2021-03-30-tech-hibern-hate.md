@@ -7,7 +7,9 @@ image: /assets/images/posts/jpa_hibernates/troll.JPG
 
 ---
 
-EDIT: I replace most of the pronouns "he" by "they" to make the article more inclusive
+EDIT 1: I replaced most of the pronouns "he" by "they" to make the article more inclusive
+
+EDIT 2: I improved the article, thanks to your awesome feedbacks, thank you very much
 
 ## Introduction 🐈
 
@@ -86,35 +88,6 @@ A simple example of the implementation of an invariant would be:
 In this example, Order without an item, CANNOT be instantiated. And a domain exception is thrown at you.
 
 Hibernate, on the other end, *REQUIRES* you to write a default constructor, meaning that an Order object can be instantiated with no `Item` and in this example, even without an id!
-
-### Getters and setters must be present
-
-Hibernate relies on JavaBean specification. It means that hibernate will (behind the scene) use setters to re-hydrate its entities after fetching the data from the database, and getter to construct its queries on insert or update.
-
-This forces the developers to implement getter and setter methods for each field that are mapped as a column of a join.
-
-The thing is, getters and setters are <a href="https://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html" target="_blank">EVIL</a>.
-
-Instead of that, one should use domain specific language.
-
-Here an example of what a bad implementation of JPA / Hibernate prevents us to do:
-
-```java
-    public class Order {
-        private final String id;
-        private final Set<Item> items;
-        private OrderStatus orderStatus;
-  
-        public Order(final String uuid, final Set<Item> items) {
-            // removed for clarity
-        }
-  
-        public void confirm() {
-            this.orderStatus = CONFIRMED;
-        }
-        // removed for clarity
-    }
-```
 
 ### Entity classes cannot be final
 
@@ -470,7 +443,7 @@ public class BankAccount {
 ```
 
 There are multiple things to see in the new implementation:
-* the default contructor and setters now have package visibility
+* the default constructor and setters now have package visibility
 * the only public constructor now accepts two parameters: id and a collection of ownerIds
 * the type for ownerIds is not required to be a Set
 * the condition checking ownerIds is BankAccount's responsibility, this is now an invariant
@@ -494,15 +467,15 @@ public class BankAccountService {
 
 ### Stop using SQL generated id
 
-Whenever possible, you should align-up your entities "primary keys" with the business concept of identity.
+Whenever possible, you should align-up your entities "functional keys" with the business concept of identity.
 
-A `User` can be considered unique in one context by its *email address*, or by its *social security number*
+A `User` can be considered unique in one context by its *email address*, or by its *social security number* (note: it does not mean that the primary key should be one of them, but the domain model entity should have a clear identity).
 
 Anyway, because your domain model would be bound to your database model with hibernate, think it as a good opportunity for your new entity to own a business identifier instead of a technical auto-generated id.
 
-If this is impossible (for example, a *bank account* does not have a functional identifier), prefer using string type instead of numerical IDs.
+If this is impossible (for example, a *bank account* does not have a functional identifier), prefer using string type (for example, an UUID) instead of numerical IDs.
 
-It is easier to adapt and migrate string that numerical values, plus, having incremental IDs, expose you to having those leaked through the interface, in URLs, and it would allow _hackers_ to guess them.
+It is easier to adapt and migrate string than numerical values, plus, having incremental IDs, expose you to having those leaked through the interface, in URLs, and it would allow _hackers_ to guess them.
 
 ### Rename your JPA Repositories to JPA DAOs
 
