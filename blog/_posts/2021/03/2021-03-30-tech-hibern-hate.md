@@ -282,7 +282,7 @@ This is wrong for multiple reasons:
 
 ---
 
-### Hibernate and Spring are frameworks
+### Frameworks
 
 It is time to be honest here, Frameworks are great, but they are evil.
 
@@ -290,7 +290,7 @@ It is time to be honest here, Frameworks are great, but they are evil.
 * Frameworks do not keep retro-compatibility
 * They WANT you to keep using them
 
-I love open source, really, but big companies sponsoring open-source projects get most of their income from support or third party tools.
+I love open source, really, but big companies sponsoring open-source projects get some of their income from support or third party tools.
 
 They NEED to monopolise the market, and one way to do that, is to make you believe that it is mandatory to use their frameworks.
 
