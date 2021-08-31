@@ -39,7 +39,12 @@ You might think, it is just a word, _customer account_ or _user account_, it is 
 
 In fact, what the business guy was implicitly thinking: the users can only create an account after their first purchase, meaning that they are now customers. By mixing just one word with another, the team created a knowledge gap.
 
-Building **Ubiquitous Language** between member of your team is key to tackling complexity. Expect more than few sentences from your domain experts: communicate often and reveal the implicit.
+<div class="callout">
+    <div class="callout-icon">💡</div>
+    <div class="callout-text">
+        Building a <strong>Ubiquitous Language</strong> between members of your team is key to tackling complexity. Expect more than few sentences from your domain experts: communicate often and reveal the implicit.
+    </div>
+</div>
 
 # 2. Poke around with the core concepts
 
@@ -59,7 +64,12 @@ The month after, the head of finance comes to 💻 the developers and ask them t
 
 The truth is that, this poking app was far from being your company's core domain, you could have bought a monthly licence to the javascript library _[poke.js](https://www.youtube.com/watch?v=dQw4w9WgXcQ)_ instead and save the company tons of money.
 
-Determine what is important for the company (core domain) and what is not. Follow the [Make-or-Buy Decision](https://www.investopedia.com/terms/m/make-or-buy-decision.asp). Plus, keep a good relationship with the finance and accounting teams, they know more about your core domain that you think, or at least they know what is actually brings money or not in the company.
+<div class="callout">
+    <div class="callout-icon">💡</div>
+    <div class="callout-text">
+        Determine what is important for the company (core domain) and what is not. Follow the <a href="https://www.investopedia.com/terms/m/make-or-buy-decision.asp">Make-or-Buy Decision</a>. Plus, keep a good relationship with the finance and accounting teams, they know more about your core domain that you think, or at least they know what is actually brings money or not in the company.
+    </div>
+</div>
 
 # 3. Divide et impera
 
@@ -86,7 +96,12 @@ The problem is that, companies are rarely driven by features or technology:
 - Some areas of responsibility will be fuzzy and decisions would take longer
 - 💻 The developers will be detached from the company's core domains
 
-Take the time to explore the different sub-domains and contexts that your company tries to solve. Use strategical patterns and build a context map to discover the most efficient way to split your teams. This should not be done lightly.
+<div class="callout">
+    <div class="callout-icon">💡</div>
+    <div class="callout-text">
+        Take the time to explore the different sub-domains and contexts that your company tries to solve. Use strategical patterns and build a context map to discover the most efficient way to split your teams. This should not be done lightly.
+    </div>
+</div>
 
 # Conclusion
 
