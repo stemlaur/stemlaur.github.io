@@ -67,7 +67,7 @@ The truth is that, this poking app was far from being your company's core domain
 <div class="callout">
     <div class="callout-icon">💡</div>
     <div class="callout-text">
-        Determine what is important for the company (core domain) and what is not. Follow the <a href="https://www.investopedia.com/terms/m/make-or-buy-decision.asp">Make-or-Buy Decision</a>. Plus, keep a good relationship with the finance and accounting teams, they know more about your core domain that you think, or at least they know what is actually brings money or not in the company.
+        Determine what is important for the company (core domain) and what is not. Follow the <a href="https://www.investopedia.com/terms/m/make-or-buy-decision.asp">Make-or-Buy Decision</a>. Plus, keep a good relationship with the finance and accounting teams, they know more about your core domain that you think, or at least they know what actually brings money or not in the company.
     </div>
 </div>
 
