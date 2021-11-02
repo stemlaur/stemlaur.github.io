@@ -18,7 +18,7 @@ image: /assets/images/me_card.png
 		<div class="pt-6 md:p-8 text-center md:text-left space-y-4">
 			<blockquote>
 				<p class="text-lg font-semibold">Software developer</p>
-			</blockquote>
+			u/blockquote>
 			<figcaption class="font-medium text-gray-500">
 				<div class="text-gray-500">Location: Paris, France</div>
 				<ul>
@@ -39,7 +39,7 @@ image: /assets/images/me_card.png
 </h2>
 
 <ul>
-  <li>14+ years of professionnal experience with Java, Ruby, building:
+  <li>14+ years of professionnal experience with Java building:
     <ul>
       <li>Robust backend, database-heavy services</li>
       <li>Web applications.</li>
