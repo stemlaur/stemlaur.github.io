@@ -39,7 +39,7 @@ image: /assets/images/me_card.png
 </h2>
 
 <ul>
-  <li>14+ years of professionnal experience with Java building:
+  <li>15+ years of professionnal experience with Java building:
     <ul>
       <li>Robust backend, database-heavy services</li>
       <li>Web applications.</li>
