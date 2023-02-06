@@ -62,7 +62,7 @@ image: /assets/images/me_card.png
 </h2>
 
 <ul>
-  <li>Master Professionnel Ingénierie Logiciel pour l’Internet, Université Jean Perrin, Lens, France (2007)</li>
+  <li>Master Professionnel Ingénierie Logicielle pour l’Internet, Université Jean Perrin, Lens, France (2007)</li>
 </ul>
 
 
