@@ -13,13 +13,10 @@ layout: default
   <p></p>
   {{ content }}
 </article>
-
-<div id="hyvor-talk-view"></div>
-<script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 757; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-        url: '{{ page.url | absolute_url }}',
-        id: '{{page.id}}'
-    };
+<script src="https://utteranc.es/client.js"
+        repo="stemlaur/stemlaur.github.io"
+        issue-term="{{ page.url | absolute_url }}"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
 </script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
