@@ -8,42 +8,42 @@ const featuredStories = [
     title: 'Nikonov',
     image: '/assets/images/posts/nikonov.jpg',
     tag: 'Nouvelle',
-    text: "En dernière classe, Ivan Volodia Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques...",
+    text: "En dernière classe, Ivan Volodia Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés.",
   },
   {
     url: '/blog/2020/05/06/fusion/',
     title: 'Fusion',
     image: '/assets/images/posts/fusion.jpg',
     tag: 'Nouvelle',
-    text: "Le métal et la chair, l'alliance de la matière et du vivant. Une expérience littéraire surprenante.",
+    text: "Trois ans plus tard, nous reçûmes l’information que toute forme de vie animale avait disparu. Nous étions maintenant les maîtres de notre destin. Notre énergie étant de plus en plus rare, nous fûmes dans l’obligation de concevoir des capteurs solaires, fruits d’un travail sans précédent sur la fusion de la végétation et du métal.",
   },
   {
     url: '/blog/2020/06/21/stemlaur-inc-les-tables-de-la-loi-informatique-et-liberte/',
     title: 'Les tables de la Loi informatique',
     image: '/assets/images/programmation-par-l-absurde.png',
     tag: 'Stemlaur Inc. ©',
-    text: "La programmation par l'absurde selon Stemlaur Inc. Les commandements ultimes de l'ingénierie moderne.",
+    text: "Attention : ce chapitre contient des blasphèmes et des graphèmes, vous apprendrez par exemple que Dieu utilisait des tabulations et non des espaces. Si vous faites partie d’une secte de l’espace veuillez ignorer le texte qui suit.",
   },
   {
     url: '/blog/2020/04/27/la-tulipe/',
     title: 'La tulipe',
     image: '/assets/images/posts/la-tulipe.jpg',
     tag: 'Nouvelle',
-    text: "Une histoire poétique et mystérieuse autour d'une simple fleur aux reflets singuliers.",
+    text: "Les rideaux se soulèvent. Deux, trois pétales de tulipe flottent à travers la pièce comme des baisers messagers. Ce n’est pas le printemps.",
   },
   {
     url: '/blog/2020/05/29/l-homelie/',
     title: "L'homélie",
     image: '/assets/images/posts/l-homelie.jpg',
     tag: 'Nouvelle',
-    text: "Un sermon pas comme les autres qui résonne dans l'écho silencieux d'une nef oubliée.",
+    text: "Chers frères et sœurs, chers enfants, ces derniers jours ont été, pour beaucoup d'entre nous, je le sais, difficiles. Que nous ayons perdu un être cher ou un travail, nos vies en sont bouleversées. Ce qui se produit tous les jours dans le monde est impardonnable, inconcevable, imprononçable.",
   },
   {
     url: '/blog/2020/04/28/la-montagne-bleue/',
     title: 'La montagne bleue',
     image: '/assets/images/posts/la-montagne-bleue.jpg',
     tag: 'Nouvelle',
-    text: "L'horizon azuréen et l'appel des cimes lointaines. Un récit d'aventure et d'introspection.",
+    text: "Depuis ma plus tendre enfance, je la voyais, l’enviais, la priais : la voulais. Cette Montagne Bleue. Combien de temps pouvais-je rester assis par terre à la contempler. Déjà au berceau, mes yeux s’illuminaient quand je la voyais. Je me l’étais promis : un jour j’irai là où aucun homme n’a jamais été.",
   },
 ];
 ---
@@ -104,7 +104,7 @@ const featuredStories = [
           image={story.image}
           tag={story.tag}
           text={story.text}
-          includeText={false}
+          includeText={true}
         />
       ))}
     </div>

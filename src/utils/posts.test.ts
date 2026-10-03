@@ -1,8 +1,23 @@
 import { describe, it, expect } from 'vitest';
-import { calculateReadingTime, parsePost, sortPostsDesc, type FormattedPost } from './posts';
+import { calculateReadingTime, cleanExcerpt, parsePost, sortPostsDesc, type FormattedPost } from './posts';
 import type { CollectionEntry } from 'astro:content';
 
 describe('posts utilities', () => {
+  describe('cleanExcerpt', () => {
+    it('returns empty string for empty input', () => {
+      expect(cleanExcerpt('')).toBe('');
+    });
+
+    it('removes HTML tags', () => {
+      expect(cleanExcerpt('<p>Bonjour <strong>le monde</strong></p>')).toBe('Bonjour le monde');
+    });
+
+    it('removes Markdown headings, links, bold and italic syntaxes', () => {
+      const markdown = '# Titre\n\nVoici du texte avec du **gras**, des __mots en gras__, de *l\'italique* et de l\'_italique avec underscore_, ainsi qu\'un [lien](https://example.com). <!-- comment -->';
+      expect(cleanExcerpt(markdown)).toBe("Voici du texte avec du gras, des mots en gras, de l'italique et de l'italique avec underscore, ainsi qu'un lien.");
+    });
+  });
+
   describe('calculateReadingTime', () => {
     it('returns 1 min de lecture for short text', () => {
       const result = calculateReadingTime('Ceci est un court texte.');

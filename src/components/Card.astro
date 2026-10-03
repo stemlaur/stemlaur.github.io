@@ -1,4 +1,6 @@
 ---
+import { cleanExcerpt } from '../utils/posts';
+
 interface Props {
   url: string;
   title: string;
@@ -23,18 +25,7 @@ const {
   includeText = true,
 } = Astro.props;
 
-// Strip HTML tags and markdown symbols from excerpt if present
-const cleanText = text
-  ? text
-      .replace(/<[^>]*>?/gm, '')
-      .replace(/#+\s+/g, '')
-      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-      .replace(/\*\*([^*]+)\*\*/g, '$1')
-      .replace(/\*([^*]+)\*/g, '$1')
-      .replace(/<!--[\s\S]*?-->/g, '')
-      .trim()
-  : '';
-
+const cleanText = cleanExcerpt(text || '');
 const displayExcerpt = cleanText.length > 200 ? `${cleanText.slice(0, 200)}…` : cleanText;
 ---
 

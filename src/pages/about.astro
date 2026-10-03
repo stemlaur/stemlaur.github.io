@@ -12,11 +12,18 @@ const strengths = [
 
 const jobs = [
   {
+    role: 'Lead developer transverse',
+    company: 'Dalkia',
+    period: 'Août 2025 – Présent',
+    description: 'Entreprise de services énergétiques spécialisée dans le développement des énergies renouvelables.',
+    bullets: ['Clean code & Software Craftsmanship', 'DDD, TDD, BDD', 'IA'],
+  },
+  {
     role: 'Senior Developer',
     company: 'Arolla.fr',
-    period: 'Janvier 2020 – Présent',
+    period: 'Janvier 2020 – Août 2025',
     description: 'Cabinet de conseil spécialisé en ingénierie logicielle d’excellence.',
-    bullets: ['Clean code & Software Craftsmanship', 'DDD, TDD, BDD', 'Remédiation de code patrimonial', 'Bières 🍺🍺🍺'],
+    bullets: ['Clean code & Software Craftsmanship', 'DDD, TDD, BDD', 'Remédiation de code legacy'],
   },
   {
     role: 'Lead Developer',
@@ -27,8 +34,7 @@ const jobs = [
       'Lead developer d’une équipe de 6 personnes',
       'Construction de microservices étranglant le système monolithique legacy (Strangler Pattern)',
       'Culture Domain-Driven Design sans compromis sur la qualité',
-      'Migration vers le cloud & recrutement des talents',
-      'Bières 🍺🍺🍺',
+      'Migration vers le cloud & recrutement des talents'
     ],
   },
   {
@@ -39,8 +45,7 @@ const jobs = [
     bullets: [
       'Lead developer d’une équipe de 4 personnes',
       'Urbanisation du code et optimisation front-end (+150% de performance)',
-      'Introduction des méthodes Agiles, code reviews systématiques et git-flow',
-      'Bières 🍺🍺🍺',
+      'Introduction des méthodes Agiles, code reviews systématiques et git-flow'
     ],
   },
   {
@@ -52,8 +57,7 @@ const jobs = [
       'Conception d’un système d’extraction et de gestion de contacts pour campagnes e-mailing volumiques',
       'Système temps réel de retargeting publicitaire',
       'Management d’une équipe binationale (France et Pologne)',
-      'Introduction du TDD et des environnements de pré-production',
-      'Bières 🍺🍺🍺',
+      'Introduction du TDD et des environnements de pré-production'
     ],
   },
   {
@@ -64,16 +68,14 @@ const jobs = [
     bullets: [
       'TMA du progiciel de billetterie/pesée déployé sur les carrières françaises et grecques',
       'Développement d’un portail web de gestion des inventaires',
-      'Support, formation des utilisateurs et assurance qualité',
-      'Bières 🍺🍺🍺',
+      'Support, formation des utilisateurs et assurance qualité'
     ],
   },
   {
     role: 'Junior Software Developer (Stage)',
     company: 'Altendis',
     period: '2007',
-    description: 'Développement et maintenance d’une plateforme e-learning.',
-    bullets: ['Bières 🍺🍺🍺'],
+    description: 'Développement et maintenance d’une plateforme e-learning.'
   },
 ];
 ---
@@ -172,14 +174,16 @@ const jobs = [
             </span>
           </div>
           <p class="text-sm text-slate-500 dark:text-slate-400 mb-3">{job.description}</p>
-          <ul class="space-y-1.5">
-            {job.bullets.map((b) => (
-              <li class="text-sm text-slate-600 dark:text-slate-300 flex items-start gap-2">
-                <span class="text-brand-400 mt-1">•</span>
-                <span>{b}</span>
-              </li>
-            ))}
-          </ul>
+          {job.bullets && job.bullets.length > 0 && (
+            <ul class="space-y-1.5">
+              {job.bullets.map((b) => (
+                <li class="text-sm text-slate-600 dark:text-slate-300 flex items-start gap-2">
+                  <span class="text-brand-400 mt-1">•</span>
+                  <span>{b}</span>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       ))}
     </div>

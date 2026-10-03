@@ -23,6 +23,20 @@ const MONTH_NAMES_FR = [
   'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'
 ];
 
+export function cleanExcerpt(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/<[^>]*>?/gm, '')
+    .replace(/^#+\s.*$/gm, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/__([^_]+)__/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .replace(/_([^_]+)_/g, '$1')
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .trim();
+}
+
 export function calculateReadingTime(text: string): { wordsCount: number; minutes: number; text: string } {
   const clean = text
     .replace(/```[\s\S]*?```/g, '') // remove code blocks
