@@ -15,6 +15,16 @@ export async function GET(_context: APIContext) {
     readingTime: post.readingTime,
   }));
 
+  // Also include Nikonov
+  searchData.unshift({
+    title: 'Nikonov',
+    url: '/nikonov/',
+    date: 'Roman court',
+    tags: ['nouvelle'],
+    excerpt: 'En dernière classe, Ivan Volodia Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques...',
+    readingTime: '15 min de lecture',
+  });
+
   return new Response(JSON.stringify(searchData), {
     headers: {
       'Content-Type': 'application/json',
