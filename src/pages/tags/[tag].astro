@@ -64,18 +64,6 @@ const displayTitle = tagTitles[tag] || `Tag: ${tag}`;
   <PostNavBar activeTag={tag} />
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {tag === 'nouvelle' && (
-      <Card
-        url="/nikonov/"
-        title="Nikonov"
-        image="/assets/images/posts/nikonov.jpg"
-        tag="Nouvelle"
-        readingTime="15 min de lecture"
-        text="En dernière classe, Ivan Volodia Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés."
-        includeText={true}
-      />
-    )}
-
     {posts.map((post) => (
       <Card
         url={post.permalink}

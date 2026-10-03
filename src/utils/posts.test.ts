@@ -108,6 +108,30 @@ describe('posts utilities', () => {
       expect(post.tags).toEqual(['nouvelle']);
       expect(post.excerpt).toBe('Premier paragraphe sans more tag.');
     });
+
+    it('parses Nikonov post id and frontmatter as a standard post', () => {
+      const mockEntry: CollectionEntry<'blog'> = {
+        id: '2020-06-01-nikonov.md',
+        body: 'Ivan Volodia Nikonov était pauvre.\n\n<!--more-->\n\n...',
+        data: {
+          title: 'Nikonov',
+          description: 'Ivan Volodia Nikonov était pauvre.',
+          tags: 'nouvelle',
+          image: '/assets/images/posts/nikonov.jpg',
+        },
+      } as unknown as CollectionEntry<'blog'>;
+
+      const post = parsePost(mockEntry);
+
+      expect(post.year).toBe('2020');
+      expect(post.month).toBe('06');
+      expect(post.day).toBe('01');
+      expect(post.slug).toBe('nikonov');
+      expect(post.permalink).toBe('/blog/2020/06/01/nikonov/');
+      expect(post.formattedDate).toBe('1 juin 2020');
+      expect(post.tags).toEqual(['nouvelle']);
+      expect(post.image).toBe('/assets/images/posts/nikonov.jpg');
+    });
   });
 
   describe('sortPostsDesc', () => {

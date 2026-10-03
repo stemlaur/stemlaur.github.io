@@ -43,7 +43,6 @@ npm run preview
   - Blog: `/blog/` & `/blog/2/`, `/blog/3/`, etc. (paginated, 10 posts per page)
   - Articles: `/blog/:year/:month/:day/:slug/` (100% backward-compatible with legacy Jekyll permalinks)
   - Tags: `/tags/tech/`, `/tags/inc/`, `/tags/nouvelle/`
-  - Novels: `/nikonov/` and `/nikonov-en/`
   - About: `/about/`
   - 404: `/404.html`
 - **Comments**: Hyvor Talk widget preserved and integrated in `src/components/HyvorTalk.astro` (Website ID `757`).
