@@ -1,0 +1,35 @@
+---
+interface Props {
+  activeTag?: string;
+}
+
+const { activeTag } = Astro.props;
+
+const categories = [
+  { label: 'Tous', href: '/blog/', id: 'all' },
+  { label: 'Tech', href: '/tags/tech/', id: 'tech' },
+  { label: 'Stemlaur Inc. ©', href: '/tags/inc/', id: 'inc' },
+  { label: 'Nouvelles', href: '/tags/nouvelle/', id: 'nouvelle' },
+];
+---
+
+<nav class="my-8 flex justify-center" aria-label="Catégories du blog">
+  <div class="inline-flex flex-wrap items-center justify-center gap-2 p-1.5 bg-slate-100 rounded-2xl border border-slate-200/80">
+    {categories.map((cat) => {
+      const isSelected = (!activeTag && cat.id === 'all') || (activeTag && activeTag.toLowerCase() === cat.id);
+      return (
+        <a
+          href={cat.href}
+          class:list={[
+            'px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold uppercase tracking-wider transition-all duration-200',
+            isSelected
+              ? 'bg-brand-900 text-white shadow-sm'
+              : 'text-slate-600 hover:text-brand-900 hover:bg-white/80',
+          ]}
+        >
+          {cat.label}
+        </a>
+      );
+    })}
+  </div>
+</nav>

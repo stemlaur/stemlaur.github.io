@@ -1,0 +1,69 @@
+---
+import type { GetStaticPaths, Page } from "astro";
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Card from "../../components/Card.astro";
+import PostNavBar from "../../components/PostNavBar.astro";
+import Pagination from "../../components/Pagination.astro";
+import { parsePost, sortPostsDesc, type FormattedPost } from "../../utils/posts";
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const blogEntries = await getCollection("blog");
+  const allPosts = sortPostsDesc(blogEntries.map(parsePost));
+  return paginate(allPosts, { pageSize: 10 });
+}) satisfies GetStaticPaths;
+
+interface Props {
+  page: Page<FormattedPost>;
+}
+
+const { page } = Astro.props;
+---
+
+<BaseLayout
+  title={page.currentPage === 1 ? "Articles" : `Articles — Page ${page.currentPage}`}
+  description="Tous les articles et récits rédigés par Laurent Stemmer sur l architecture logicielle, le DDD, et la fiction littéraire."
+>
+  <div class="mb-8 text-center">
+    <h1 class="text-3xl sm:text-4xl font-black text-brand-900 tracking-tight leading-tight">
+      Les articles
+    </h1>
+    <p class="mt-2 text-slate-600 max-w-lg mx-auto">
+      Explorations techniques, architecture, retours d expérience et nouvelles littéraires.
+    </p>
+  </div>
+
+  <PostNavBar />
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {page.currentPage === 1 && (
+      <Card
+        url="/nikonov/"
+        title="Nikonov"
+        image="/assets/images/posts/nikonov.jpg"
+        tag="Nouvelle"
+        text="En dernière classe, Ivan Volodia Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés."
+        includeText={true}
+      />
+    )}
+
+    {page.data.map((post) => (
+      <Card
+        url={post.permalink}
+        title={post.title}
+        image={post.image}
+        date={post.formattedDate}
+        tag={post.tags[0]}
+        text={post.excerpt}
+        includeText={true}
+      />
+    ))}
+  </div>
+
+  <Pagination
+    prevUrl={page.url.prev}
+    nextUrl={page.url.next}
+    currentPage={page.currentPage}
+    lastPage={page.lastPage}
+  />
+</BaseLayout>

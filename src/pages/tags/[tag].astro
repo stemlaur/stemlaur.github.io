@@ -1,0 +1,90 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Card from '../../components/Card.astro';
+import PostNavBar from '../../components/PostNavBar.astro';
+import { parsePost, sortPostsDesc, type FormattedPost } from '../../utils/posts';
+
+export const getStaticPaths = (async () => {
+  const entries = await getCollection('blog');
+  const allPosts = sortPostsDesc(entries.map(parsePost));
+
+  // Extract all distinct lowercased tags
+  const tagsSet = new Set<string>();
+  // Pre-seed known tags to guarantee they always exist even if casing differs
+  tagsSet.add('tech');
+  tagsSet.add('inc');
+  tagsSet.add('nouvelle');
+
+  allPosts.forEach((post) => {
+    post.tags.forEach((t) => tagsSet.add(t.toLowerCase()));
+  });
+
+  return Array.from(tagsSet).map((tag) => {
+    const matchingPosts = allPosts.filter((post) =>
+      post.tags.some((t) => t.toLowerCase() === tag)
+    );
+    return {
+      params: { tag },
+      props: { tag, posts: matchingPosts },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+interface Props {
+  tag: string;
+  posts: FormattedPost[];
+}
+
+const { tag, posts } = Astro.props;
+
+const tagTitles: Record<string, string> = {
+  tech: 'Tech & Architecture',
+  inc: 'Stemlaur Inc. ©',
+  nouvelle: 'Nouvelles & Fiction',
+};
+
+const displayTitle = tagTitles[tag] || `Tag: ${tag}`;
+---
+
+<BaseLayout
+  title={`${displayTitle} · Articles`}
+  description={`Tous les articles et histoires classés sous le thème ${displayTitle} sur le blog de Laurent Stemmer.`}
+>
+  <div class="mb-8 text-center">
+    <h1 class="text-3xl sm:text-4xl font-black text-brand-900 tracking-tight leading-tight">
+      {displayTitle}
+    </h1>
+    <p class="mt-2 text-slate-600 max-w-lg mx-auto">
+      {posts.length} {posts.length > 1 ? 'articles répertoriés' : 'article répertorié'} sous cette thématique.
+    </p>
+  </div>
+
+  <PostNavBar activeTag={tag} />
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {tag === 'nouvelle' && (
+      <Card
+        url="/nikonov/"
+        title="Nikonov"
+        image="/assets/images/posts/nikonov.jpg"
+        tag="Nouvelle"
+        text="En dernière classe, Ivan Volodia Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés."
+        includeText={true}
+      />
+    )}
+
+    {posts.map((post) => (
+      <Card
+        url={post.permalink}
+        title={post.title}
+        image={post.image}
+        date={post.formattedDate}
+        tag={post.tags[0]}
+        text={post.excerpt}
+        includeText={true}
+      />
+    ))}
+  </div>
+</BaseLayout>

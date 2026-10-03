@@ -1,5 +1,27 @@
-_site
-.sass-cache
-.jekyll-metadata
-.idea
+# Build artifacts
+dist/
+_site/
+.astro/
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.production
+
+# IDE & OS
+.idea/
 *.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Legacy Jekyll
+.sass-cache/
+.jekyll-metadata

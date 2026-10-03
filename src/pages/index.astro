@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Card from '../components/Card.astro';
+
+const featuredStories = [
+  {
+    url: '/nikonov/',
+    title: 'Nikonov',
+    image: '/assets/images/posts/nikonov.jpg',
+    tag: 'Nouvelle',
+    text: "En dernière classe, Ivan Volodia Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques...",
+  },
+  {
+    url: '/blog/2020/05/06/fusion/',
+    title: 'Fusion',
+    image: '/assets/images/posts/fusion.jpg',
+    tag: 'Nouvelle',
+    text: "Le métal et la chair, l'alliance de la matière et du vivant. Une expérience littéraire surprenante.",
+  },
+  {
+    url: '/blog/2020/06/21/stemlaur-inc-les-tables-de-la-loi-informatique-et-liberte/',
+    title: 'Les tables de la Loi informatique',
+    image: '/assets/images/programmation-par-l-absurde.png',
+    tag: 'Stemlaur Inc. ©',
+    text: "La programmation par l'absurde selon Stemlaur Inc. Les commandements ultimes de l'ingénierie moderne.",
+  },
+  {
+    url: '/blog/2020/04/27/la-tulipe/',
+    title: 'La tulipe',
+    image: '/assets/images/posts/la-tulipe.jpg',
+    tag: 'Nouvelle',
+    text: "Une histoire poétique et mystérieuse autour d'une simple fleur aux reflets singuliers.",
+  },
+  {
+    url: '/blog/2020/05/29/l-homelie/',
+    title: "L'homélie",
+    image: '/assets/images/posts/l-homelie.jpg',
+    tag: 'Nouvelle',
+    text: "Un sermon pas comme les autres qui résonne dans l'écho silencieux d'une nef oubliée.",
+  },
+  {
+    url: '/blog/2020/04/28/la-montagne-bleue/',
+    title: 'La montagne bleue',
+    image: '/assets/images/posts/la-montagne-bleue.jpg',
+    tag: 'Nouvelle',
+    text: "L'horizon azuréen et l'appel des cimes lointaines. Un récit d'aventure et d'introspection.",
+  },
+];
+---
+
+<BaseLayout title="Blog de Laurent Stemmer">
+  <section class="text-center py-6 sm:py-10">
+    <div class="relative inline-block mb-6 group">
+      <div class="absolute -inset-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 opacity-25 blur group-hover:opacity-50 transition duration-700"></div>
+      <img
+        class="relative w-48 h-48 sm:w-56 sm:h-56 mx-auto rounded-full object-cover shadow-lg border-4 border-white transition duration-700 ease-out group-hover:-rotate-3 group-hover:scale-105"
+        src="/assets/images/stemlaur_main.png"
+        alt="Stemlaur logo"
+      />
+    </div>
+
+    <h1 class="text-4xl sm:text-5xl font-black text-brand-900 tracking-tight leading-tight mb-3">
+      Stemlaur, blog !
+    </h1>
+    <p class="max-w-xl mx-auto text-lg text-slate-600 mb-8 leading-relaxed">
+      Développement logiciel, artisanat du code, nouvelles littéraires et récits de fiction signés Laurent Stemmer.
+    </p>
+
+    <div class="flex items-center justify-center gap-4">
+      <a
+        href="/blog/"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white bg-brand-900 hover:bg-brand-800 shadow-md hover:shadow-lg transition-all duration-200"
+      >
+        <span>Tous les articles</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </a>
+      <a
+        href="/about/"
+        class="inline-flex items-center px-6 py-3 rounded-xl font-semibold text-slate-700 bg-white border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-all duration-200"
+      >
+        À propos
+      </a>
+    </div>
+  </section>
+
+  <section class="mt-12">
+    <div class="flex items-center justify-between mb-8 pb-3 border-b border-slate-200">
+      <div>
+        <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Sélection de récits</h2>
+        <p class="text-sm text-slate-500">Quelques incontournables du blog</p>
+      </div>
+      <a href="/blog/" class="text-sm font-semibold text-brand-900 hover:underline">
+        Voir tout &rarr;
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {featuredStories.map((story) => (
+        <Card
+          url={story.url}
+          title={story.title}
+          image={story.image}
+          tag={story.tag}
+          text={story.text}
+          includeText={false}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

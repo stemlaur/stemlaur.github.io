@@ -1,0 +1,220 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const strengths = [
+  '15+ ans d’expérience professionnelle (Java, architectures distribuées, backend robuste)',
+  'Artisanat logiciel : DDD (Domain-Driven Design), CQRS, Event Sourcing, TDD, BDD',
+  'Leadership technique, mentorat et animation d’équipes internationales',
+  'Remédiation de legacy systems et microservices',
+  'Veille technologique continue et curiosité intellectuelle',
+  'Empathie, écoute active et communication constructive',
+];
+
+const jobs = [
+  {
+    role: 'Senior Developer',
+    company: 'Arolla.fr',
+    period: 'Janvier 2020 – Présent',
+    description: 'Cabinet de conseil spécialisé en ingénierie logicielle d’excellence.',
+    bullets: ['Clean code & Software Craftsmanship', 'DDD, TDD, BDD', 'Remédiation de code patrimonial', 'Bières 🍺🍺🍺'],
+  },
+  {
+    role: 'Lead Developer',
+    company: 'Weekendesk.com',
+    period: 'Janvier 2015 – Janvier 2020',
+    description: 'Leader européen des week-ends thématiques en ligne.',
+    bullets: [
+      'Lead developer d’une équipe de 6 personnes',
+      'Construction de microservices étranglant le système monolithique legacy (Strangler Pattern)',
+      'Culture Domain-Driven Design sans compromis sur la qualité',
+      'Migration vers le cloud & recrutement des talents',
+      'Bières 🍺🍺🍺',
+    ],
+  },
+  {
+    role: 'Lead Developer',
+    company: 'Monsieurdrive.com',
+    period: 'Novembre 2013 – Janvier 2015',
+    description: 'Startup e-commerce et courses alimentaires.',
+    bullets: [
+      'Lead developer d’une équipe de 4 personnes',
+      'Urbanisation du code et optimisation front-end (+150% de performance)',
+      'Introduction des méthodes Agiles, code reviews systématiques et git-flow',
+      'Bières 🍺🍺🍺',
+    ],
+  },
+  {
+    role: 'Lead Developer',
+    company: 'NextEdia (ex-Come&Stay)',
+    period: 'Janvier 2011 – Octobre 2013',
+    description: 'Société tech & marketing international.',
+    bullets: [
+      'Conception d’un système d’extraction et de gestion de contacts pour campagnes e-mailing volumiques',
+      'Système temps réel de retargeting publicitaire',
+      'Management d’une équipe binationale (France et Pologne)',
+      'Introduction du TDD et des environnements de pré-production',
+      'Bières 🍺🍺🍺',
+    ],
+  },
+  {
+    role: 'Software Developer',
+    company: 'Lafarge France',
+    period: 'Octobre 2007 – Décembre 2010',
+    description: 'Leader mondial des matériaux de construction.',
+    bullets: [
+      'TMA du progiciel de billetterie/pesée déployé sur les carrières françaises et grecques',
+      'Développement d’un portail web de gestion des inventaires',
+      'Support, formation des utilisateurs et assurance qualité',
+      'Bières 🍺🍺🍺',
+    ],
+  },
+  {
+    role: 'Junior Software Developer (Stage)',
+    company: 'Altendis',
+    period: '2007',
+    description: 'Développement et maintenance d’une plateforme e-learning.',
+    bullets: ['Bières 🍺🍺🍺'],
+  },
+];
+---
+
+<BaseLayout
+  title="À propos"
+  description="À propos de Laurent Stemmer — Software developer, craftsman, passionné de DDD, architecture logicielle et écriture."
+  image="/assets/images/me_card.png"
+>
+  <!-- Hero profile -->
+  <section class="max-w-3xl mx-auto mb-12">
+    <div class="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-10 shadow-xs flex flex-col sm:flex-row items-center gap-8">
+      <div class="relative shrink-0">
+        <picture>
+          <source media="(min-width: 640px)" srcset="/assets/images/me_card.png" />
+          <img
+            class="w-36 h-36 sm:w-44 sm:h-44 rounded-2xl object-cover shadow-md ring-4 ring-slate-100"
+            src="/assets/images/me_two.webp"
+            alt="Laurent Stemmer"
+            width="176"
+            height="176"
+          />
+        </picture>
+        <span class="absolute -bottom-2 -right-2 px-3 py-1 rounded-full text-xs font-bold bg-brand-900 text-white shadow-sm">
+          Lead Dev
+        </span>
+      </div>
+
+      <div class="text-center sm:text-left space-y-3">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Laurent Stemmer
+        </h1>
+        <p class="text-lg font-medium text-brand-900">
+          Senior Software Developer & Craftsperson
+        </p>
+        <div class="flex items-center justify-center sm:justify-start gap-2 text-sm text-slate-500">
+          <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <span>Paris, France</span>
+        </div>
+
+        <div class="pt-2 flex items-center justify-center sm:justify-start gap-4">
+          <a
+            href="https://github.com/stemlaur"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 transition-colors"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://twitter.com/stemlaur"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 transition-colors"
+          >
+            Twitter
+          </a>
+          <a
+            href="https://www.linkedin.com/in/stemlaur"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 transition-colors"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strengths -->
+  <section class="max-w-3xl mx-auto mb-12">
+    <h2 class="text-2xl font-bold text-slate-900 tracking-tight mb-6 flex items-center gap-2">
+      <span class="text-brand-900">⚡</span> Compétences & Atouts
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+      {strengths.map((item) => (
+        <div class="bg-white p-4 rounded-xl border border-slate-200/80 shadow-2xs flex items-start gap-3">
+          <span class="text-brand-600 font-bold mt-0.5">✔</span>
+          <span class="text-sm font-medium text-slate-700 leading-snug">{item}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Work History Timeline -->
+  <section class="max-w-3xl mx-auto mb-12">
+    <h2 class="text-2xl font-bold text-slate-900 tracking-tight mb-6 flex items-center gap-2">
+      <span class="text-brand-900">💼</span> Expérience professionnelle
+    </h2>
+
+    <div class="space-y-6">
+      {jobs.map((job) => (
+        <div class="bg-white rounded-2xl border border-slate-200/80 p-6 shadow-2xs hover:border-slate-300 transition-all">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
+            <h3 class="text-lg font-bold text-slate-900">
+              {job.role} <span class="text-brand-900 font-medium">@ {job.company}</span>
+            </h3>
+            <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 text-slate-600 w-fit">
+              {job.period}
+            </span>
+          </div>
+          <p class="text-sm text-slate-500 mb-3">{job.description}</p>
+          <ul class="space-y-1.5">
+            {job.bullets.map((b) => (
+              <li class="text-sm text-slate-600 flex items-start gap-2">
+                <span class="text-brand-400 mt-1">•</span>
+                <span>{b}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Education & Personal -->
+  <section class="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
+    <div class="bg-white rounded-2xl border border-slate-200/80 p-6 shadow-2xs">
+      <h2 class="text-xl font-bold text-slate-900 tracking-tight mb-4 flex items-center gap-2">
+        <span>🎓</span> Formation
+      </h2>
+      <p class="text-sm text-slate-700 leading-relaxed">
+        <strong>Master Professionnel Ingénierie Logicielle pour l’Internet</strong><br />
+        Université Jean Perrin, Lens, France (2007)
+      </p>
+    </div>
+
+    <div class="bg-white rounded-2xl border border-slate-200/80 p-6 shadow-2xs">
+      <h2 class="text-xl font-bold text-slate-900 tracking-tight mb-4 flex items-center gap-2">
+        <span>✨</span> Passions & Anecdotes
+      </h2>
+      <ul class="space-y-1 text-sm text-slate-700">
+        <li>✍️ Écriture de contes et de nouvelles littéraires</li>
+        <li>🎸 Guitare, musique et lecture</li>
+        <li>👨‍🏫 Transmission et partage de connaissances logicielles</li>
+        <li>🍺 Dégustation de bières artisanales</li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
