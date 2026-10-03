@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page non trouvée (404)">
+  <div class="py-20 text-center max-w-lg mx-auto">
+    <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-brand-50 text-brand-900 font-black text-3xl mb-6">
+      404
+    </div>
+    <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight mb-3">
+      Page introuvable
+    </h1>
+    <p class="text-slate-600 mb-8 leading-relaxed">
+      Désolé, la page que vous cherchez n'existe pas ou a été déplacée.
+    </p>
+    <div class="flex items-center justify-center gap-4">
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold text-white bg-brand-900 hover:bg-brand-800 transition-colors"
+      >
+        <span>Retour à l'accueil</span>
+      </a>
+      <a
+        href="/blog/"
+        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 transition-colors"
+      >
+        <span>Explorer les articles</span>
+      </a>
+    </div>
+  </div>
+</BaseLayout>

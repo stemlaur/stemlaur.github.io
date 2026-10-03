@@ -1,0 +1,21 @@
+---
+interface Props {
+  url: string;
+  id: string;
+}
+
+const { url, id } = Astro.props;
+---
+
+<section class="mt-16 pt-10 border-t border-slate-200" aria-label="Commentaires">
+  <div id="hyvor-talk-view"></div>
+</section>
+
+<script is:inline define:vars={{ url, id }}>
+  window.HYVOR_TALK_WEBSITE = 757; // DO NOT CHANGE THIS
+  window.HYVOR_TALK_CONFIG = {
+    url: url,
+    id: id,
+  };
+</script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>

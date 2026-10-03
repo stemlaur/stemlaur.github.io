@@ -1,0 +1,58 @@
+---
+interface Props {
+  prevUrl?: string;
+  nextUrl?: string;
+  currentPage: number;
+  lastPage: number;
+}
+
+const { prevUrl, nextUrl, currentPage, lastPage } = Astro.props;
+---
+
+<nav class="my-12 flex items-center justify-between" aria-label="Pagination">
+  <div class="flex-1">
+    {nextUrl ? (
+      <a
+        href={nextUrl}
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-700 bg-white border border-slate-200 hover:border-brand-500 hover:text-brand-900 hover:shadow-sm transition-all"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        <span>Articles plus anciens</span>
+      </a>
+    ) : (
+      <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-300 border border-slate-100 cursor-not-allowed">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        <span>Articles plus anciens</span>
+      </span>
+    )}
+  </div>
+
+  <div class="text-xs sm:text-sm text-slate-500 font-medium">
+    Page {currentPage} sur {lastPage}
+  </div>
+
+  <div class="flex-1 flex justify-end">
+    {prevUrl ? (
+      <a
+        href={prevUrl}
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-700 bg-white border border-slate-200 hover:border-brand-500 hover:text-brand-900 hover:shadow-sm transition-all"
+      >
+        <span>Articles plus récents</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </a>
+    ) : (
+      <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-300 border border-slate-100 cursor-not-allowed">
+        <span>Articles plus récents</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </span>
+    )}
+  </div>
+</nav>

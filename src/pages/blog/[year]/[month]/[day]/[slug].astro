@@ -1,0 +1,42 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import PostLayout from '../../../../../layouts/PostLayout.astro';
+import { parsePost, type FormattedPost } from '../../../../../utils/posts';
+
+export const getStaticPaths = (async () => {
+  const entries = await getCollection('blog');
+  return entries.map((entry) => {
+    const post = parsePost(entry);
+    return {
+      params: {
+        year: post.year,
+        month: post.month,
+        day: post.day,
+        slug: post.slug,
+      },
+      props: { post },
+    };
+  });
+}) satisfies GetStaticPaths;
+
+interface Props {
+  post: FormattedPost;
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post.entry);
+---
+
+<PostLayout
+  title={post.title}
+  date={post.formattedDate}
+  isoDate={post.isoDate}
+  image={post.image}
+  tags={post.tags}
+  description={post.excerpt}
+  id={post.permalink}
+  url={Astro.url.href}
+>
+  <Content />
+</PostLayout>

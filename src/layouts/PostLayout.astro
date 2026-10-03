@@ -1,0 +1,89 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import HyvorTalk from '../components/HyvorTalk.astro';
+
+interface Props {
+  title: string;
+  date?: string;
+  isoDate?: string;
+  image?: string;
+  tags?: string | string[];
+  description?: string;
+  id?: string;
+  url?: string;
+}
+
+const {
+  title,
+  date,
+  isoDate,
+  image,
+  tags,
+  description,
+  id = Astro.url.pathname,
+  url = Astro.url.href,
+} = Astro.props;
+
+const tagList = Array.isArray(tags) ? tags : tags ? [tags] : [];
+---
+
+<BaseLayout title={title} description={description} image={image} article={true}>
+  <article class="w-full">
+    <div class="mb-8 pb-6 border-b border-slate-200">
+      <div class="flex items-center gap-2 mb-3 flex-wrap">
+        {tagList.map((tag) => (
+          <a
+            href={`/tags/${tag.toLowerCase()}/`}
+            class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-50 text-brand-900 hover:bg-brand-100 transition-colors"
+          >
+            {tag}
+          </a>
+        ))}
+        {date && (
+          <time datetime={isoDate} class="text-sm text-slate-500 font-medium">
+            {date}
+          </time>
+        )}
+      </div>
+
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+        {title}
+      </h1>
+
+      {image && (
+        <div class="my-8 flex justify-center">
+          <img
+            src={image}
+            alt={title}
+            class="w-32 h-32 rounded-full object-cover shadow-md border-2 border-white ring-2 ring-slate-200 transition-transform duration-700 hover:-rotate-6 hover:scale-105"
+          />
+        </div>
+      )}
+    </div>
+
+    <div class="prose prose-slate prose-lg max-w-none 
+      prose-headings:font-bold prose-headings:text-slate-900 
+      prose-h1:text-2xl sm:prose-h1:text-3xl prose-h2:text-xl sm:prose-h2:text-2xl prose-h3:text-lg sm:prose-h3:text-xl
+      prose-a:text-brand-700 hover:prose-a:text-brand-900 prose-a:underline-offset-2
+      prose-blockquote:border-l-brand-600 prose-blockquote:bg-slate-50/80 prose-blockquote:py-1 prose-blockquote:rounded-r-lg
+      prose-img:rounded-xl prose-img:shadow-sm
+      prose-code:text-rose-600 prose-code:bg-slate-100 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:font-mono prose-code:text-sm prose-code:before:content-none prose-code:after:content-none
+      prose-pre:bg-slate-900 prose-pre:rounded-xl prose-pre:shadow-sm">
+      <slot />
+    </div>
+
+    <div class="mt-12 pt-6 border-t border-slate-200 flex justify-between items-center">
+      <a
+        href="/blog/"
+        class="inline-flex items-center gap-2 text-sm font-semibold text-brand-900 hover:text-brand-700 transition-colors"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        <span>Retour aux articles</span>
+      </a>
+    </div>
+
+    <HyvorTalk url={url} id={id} />
+  </article>
+</BaseLayout>
