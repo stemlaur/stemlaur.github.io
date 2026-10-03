@@ -6,6 +6,7 @@ interface Props {
   imageAlt?: string;
   text?: string;
   date?: string;
+  readingTime?: string;
   tag?: string;
   includeText?: boolean;
 }
@@ -17,6 +18,7 @@ const {
   imageAlt = '',
   text,
   date,
+  readingTime,
   tag,
   includeText = true,
 } = Astro.props;
@@ -38,11 +40,11 @@ const displayExcerpt = cleanText.length > 200 ? `${cleanText.slice(0, 200)}…` 
 
 <a
   href={url}
-  class="group flex flex-col justify-between h-full bg-white rounded-2xl border border-slate-200/90 p-5 shadow-xs hover:shadow-xl hover:border-brand-200 card-hover-effect transition-all overflow-hidden"
+  class="group flex flex-col justify-between h-full bg-white dark:bg-slate-800/90 rounded-2xl border border-slate-200/90 dark:border-slate-700/80 p-5 shadow-xs hover:shadow-xl hover:border-brand-200 dark:hover:border-brand-500 card-hover-effect transition-all overflow-hidden"
 >
   <div>
     {image && (
-      <div class="relative w-full aspect-16/10 mb-4 rounded-xl overflow-hidden bg-slate-100">
+      <div class="relative w-full aspect-16/10 mb-4 rounded-xl overflow-hidden bg-slate-100 dark:bg-slate-700">
         <img
           src={image}
           alt={imageAlt || title}
@@ -50,40 +52,48 @@ const displayExcerpt = cleanText.length > 200 ? `${cleanText.slice(0, 200)}…` 
           class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
         />
         {tag && (
-          <span class="absolute top-2.5 left-2.5 px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wider rounded-full bg-brand-900/80 text-white backdrop-blur-xs">
+          <span class="absolute top-2.5 left-2.5 px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wider rounded-full bg-brand-900/85 dark:bg-brand-950/90 text-white backdrop-blur-xs">
             {tag}
           </span>
         )}
       </div>
     )}
 
-    <div class="flex items-center gap-2 mb-2">
+    <div class="flex items-center gap-2 mb-2 flex-wrap">
       {!image && tag && (
-        <span class="px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wider rounded-full bg-brand-50 text-brand-900">
+        <span class="px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wider rounded-full bg-brand-50 dark:bg-brand-950/60 text-brand-900 dark:text-brand-300 border border-brand-100 dark:border-brand-800/50">
           {tag}
         </span>
       )}
       {date && (
-        <time class="text-xs text-slate-400 font-medium">
+        <time class="text-xs text-slate-500 dark:text-slate-400 font-medium">
           {date}
         </time>
       )}
+      {readingTime && (
+        <>
+          <span class="text-xs text-slate-300 dark:text-slate-600" aria-hidden="true">•</span>
+          <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">
+            {readingTime}
+          </span>
+        </>
+      )}
     </div>
 
-    <h3 class="text-lg font-bold text-slate-900 group-hover:text-brand-900 transition-colors line-clamp-2 leading-snug">
+    <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100 group-hover:text-brand-900 dark:group-hover:text-brand-400 transition-colors line-clamp-2 leading-snug">
       {title}
     </h3>
 
     {includeText && displayExcerpt && (
-      <p class="mt-2.5 text-sm text-slate-600 line-clamp-3 leading-relaxed">
+      <p class="mt-2.5 text-sm text-slate-600 dark:text-slate-300 line-clamp-3 leading-relaxed">
         {displayExcerpt}
       </p>
     )}
   </div>
 
-  <div class="mt-4 pt-3 border-t border-slate-100 flex items-center text-xs font-semibold text-brand-900 group-hover:translate-x-1 transition-transform">
+  <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-700/60 flex items-center text-xs font-semibold text-brand-900 dark:text-brand-400 group-hover:translate-x-1 transition-transform">
     <span>Lire l'article</span>
-    <svg class="w-4 h-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
+    <svg class="w-4 h-4 ml-1" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
       <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
     </svg>
   </div>

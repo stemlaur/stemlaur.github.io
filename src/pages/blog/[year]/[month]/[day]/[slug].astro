@@ -2,12 +2,19 @@
 import type { GetStaticPaths } from 'astro';
 import { getCollection, render } from 'astro:content';
 import PostLayout from '../../../../../layouts/PostLayout.astro';
-import { parsePost, type FormattedPost } from '../../../../../utils/posts';
+import { parsePost, sortPostsDesc, type FormattedPost } from '../../../../../utils/posts';
 
 export const getStaticPaths = (async () => {
   const entries = await getCollection('blog');
-  return entries.map((entry) => {
-    const post = parsePost(entry);
+  const sortedPosts = sortPostsDesc(entries.map(parsePost));
+
+  return sortedPosts.map((post, i) => {
+    // sortedPosts is descending by date (newest first).
+    // prevPost: older post chronologically (index i + 1)
+    // nextPost: newer post chronologically (index i - 1)
+    const prevPost = i < sortedPosts.length - 1 ? sortedPosts[i + 1] : undefined;
+    const nextPost = i > 0 ? sortedPosts[i - 1] : undefined;
+
     return {
       params: {
         year: post.year,
@@ -15,16 +22,18 @@ export const getStaticPaths = (async () => {
         day: post.day,
         slug: post.slug,
       },
-      props: { post },
+      props: { post, prevPost, nextPost },
     };
   });
 }) satisfies GetStaticPaths;
 
 interface Props {
   post: FormattedPost;
+  prevPost?: FormattedPost;
+  nextPost?: FormattedPost;
 }
 
-const { post } = Astro.props;
+const { post, prevPost, nextPost } = Astro.props;
 const { Content } = await render(post.entry);
 ---
 
@@ -35,8 +44,11 @@ const { Content } = await render(post.entry);
   image={post.image}
   tags={post.tags}
   description={post.excerpt}
+  readingTime={post.readingTime}
   id={post.permalink}
   url={Astro.url.href}
+  prevPost={prevPost ? { title: prevPost.title, url: prevPost.permalink } : undefined}
+  nextPost={nextPost ? { title: nextPost.title, url: nextPost.permalink } : undefined}
 >
   <Content />
 </PostLayout>

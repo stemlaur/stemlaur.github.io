@@ -53,10 +53,10 @@ const displayTitle = tagTitles[tag] || `Tag: ${tag}`;
   description={`Tous les articles et histoires classés sous le thème ${displayTitle} sur le blog de Laurent Stemmer.`}
 >
   <div class="mb-8 text-center">
-    <h1 class="text-3xl sm:text-4xl font-black text-brand-900 tracking-tight leading-tight">
+    <h1 class="text-3xl sm:text-4xl font-black text-brand-900 dark:text-white tracking-tight leading-tight">
       {displayTitle}
     </h1>
-    <p class="mt-2 text-slate-600 max-w-lg mx-auto">
+    <p class="mt-2 text-slate-600 dark:text-slate-300 max-w-lg mx-auto">
       {posts.length} {posts.length > 1 ? 'articles répertoriés' : 'article répertorié'} sous cette thématique.
     </p>
   </div>
@@ -70,6 +70,7 @@ const displayTitle = tagTitles[tag] || `Tag: ${tag}`;
         title="Nikonov"
         image="/assets/images/posts/nikonov.jpg"
         tag="Nouvelle"
+        readingTime="15 min de lecture"
         text="En dernière classe, Ivan Volodia Nikonov se mêlait à une population de besogneux, de clochards, de familles nombreuses aux enfants colériques et bruyants, aux prolétaires esclaves de leur machine, aux aliénés et aux opprimés."
         includeText={true}
       />
@@ -81,6 +82,7 @@ const displayTitle = tagTitles[tag] || `Tag: ${tag}`;
         title={post.title}
         image={post.image}
         date={post.formattedDate}
+        readingTime={post.readingTime}
         tag={post.tags[0]}
         text={post.excerpt}
         includeText={true}

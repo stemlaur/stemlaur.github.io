@@ -2,26 +2,37 @@
 import BaseLayout from './BaseLayout.astro';
 import HyvorTalk from '../components/HyvorTalk.astro';
 
+interface PostLink {
+  title: string;
+  url: string;
+}
+
 interface Props {
   title: string;
   date?: string;
   isoDate?: string;
+  readingTime?: string;
   image?: string;
   tags?: string | string[];
   description?: string;
   id?: string;
   url?: string;
+  prevPost?: PostLink;
+  nextPost?: PostLink;
 }
 
 const {
   title,
   date,
   isoDate,
+  readingTime,
   image,
   tags,
   description,
   id = Astro.url.pathname,
   url = Astro.url.href,
+  prevPost,
+  nextPost,
 } = Astro.props;
 
 const tagList = Array.isArray(tags) ? tags : tags ? [tags] : [];
@@ -29,24 +40,35 @@ const tagList = Array.isArray(tags) ? tags : tags ? [tags] : [];
 
 <BaseLayout title={title} description={description} image={image} article={true}>
   <article class="w-full">
-    <div class="mb-8 pb-6 border-b border-slate-200">
+    <div class="mb-8 pb-6 border-b border-slate-200 dark:border-slate-800">
       <div class="flex items-center gap-2 mb-3 flex-wrap">
         {tagList.map((tag) => (
           <a
             href={`/tags/${tag.toLowerCase()}/`}
-            class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-50 text-brand-900 hover:bg-brand-100 transition-colors"
+            class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-50 dark:bg-brand-950/60 text-brand-900 dark:text-brand-300 border border-brand-100 dark:border-brand-800/50 hover:bg-brand-100 dark:hover:bg-brand-900 transition-colors"
           >
             {tag}
           </a>
         ))}
         {date && (
-          <time datetime={isoDate} class="text-sm text-slate-500 font-medium">
+          <time datetime={isoDate} class="text-sm text-slate-500 dark:text-slate-400 font-medium">
             {date}
           </time>
         )}
+        {readingTime && (
+          <>
+            <span class="text-slate-300 dark:text-slate-600" aria-hidden="true">•</span>
+            <span class="text-sm text-slate-500 dark:text-slate-400 font-medium flex items-center gap-1.5">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span>{readingTime}</span>
+            </span>
+          </>
+        )}
       </div>
 
-      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight leading-tight">
         {title}
       </h1>
 
@@ -55,29 +77,67 @@ const tagList = Array.isArray(tags) ? tags : tags ? [tags] : [];
           <img
             src={image}
             alt={title}
-            class="w-32 h-32 rounded-full object-cover shadow-md border-2 border-white ring-2 ring-slate-200 transition-transform duration-700 hover:-rotate-6 hover:scale-105"
+            class="w-32 h-32 rounded-full object-cover shadow-md border-2 border-white dark:border-slate-700 ring-2 ring-slate-200 dark:ring-slate-800 transition-transform duration-700 hover:-rotate-6 hover:scale-105"
           />
         </div>
       )}
     </div>
 
-    <div class="prose prose-slate prose-lg max-w-none 
-      prose-headings:font-bold prose-headings:text-slate-900 
+    <div class="prose prose-slate dark:prose-invert prose-lg max-w-none 
+      prose-headings:font-bold prose-headings:text-slate-900 dark:prose-headings:text-slate-100
       prose-h1:text-2xl sm:prose-h1:text-3xl prose-h2:text-xl sm:prose-h2:text-2xl prose-h3:text-lg sm:prose-h3:text-xl
-      prose-a:text-brand-700 hover:prose-a:text-brand-900 prose-a:underline-offset-2
-      prose-blockquote:border-l-brand-600 prose-blockquote:bg-slate-50/80 prose-blockquote:py-1 prose-blockquote:rounded-r-lg
+      prose-a:text-brand-700 dark:prose-a:text-brand-400 hover:prose-a:text-brand-900 dark:hover:prose-a:text-brand-300 prose-a:underline-offset-2
+      prose-blockquote:border-l-brand-600 dark:prose-blockquote:border-l-brand-400 prose-blockquote:bg-slate-50/80 dark:prose-blockquote:bg-slate-850/60 prose-blockquote:py-1 prose-blockquote:rounded-r-lg
       prose-img:rounded-xl prose-img:shadow-sm
-      prose-code:text-rose-600 prose-code:bg-slate-100 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:font-mono prose-code:text-sm prose-code:before:content-none prose-code:after:content-none
-      prose-pre:bg-slate-900 prose-pre:rounded-xl prose-pre:shadow-sm">
+      prose-code:text-rose-600 dark:prose-code:text-rose-400 prose-code:bg-slate-100 dark:prose-code:bg-slate-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:font-mono prose-code:text-sm prose-code:before:content-none prose-code:after:content-none
+      prose-pre:bg-slate-900 dark:prose-pre:bg-slate-950 prose-pre:rounded-xl prose-pre:shadow-sm">
       <slot />
     </div>
 
-    <div class="mt-12 pt-6 border-t border-slate-200 flex justify-between items-center">
+    {(prevPost || nextPost) && (
+      <nav class="my-10 pt-8 border-t border-slate-200 dark:border-slate-800 grid grid-cols-1 sm:grid-cols-2 gap-4" aria-label="Navigation entre articles">
+        {prevPost ? (
+          <a
+            href={prevPost.url}
+            class="group flex flex-col p-4 rounded-xl border border-slate-200 dark:border-slate-700/80 bg-white dark:bg-slate-800/80 hover:border-brand-500 dark:hover:border-brand-400 hover:shadow-xs transition-all text-left"
+          >
+            <span class="text-xs uppercase font-semibold text-slate-400 dark:text-slate-500 flex items-center gap-1 mb-1.5">
+              <svg class="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              Article précédent
+            </span>
+            <span class="text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-brand-900 dark:group-hover:text-brand-400 transition-colors line-clamp-2 leading-snug">
+              {prevPost.title}
+            </span>
+          </a>
+        ) : <div />}
+
+        {nextPost ? (
+          <a
+            href={nextPost.url}
+            class="group flex flex-col p-4 rounded-xl border border-slate-200 dark:border-slate-700/80 bg-white dark:bg-slate-800/80 hover:border-brand-500 dark:hover:border-brand-400 hover:shadow-xs transition-all text-right sm:items-end"
+          >
+            <span class="text-xs uppercase font-semibold text-slate-400 dark:text-slate-500 flex items-center justify-end gap-1 mb-1.5">
+              Article suivant
+              <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+            <span class="text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-brand-900 dark:group-hover:text-brand-400 transition-colors line-clamp-2 leading-snug">
+              {nextPost.title}
+            </span>
+          </a>
+        ) : <div />}
+      </nav>
+    )}
+
+    <div class="mt-8 pt-6 border-t border-slate-200 dark:border-slate-800 flex justify-between items-center">
       <a
         href="/blog/"
-        class="inline-flex items-center gap-2 text-sm font-semibold text-brand-900 hover:text-brand-700 transition-colors"
+        class="inline-flex items-center gap-2 text-sm font-semibold text-brand-900 dark:text-brand-400 hover:text-brand-700 dark:hover:text-brand-300 transition-colors"
       >
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg>
         <span>Retour aux articles</span>
@@ -87,3 +147,54 @@ const tagList = Array.isArray(tags) ? tags : tags ? [tags] : [];
     <HyvorTalk url={url} id={id} />
   </article>
 </BaseLayout>
+
+<script>
+  function setupCodeCopyButtons() {
+    const preBlocks = document.querySelectorAll('article pre');
+    preBlocks.forEach((pre) => {
+      if (pre.parentElement?.classList.contains('code-block-wrapper')) {
+        return;
+      }
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'relative group/code my-6 code-block-wrapper';
+      pre.parentNode?.insertBefore(wrapper, pre);
+      wrapper.appendChild(pre);
+
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'absolute top-3 right-3 px-2.5 py-1 text-xs font-mono font-medium rounded-md bg-slate-800/80 hover:bg-slate-700 text-slate-200 border border-slate-600/50 shadow-xs opacity-0 group-hover/code:opacity-100 focus:opacity-100 transition-all duration-200 flex items-center gap-1.5 cursor-pointer backdrop-blur-xs select-none';
+      button.setAttribute('aria-label', 'Copier le code');
+      button.innerHTML = `
+        <svg class="w-3.5 h-3.5 copy-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+        </svg>
+        <span class="copy-label">Copier</span>
+      `;
+
+      button.addEventListener('click', async () => {
+        const code = pre.querySelector('code')?.innerText || (pre as HTMLElement).innerText;
+        try {
+          await navigator.clipboard.writeText(code);
+          const label = button.querySelector('.copy-label');
+          if (label) label.textContent = 'Copié !';
+          button.classList.add('text-emerald-400', 'border-emerald-500/50');
+          setTimeout(() => {
+            if (label) label.textContent = 'Copier';
+            button.classList.remove('text-emerald-400', 'border-emerald-500/50');
+          }, 2000);
+        } catch (err) {
+          console.error('Failed to copy', err);
+        }
+      });
+
+      wrapper.appendChild(button);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupCodeCopyButtons);
+  } else {
+    setupCodeCopyButtons();
+  }
+</script>

@@ -11,45 +11,45 @@ const { prevUrl, nextUrl, currentPage, lastPage } = Astro.props;
 
 <nav class="my-12 flex items-center justify-between" aria-label="Pagination">
   <div class="flex-1">
-    {nextUrl ? (
+    {prevUrl ? (
       <a
-        href={nextUrl}
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-700 bg-white border border-slate-200 hover:border-brand-500 hover:text-brand-900 hover:shadow-sm transition-all"
+        href={prevUrl}
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-brand-500 dark:hover:border-brand-400 hover:text-brand-900 dark:hover:text-brand-300 hover:shadow-xs transition-all"
       >
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg>
-        <span>Articles plus anciens</span>
+        <span>Articles plus récents</span>
       </a>
     ) : (
-      <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-300 border border-slate-100 cursor-not-allowed">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-300 dark:text-slate-600 border border-slate-100 dark:border-slate-800/80 cursor-not-allowed select-none">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg>
-        <span>Articles plus anciens</span>
+        <span>Articles plus récents</span>
       </span>
     )}
   </div>
 
-  <div class="text-xs sm:text-sm text-slate-500 font-medium">
+  <div class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 font-medium">
     Page {currentPage} sur {lastPage}
   </div>
 
   <div class="flex-1 flex justify-end">
-    {prevUrl ? (
+    {nextUrl ? (
       <a
-        href={prevUrl}
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-700 bg-white border border-slate-200 hover:border-brand-500 hover:text-brand-900 hover:shadow-sm transition-all"
+        href={nextUrl}
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-brand-500 dark:hover:border-brand-400 hover:text-brand-900 dark:hover:text-brand-300 hover:shadow-xs transition-all"
       >
-        <span>Articles plus récents</span>
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <span>Articles plus anciens</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
         </svg>
       </a>
     ) : (
-      <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-300 border border-slate-100 cursor-not-allowed">
-        <span>Articles plus récents</span>
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <span class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium text-slate-300 dark:text-slate-600 border border-slate-100 dark:border-slate-800/80 cursor-not-allowed select-none">
+        <span>Articles plus anciens</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
         </svg>
       </span>

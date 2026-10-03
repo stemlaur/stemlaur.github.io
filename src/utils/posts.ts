@@ -14,12 +14,28 @@ export interface FormattedPost {
   image?: string;
   tags: string[];
   excerpt: string;
+  readingTime: string;
+  wordsCount: number;
 }
 
 const MONTH_NAMES_FR = [
   'janvier', 'février', 'mars', 'avril', 'mai', 'juin',
   'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'
 ];
+
+export function calculateReadingTime(text: string): { wordsCount: number; minutes: number; text: string } {
+  const clean = text
+    .replace(/```[\s\S]*?```/g, '') // remove code blocks
+    .replace(/<[^>]*>/g, '') // remove html
+    .trim();
+  const words = clean.split(/\s+/).filter(Boolean).length;
+  const minutes = Math.max(1, Math.ceil(words / 200));
+  return {
+    wordsCount: words,
+    minutes,
+    text: `${minutes} min de lecture`,
+  };
+}
 
 export function parsePost(entry: CollectionEntry<'blog'>): FormattedPost {
   // entry.id format: "2020-04-22-le-voisin-de-train.md" or "2020-04-22-le-voisin-de-train"
@@ -43,11 +59,14 @@ export function parsePost(entry: CollectionEntry<'blog'>): FormattedPost {
   const isoDate = `${year}-${month}-${day}`;
   const permalink = `/blog/${year}/${month}/${day}/${slug}/`;
 
-  // Raw body for excerpt
+  // Raw body for excerpt & reading time
   const rawBody = entry.body || '';
-  let excerpt = '';
+  const { wordsCount, text: readingTime } = calculateReadingTime(rawBody);
 
-  if (rawBody.includes('<!--more-->')) {
+  let excerpt = '';
+  if (entry.data.description && entry.data.description.trim()) {
+    excerpt = entry.data.description.trim();
+  } else if (rawBody.includes('<!--more-->')) {
     excerpt = rawBody.split('<!--more-->')[0].trim();
   } else {
     // Take first paragraph
@@ -75,9 +94,11 @@ export function parsePost(entry: CollectionEntry<'blog'>): FormattedPost {
     image: entry.data.image,
     tags,
     excerpt,
+    readingTime,
+    wordsCount,
   };
 }
 
 export function sortPostsDesc(posts: FormattedPost[]): FormattedPost[] {
-  return posts.sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime());
+  return [...posts].sort((a, b) => b.dateObj.getTime() - a.dateObj.getTime());
 }

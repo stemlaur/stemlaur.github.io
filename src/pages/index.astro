@@ -53,32 +53,32 @@ const featuredStories = [
     <div class="relative inline-block mb-6 group">
       <div class="absolute -inset-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 opacity-25 blur group-hover:opacity-50 transition duration-700"></div>
       <img
-        class="relative w-48 h-48 sm:w-56 sm:h-56 mx-auto rounded-full object-cover shadow-lg border-4 border-white transition duration-700 ease-out group-hover:-rotate-3 group-hover:scale-105"
+        class="relative w-48 h-48 sm:w-56 sm:h-56 mx-auto rounded-full object-cover shadow-lg border-4 border-white dark:border-slate-800 transition duration-700 ease-out group-hover:-rotate-3 group-hover:scale-105"
         src="/assets/images/stemlaur_main.png"
         alt="Stemlaur logo"
       />
     </div>
 
-    <h1 class="text-4xl sm:text-5xl font-black text-brand-900 tracking-tight leading-tight mb-3">
+    <h1 class="text-4xl sm:text-5xl font-black text-brand-900 dark:text-white tracking-tight leading-tight mb-3">
       Stemlaur, blog !
     </h1>
-    <p class="max-w-xl mx-auto text-lg text-slate-600 mb-8 leading-relaxed">
+    <p class="max-w-xl mx-auto text-lg text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
       Développement logiciel, artisanat du code, nouvelles littéraires et récits de fiction signés Laurent Stemmer.
     </p>
 
     <div class="flex items-center justify-center gap-4">
       <a
         href="/blog/"
-        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white bg-brand-900 hover:bg-brand-800 shadow-md hover:shadow-lg transition-all duration-200"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white bg-brand-900 hover:bg-brand-800 dark:bg-brand-600 dark:hover:bg-brand-500 shadow-md hover:shadow-lg transition-all duration-200"
       >
         <span>Tous les articles</span>
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
         </svg>
       </a>
       <a
         href="/about/"
-        class="inline-flex items-center px-6 py-3 rounded-xl font-semibold text-slate-700 bg-white border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-all duration-200"
+        class="inline-flex items-center px-6 py-3 rounded-xl font-semibold text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all duration-200"
       >
         À propos
       </a>
@@ -86,12 +86,12 @@ const featuredStories = [
   </section>
 
   <section class="mt-12">
-    <div class="flex items-center justify-between mb-8 pb-3 border-b border-slate-200">
+    <div class="flex items-center justify-between mb-8 pb-3 border-b border-slate-200 dark:border-slate-800">
       <div>
-        <h2 class="text-2xl font-bold text-slate-900 tracking-tight">Sélection de récits</h2>
-        <p class="text-sm text-slate-500">Quelques incontournables du blog</p>
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 tracking-tight">Sélection de récits</h2>
+        <p class="text-sm text-slate-500 dark:text-slate-400">Quelques incontournables du blog</p>
       </div>
-      <a href="/blog/" class="text-sm font-semibold text-brand-900 hover:underline">
+      <a href="/blog/" class="text-sm font-semibold text-brand-900 dark:text-brand-400 hover:underline">
         Voir tout &rarr;
       </a>
     </div>

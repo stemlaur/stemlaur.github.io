@@ -17,9 +17,23 @@
   }
 }
 
+/* Shiki dual-theme support */
+html.dark .astro-code,
+html.dark .astro-code span {
+  color: var(--shiki-dark) !important;
+  background-color: var(--shiki-dark-bg) !important;
+  font-style: var(--shiki-dark-font-style) !important;
+  font-weight: var(--shiki-dark-font-weight) !important;
+  text-decoration: var(--shiki-dark-text-decoration) !important;
+}
+
 /* Callout styling for technical articles */
 .callout {
   @apply flex items-start gap-3 my-6 p-4 rounded-xl border border-blue-100 bg-blue-50/60 text-slate-800 shadow-sm transition-all;
+}
+
+html.dark .callout {
+  @apply border-blue-900/50 bg-blue-950/40 text-slate-200;
 }
 
 .callout-icon {
@@ -34,6 +48,10 @@
   @apply font-semibold text-brand-900;
 }
 
+html.dark .callout-text strong {
+  @apply text-brand-300;
+}
+
 /* Card hover animation with subtle tilt */
 .card-hover-effect {
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
@@ -42,4 +60,8 @@
 .card-hover-effect:hover {
   transform: translateY(-4px) rotate(0.5deg);
   box-shadow: 0 20px 25px -5px rgba(30, 58, 138, 0.08), 0 8px 10px -6px rgba(30, 58, 138, 0.04);
+}
+
+html.dark .card-hover-effect:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
 }

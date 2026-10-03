@@ -1,4 +1,7 @@
 ---
+import ThemeToggle from './ThemeToggle.astro';
+import SearchModal from './SearchModal.astro';
+
 interface Props {
   currentPath?: string;
 }
@@ -11,47 +14,54 @@ const navItems = [
 ];
 ---
 
-<header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-xs transition-all">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+<header class="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 shadow-xs transition-colors duration-200">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
     <a 
       href="/" 
-      class="group flex items-center gap-3 font-bold text-brand-900 tracking-tight transition-transform"
+      class="group flex items-center gap-3 font-bold text-brand-900 dark:text-white tracking-tight transition-transform shrink-0"
       aria-label="Accueil Stemlaur"
     >
-      <span class="w-9 h-9 rounded-full bg-brand-900 text-white font-black flex items-center justify-center text-lg shadow-sm transition-transform duration-300 group-hover:scale-110 group-hover:bg-brand-800">
+      <span class="w-9 h-9 rounded-full bg-brand-900 dark:bg-brand-600 text-white font-black flex items-center justify-center text-lg shadow-sm transition-transform duration-300 group-hover:scale-110 group-hover:bg-brand-800 dark:group-hover:bg-brand-500">
         S
       </span>
-      <span class="text-xl hidden sm:inline-block group-hover:text-brand-700 transition-colors">
+      <span class="text-xl hidden sm:inline-block group-hover:text-brand-700 dark:group-hover:text-brand-300 transition-colors">
         Stemlaur
       </span>
     </a>
 
-    <nav class="flex items-center gap-1 sm:gap-2" aria-label="Navigation principale">
-      <a
-        href="/"
-        class:list={[
-          'px-3 py-1.5 rounded-lg text-sm font-medium transition-colors sm:hidden',
-          currentPath === '/' ? 'text-brand-900 bg-brand-50' : 'text-slate-600 hover:text-brand-900 hover:bg-slate-100',
-        ]}
-      >
-        Accueil
-      </a>
-      {navItems.map((item) => {
-        const isActive = currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href));
-        return (
-          <a
-            href={item.href}
-            class:list={[
-              'px-3.5 py-1.5 rounded-lg text-sm font-medium transition-all duration-200',
-              isActive
-                ? 'text-brand-900 bg-brand-50/80 font-semibold shadow-xs'
-                : 'text-slate-600 hover:text-brand-900 hover:bg-slate-100',
-            ]}
-          >
-            {item.label}
-          </a>
-        );
-      })}
-    </nav>
+    <div class="flex items-center gap-2 sm:gap-3">
+      <nav class="flex items-center gap-1 sm:gap-1.5" aria-label="Navigation principale">
+        <a
+          href="/"
+          class:list={[
+            'px-3 py-1.5 rounded-lg text-sm font-medium transition-colors sm:hidden',
+            currentPath === '/' ? 'text-brand-900 dark:text-brand-300 bg-brand-50 dark:bg-slate-800' : 'text-slate-600 dark:text-slate-300 hover:text-brand-900 dark:hover:text-brand-300 hover:bg-slate-100 dark:hover:bg-slate-800',
+          ]}
+        >
+          Accueil
+        </a>
+        {navItems.map((item) => {
+          const isActive = currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href));
+          return (
+            <a
+              href={item.href}
+              class:list={[
+                'px-3 py-1.5 rounded-lg text-sm font-medium transition-all duration-200',
+                isActive
+                  ? 'text-brand-900 dark:text-brand-300 bg-brand-50/80 dark:bg-slate-800 font-semibold shadow-xs'
+                  : 'text-slate-600 dark:text-slate-300 hover:text-brand-900 dark:hover:text-brand-300 hover:bg-slate-100 dark:hover:bg-slate-800',
+              ]}
+            >
+              {item.label}
+            </a>
+          );
+        })}
+      </nav>
+
+      <div class="h-5 w-px bg-slate-200 dark:bg-slate-700 mx-0.5" aria-hidden="true" />
+
+      <SearchModal />
+      <ThemeToggle />
+    </div>
   </div>
 </header>
